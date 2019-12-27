@@ -1,8 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
+import DataTable from 'react-data-table-component';
 import './App.css';
-//import data from './playersData.json';
-import data from './players';
 import statsData from './stats';
 
 class App extends React.Component {
@@ -12,31 +10,104 @@ class App extends React.Component {
 		stats: [],
 	};
 
-	render() {
 
-		
+
+	render() {
+		let columns = [
+			{
+			  name: 'Year',
+			  selector: 'Year',
+			  sortable: true,
+			},
+			{
+			  name: 'Session',
+			  selector: 'Session',
+			  sortable: true,
+			},
+			{
+				name: 'Player',
+				sortable: true,
+				cell: row => <div>{row.First} {row.Last}</div>,
+				grow: 8,
+			 },
+			 {
+				name: 'AB',
+				selector: 'AB',
+				sortable: true,
+			 },
+			 {
+				name: 'R',
+				selector: 'R',
+				sortable: true,
+			 },
+			 {
+				name: 'H',
+				selector: 'Hits',
+				sortable: true,
+			 },
+			 {
+				name: '1B',
+				selector: 'S',
+				sortable: true,
+			 },
+			 {
+				name: '2B',
+				selector: 'D',
+				sortable: true,
+			 },
+			 {
+				name: '3B',
+				selector: 'T',
+				sortable: true,
+			 },
+			 {
+				name: 'HR',
+				selector: 'HR',
+				sortable: true,
+			 },
+			 {
+				name: 'RBI',
+				selector: 'RBI',
+				sortable: true,
+			 },
+			 {
+				name: 'BB',
+				selector: 'BB',
+				sortable: true,
+			 },
+			 {
+				name: 'SO',
+				selector: 'K',
+				sortable: true,
+			 },
+			 {
+				name: 'SF',
+				selector: 'SF',
+				sortable: true,
+			 },
+			 {
+				name: 'FC',
+				selector: 'FC',
+				sortable: true,
+			 },
+			 
+		 ];
 		 
 		return (
 			
 			<div className="App">
-				{/* <header className="App-header">
-					<img src={logo} className="App-logo" alt="logo" />
-					<p>
-						Edit <code>src/App.js</code> and save to reload.
-					</p>
-					<a
-						className="App-link"
-						href="https://reactjs.org"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Learn React
-					</a>
-				</header>
-				<button onClick={this.test}>Click here</button> */}
 
+				<DataTable
+					title="Softball Stats"
+					columns={columns}
+					data={statsData}
+					responsive={false}
+					fixedHeader
+					fixedHeaderScrollHeight="600px"
+					dense={true} 
+				/>
 
-				<table>
+				{/* <table>
 					<thead>
 						<th>Year</th>
 						<th>Session</th>
@@ -80,7 +151,7 @@ class App extends React.Component {
 							)
 						})
 					}
-				</table>
+				</table> */}
 			</div>
 		);
 	}
