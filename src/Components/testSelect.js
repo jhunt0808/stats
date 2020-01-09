@@ -30,6 +30,7 @@ class TestSelect extends React.Component {
         options={options}
       />
       {this.state.selectedOptions.map(o => <p key={o.value}>{o.value}</p>)}
+      {this.props.onSelectFn(this.state.selectedOptions)}
       </React.Fragment>
     );
   }

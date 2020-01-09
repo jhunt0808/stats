@@ -46,8 +46,8 @@ const StatsTable = () => {
       };
 
 
-      const handleSelect = () => {
-        console.log('test');
+      const handleSelect = (selectedOptions) => {
+        console.log(selectedOptions);
         //  const target = event.target;
         //  const value = target.type === 'checkbox' ? target.checked : target.value;
 
@@ -61,7 +61,7 @@ const StatsTable = () => {
         //  }
       }
  
-      return <Filter onFilter={e => setFilterText(e.target.value)} onClear={handleClear} filterText={filterText} onSelectFn={() => {console.log('asdf')}}/>;
+      return <Filter onFilter={e => setFilterText(e.target.value)} onClear={handleClear} filterText={filterText} onSelectFn={handleSelect}/>;
 
    }, [filterText, resetPaginationToggle]);
  

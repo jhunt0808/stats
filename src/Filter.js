@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from './shared/Button';
 import SelectSession from './Components/Select';
-import TestSelect from './Components/testSelect';
+import TestSelect from './Components/TestSelect';
 
 const TextField = styled.input`
    height: 32px;
@@ -38,7 +38,7 @@ const Filter = ({filterText, onFilter, onClear, onSelectFn}) => {
    return(
       <div>
          {/* <SelectSession onSelectFn={() => {console.log('testing')}}/> */}
-         <TestSelect />
+         <TestSelect onSelectFn={onSelectFn} />
          <TextField id="search" type="text" placeholder="Filter By Name" value={filterText} onChange={onFilter} />
          <ClearButton onClick={onClear}>X</ClearButton>
       </div>
