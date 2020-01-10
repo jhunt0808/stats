@@ -1,7 +1,7 @@
 const stats = [
    {
       "id": 1,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Wes",
       "Last": "Kimberlin",
@@ -28,7 +28,7 @@ const stats = [
    },
    {
       "id": 2,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Jeremy",
       "Last": "Underhill",
@@ -55,7 +55,7 @@ const stats = [
    },
    {
       "id": 3,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Brad",
       "Last": "Johnson",
@@ -82,7 +82,7 @@ const stats = [
    },
    {
       "id": 4,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Jon",
       "Last": "Hessel",
@@ -109,7 +109,7 @@ const stats = [
    },
    {
       "id": 5,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Brady",
       "Last": "Politte",
@@ -136,7 +136,7 @@ const stats = [
    },
    {
       "id": 6,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Rich",
       "Last": "Vinson",
@@ -163,7 +163,7 @@ const stats = [
    },
    {
       "id": 7,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Ron",
       "Last": "Brinkley",
@@ -190,7 +190,7 @@ const stats = [
    },
    {
       "id": 8,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Zack",
       "Last": "Brinkley",
@@ -217,7 +217,7 @@ const stats = [
    },
    {
       "id": 9,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Dan",
       "Last": "Glass",
@@ -244,7 +244,7 @@ const stats = [
    },
    {
       "id": 10,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Caleb",
       "Last": "Moen",
@@ -271,7 +271,7 @@ const stats = [
    },
    {
       "id": 11,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Dave",
       "Last": "Maledy",
@@ -298,7 +298,7 @@ const stats = [
    },
    {
       "id": 12,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Mark",
       "Last": "Pinkleton",
@@ -325,7 +325,7 @@ const stats = [
    },
    {
       "id": 13,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Matt",
       "Last": "Borzillo",
@@ -352,7 +352,7 @@ const stats = [
    },
    {
       "id": 14,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Josh",
       "Last": "Hunt",
@@ -379,7 +379,7 @@ const stats = [
    },
    {
       "id": 15,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 2",
       "First": "Jared",
       "Last": "Caplinger",
@@ -406,7 +406,7 @@ const stats = [
    },
    {
       "id": 16,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Jared",
       "Last": "Caplinger",
@@ -433,7 +433,7 @@ const stats = [
    },
    {
       "id": 17,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Mark",
       "Last": "Pinkleton",
@@ -460,7 +460,7 @@ const stats = [
    },
    {
       "id": 18,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Brady",
       "Last": "Politte",
@@ -487,7 +487,7 @@ const stats = [
    },
    {
       "id": 19,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Dan",
       "Last": "Glass",
@@ -514,7 +514,7 @@ const stats = [
    },
    {
       "id": 20,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Jeremy",
       "Last": "Underhill",
@@ -541,7 +541,7 @@ const stats = [
    },
    {
       "id": 21,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Caleb",
       "Last": "Moen",
@@ -568,7 +568,7 @@ const stats = [
    },
    {
       "id": 22,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Dave",
       "Last": "Maledy",
@@ -595,7 +595,7 @@ const stats = [
    },
    {
       "id": 23,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Ron",
       "Last": "Brinkley",
@@ -622,7 +622,7 @@ const stats = [
    },
    {
       "id": 24,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Rich",
       "Last": "Vinson",
@@ -649,7 +649,7 @@ const stats = [
    },
    {
       "id": 25,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Brad",
       "Last": "Johnson",
@@ -676,7 +676,7 @@ const stats = [
    },
    {
       "id": 26,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Jake",
       "Last": "Brinkley",
@@ -703,7 +703,7 @@ const stats = [
    },
    {
       "id": 27,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Josh",
       "Last": "Hunt",
@@ -730,7 +730,7 @@ const stats = [
    },
    {
       "id": 28,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "SH - 1",
       "First": "Wes",
       "Last": "Kimberlin",
@@ -757,7 +757,7 @@ const stats = [
    },
    {
       "id": 29,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Joel",
       "Last": "Wilson",
@@ -784,7 +784,7 @@ const stats = [
    },
    {
       "id": 30,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Brady",
       "Last": "Politte",
@@ -811,7 +811,7 @@ const stats = [
    },
    {
       "id": 31,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Dan",
       "Last": "Glass",
@@ -838,7 +838,7 @@ const stats = [
    },
    {
       "id": 32,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Curtis",
       "Last": "Brennecke",
@@ -865,7 +865,7 @@ const stats = [
    },
    {
       "id": 33,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Jared",
       "Last": "Caplinger",
@@ -892,7 +892,7 @@ const stats = [
    },
    {
       "id": 34,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Jeff",
       "Last": "Rodgers",
@@ -919,7 +919,7 @@ const stats = [
    },
    {
       "id": 35,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Dave",
       "Last": "Maledy",
@@ -946,7 +946,7 @@ const stats = [
    },
    {
       "id": 36,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Adam",
       "Last": "Lehenbauer",
@@ -973,7 +973,7 @@ const stats = [
    },
    {
       "id": 37,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Caleb",
       "Last": "Moen",
@@ -1000,7 +1000,7 @@ const stats = [
    },
    {
       "id": 38,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Tyler",
       "Last": "Wells",
@@ -1027,7 +1027,7 @@ const stats = [
    },
    {
       "id": 39,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Jon",
       "Last": "Hessel",
@@ -1054,7 +1054,7 @@ const stats = [
    },
    {
       "id": 40,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Josh",
       "Last": "Hunt",
@@ -1081,7 +1081,7 @@ const stats = [
    },
    {
       "id": 41,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Ryan",
       "Last": "Tabis",
@@ -1108,7 +1108,7 @@ const stats = [
    },
    {
       "id": 42,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Jeremy",
       "Last": "Underhill",
@@ -1135,7 +1135,7 @@ const stats = [
    },
    {
       "id": 43,
-      "Year": 2019,
+      "Year": "2019",
       "Session": "J2",
       "First": "Wes",
       "Last": "Kimberlin",
@@ -1162,7 +1162,7 @@ const stats = [
    },
    {
       "id": 44,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Jeremy",
       "Last": "Underhill",
@@ -1189,7 +1189,7 @@ const stats = [
    },
    {
       "id": 45,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Wes",
       "Last": "Kimberlin",
@@ -1216,7 +1216,7 @@ const stats = [
    },
    {
       "id": 46,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Rich",
       "Last": "Vinson",
@@ -1243,7 +1243,7 @@ const stats = [
    },
    {
       "id": 47,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Dave",
       "Last": "Maledy",
@@ -1270,7 +1270,7 @@ const stats = [
    },
    {
       "id": 48,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Brad",
       "Last": "Johnson",
@@ -1297,7 +1297,7 @@ const stats = [
    },
    {
       "id": 49,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Garrett",
       "Last": "Jackson",
@@ -1324,7 +1324,7 @@ const stats = [
    },
    {
       "id": 50,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Joel",
       "Last": "Wilson",
@@ -1351,7 +1351,7 @@ const stats = [
    },
    {
       "id": 51,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Jared",
       "Last": "Caplinger",
@@ -1378,7 +1378,7 @@ const stats = [
    },
    {
       "id": 52,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Josh",
       "Last": "Hunt",
@@ -1405,7 +1405,7 @@ const stats = [
    },
    {
       "id": 53,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Dan",
       "Last": "Glass",
@@ -1432,7 +1432,7 @@ const stats = [
    },
    {
       "id": 54,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Robert",
       "Last": "Hankins",
@@ -1459,7 +1459,7 @@ const stats = [
    },
    {
       "id": 55,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Brady",
       "Last": "Politte",
@@ -1486,7 +1486,7 @@ const stats = [
    },
    {
       "id": 56,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Ben",
       "Last": "Yarnall",
@@ -1513,7 +1513,7 @@ const stats = [
    },
    {
       "id": 57,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Caleb",
       "Last": "Moen",
@@ -1540,7 +1540,7 @@ const stats = [
    },
    {
       "id": 58,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Ron",
       "Last": "Brinkley",
@@ -1567,7 +1567,7 @@ const stats = [
    },
    {
       "id": 59,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 3",
       "First": "Jake",
       "Last": "Brinkley",
@@ -1594,7 +1594,7 @@ const stats = [
    },
    {
       "id": 60,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Jeremy",
       "Last": "Underhill",
@@ -1621,7 +1621,7 @@ const stats = [
    },
    {
       "id": 61,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Morgan",
       "Last": "",
@@ -1648,7 +1648,7 @@ const stats = [
    },
    {
       "id": 62,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Garrett",
       "Last": "Jackson",
@@ -1675,7 +1675,7 @@ const stats = [
    },
    {
       "id": 63,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Ron",
       "Last": "Brinkley",
@@ -1702,7 +1702,7 @@ const stats = [
    },
    {
       "id": 64,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Rich",
       "Last": "Vinson",
@@ -1729,7 +1729,7 @@ const stats = [
    },
    {
       "id": 65,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Robert",
       "Last": "Hankins",
@@ -1756,7 +1756,7 @@ const stats = [
    },
    {
       "id": 66,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Brady",
       "Last": "Politte",
@@ -1783,7 +1783,7 @@ const stats = [
    },
    {
       "id": 67,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Dan",
       "Last": "Glass",
@@ -1810,7 +1810,7 @@ const stats = [
    },
    {
       "id": 68,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Joel",
       "Last": "Wilson",
@@ -1837,7 +1837,7 @@ const stats = [
    },
    {
       "id": 69,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Brad",
       "Last": "Johnson",
@@ -1864,7 +1864,7 @@ const stats = [
    },
    {
       "id": 70,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Dave",
       "Last": "Maledy",
@@ -1891,7 +1891,7 @@ const stats = [
    },
    {
       "id": 71,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Jake",
       "Last": "Brinkley",
@@ -1918,7 +1918,7 @@ const stats = [
    },
    {
       "id": 72,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Josh",
       "Last": "Hunt",
@@ -1945,7 +1945,7 @@ const stats = [
    },
    {
       "id": 73,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 2",
       "First": "Nate",
       "Last": "",
@@ -1972,7 +1972,7 @@ const stats = [
    },
    {
       "id": 74,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Dave",
       "Last": "Maledy",
@@ -1999,7 +1999,7 @@ const stats = [
    },
    {
       "id": 75,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Morgan",
       "Last": "",
@@ -2026,7 +2026,7 @@ const stats = [
    },
    {
       "id": 76,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Dan",
       "Last": "Glass",
@@ -2053,7 +2053,7 @@ const stats = [
    },
    {
       "id": 77,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Jared",
       "Last": "Caplinger",
@@ -2080,7 +2080,7 @@ const stats = [
    },
    {
       "id": 78,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Brad",
       "Last": "Johnson",
@@ -2107,7 +2107,7 @@ const stats = [
    },
    {
       "id": 79,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Wes",
       "Last": "Kimberlin",
@@ -2134,7 +2134,7 @@ const stats = [
    },
    {
       "id": 80,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Robert",
       "Last": "Hankins",
@@ -2161,7 +2161,7 @@ const stats = [
    },
    {
       "id": 81,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Ron",
       "Last": "Brinkley",
@@ -2188,7 +2188,7 @@ const stats = [
    },
    {
       "id": 82,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Jake",
       "Last": "Brinkley",
@@ -2215,7 +2215,7 @@ const stats = [
    },
    {
       "id": 83,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Rich",
       "Last": "Vinson",
@@ -2242,7 +2242,7 @@ const stats = [
    },
    {
       "id": 84,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Joel",
       "Last": "Wilson",
@@ -2269,7 +2269,7 @@ const stats = [
    },
    {
       "id": 85,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Josh",
       "Last": "Hunt",
@@ -2296,7 +2296,7 @@ const stats = [
    },
    {
       "id": 86,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "SH - 1",
       "First": "Jeremy",
       "Last": "Underhill",
@@ -2323,7 +2323,7 @@ const stats = [
    },
    {
       "id": 87,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Brady",
       "Last": "Politte",
@@ -2350,7 +2350,7 @@ const stats = [
    },
    {
       "id": 88,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Ron",
       "Last": "Brinkley",
@@ -2377,7 +2377,7 @@ const stats = [
    },
    {
       "id": 89,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Jared",
       "Last": "Glesne",
@@ -2404,7 +2404,7 @@ const stats = [
    },
    {
       "id": 90,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Jared",
       "Last": "Caplinger",
@@ -2431,7 +2431,7 @@ const stats = [
    },
    {
       "id": 91,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Joel",
       "Last": "Wilson",
@@ -2458,7 +2458,7 @@ const stats = [
    },
    {
       "id": 92,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Brad",
       "Last": "Johnson",
@@ -2485,7 +2485,7 @@ const stats = [
    },
    {
       "id": 93,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Jeff",
       "Last": "Rodgers",
@@ -2512,7 +2512,7 @@ const stats = [
    },
    {
       "id": 94,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Jon",
       "Last": "Hessel",
@@ -2539,7 +2539,7 @@ const stats = [
    },
    {
       "id": 95,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Dan",
       "Last": "Glass",
@@ -2566,7 +2566,7 @@ const stats = [
    },
    {
       "id": 96,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Dave",
       "Last": "Maledy",
@@ -2593,7 +2593,7 @@ const stats = [
    },
    {
       "id": 97,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Caleb",
       "Last": "Moen",
@@ -2620,7 +2620,7 @@ const stats = [
    },
    {
       "id": 98,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Todd",
       "Last": "Niemeyer",
@@ -2647,7 +2647,7 @@ const stats = [
    },
    {
       "id": 99,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Curtis",
       "Last": "Brennecke",
@@ -2674,7 +2674,7 @@ const stats = [
    },
    {
       "id": 100,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Josh",
       "Last": "Hunt",
@@ -2701,7 +2701,7 @@ const stats = [
    },
    {
       "id": 101,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Ben",
       "Last": "Yarnall",
@@ -2728,7 +2728,7 @@ const stats = [
    },
    {
       "id": 102,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Jake",
       "Last": "Brinkley",
@@ -2755,7 +2755,7 @@ const stats = [
    },
    {
       "id": 103,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Wes",
       "Last": "Kimberlin",
@@ -2782,7 +2782,7 @@ const stats = [
    },
    {
       "id": 104,
-      "Year": 2018,
+      "Year": "2018",
       "Session": "J2",
       "First": "Jeremy",
       "Last": "Underhill",
@@ -2809,7 +2809,7 @@ const stats = [
    },
    {
       "id": 105,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Jeff",
       "Last": "Rodgers",
@@ -2836,7 +2836,7 @@ const stats = [
    },
    {
       "id": 106,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Mark",
       "Last": "Pinkleton",
@@ -2863,7 +2863,7 @@ const stats = [
    },
    {
       "id": 107,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Ron",
       "Last": "Brinkley",
@@ -2890,7 +2890,7 @@ const stats = [
    },
    {
       "id": 108,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Jon",
       "Last": "Hessel",
@@ -2917,7 +2917,7 @@ const stats = [
    },
    {
       "id": 109,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Jake",
       "Last": "Brinkley",
@@ -2944,7 +2944,7 @@ const stats = [
    },
    {
       "id": 110,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Dave",
       "Last": "Maledy",
@@ -2971,7 +2971,7 @@ const stats = [
    },
    {
       "id": 111,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Jeremy",
       "Last": "Underhill",
@@ -2998,7 +2998,7 @@ const stats = [
    },
    {
       "id": 112,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Jared",
       "Last": "Caplinger",
@@ -3025,7 +3025,7 @@ const stats = [
    },
    {
       "id": 113,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Dan",
       "Last": "Glass",
@@ -3052,7 +3052,7 @@ const stats = [
    },
    {
       "id": 114,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Wes",
       "Last": "Kimberlin",
@@ -3079,7 +3079,7 @@ const stats = [
    },
    {
       "id": 115,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Curtis",
       "Last": "Brennecke",
@@ -3106,7 +3106,7 @@ const stats = [
    },
    {
       "id": 116,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Rich",
       "Last": "Vinson",
@@ -3133,7 +3133,7 @@ const stats = [
    },
    {
       "id": 117,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Mark",
       "Last": "Pinkleton",
@@ -3160,7 +3160,7 @@ const stats = [
    },
    {
       "id": 118,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Corey",
       "Last": "Lawson",
@@ -3187,7 +3187,7 @@ const stats = [
    },
    {
       "id": 119,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Brad",
       "Last": "Johnson",
@@ -3214,7 +3214,7 @@ const stats = [
    },
    {
       "id": 120,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Josh",
       "Last": "Hunt",
@@ -3241,7 +3241,7 @@ const stats = [
    },
    {
       "id": 121,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Todd",
       "Last": "Niemeyer",
@@ -3268,7 +3268,7 @@ const stats = [
    },
    {
       "id": 122,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Brian",
       "Last": 1,
@@ -3295,7 +3295,7 @@ const stats = [
    },
    {
       "id": 123,
-      "Year": 2017,
+      "Year": "2017",
       "Session": "J2",
       "First": "Ben",
       "Last": "Woodhead",
@@ -3322,7 +3322,7 @@ const stats = [
    },
    {
       "id": 124,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Brian",
       "Last": 1,
@@ -3349,7 +3349,7 @@ const stats = [
    },
    {
       "id": 125,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Ryan",
       "Last": "Kromann",
@@ -3376,7 +3376,7 @@ const stats = [
    },
    {
       "id": 126,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Jared",
       "Last": "Caplinger",
@@ -3403,7 +3403,7 @@ const stats = [
    },
    {
       "id": 127,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Pat",
       "Last": "Lloyd",
@@ -3430,7 +3430,7 @@ const stats = [
    },
    {
       "id": 128,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Wes",
       "Last": "Kimberlin",
@@ -3457,7 +3457,7 @@ const stats = [
    },
    {
       "id": 129,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Jon",
       "Last": "Hessel",
@@ -3484,7 +3484,7 @@ const stats = [
    },
    {
       "id": 130,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Dan",
       "Last": "Glass",
@@ -3511,7 +3511,7 @@ const stats = [
    },
    {
       "id": 131,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Jeremy",
       "Last": "Underhill",
@@ -3538,7 +3538,7 @@ const stats = [
    },
    {
       "id": 132,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Scott",
       "Last": "Kolcharno",
@@ -3565,7 +3565,7 @@ const stats = [
    },
    {
       "id": 133,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Jeff",
       "Last": "Rodgers",
@@ -3592,7 +3592,7 @@ const stats = [
    },
    {
       "id": 134,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Ken",
       "Last": "",
@@ -3619,7 +3619,7 @@ const stats = [
    },
    {
       "id": 135,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Dave",
       "Last": "Maledy",
@@ -3646,7 +3646,7 @@ const stats = [
    },
    {
       "id": 136,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Rich",
       "Last": "Vinson",
@@ -3673,7 +3673,7 @@ const stats = [
    },
    {
       "id": 137,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Todd",
       "Last": "Niemeyer",
@@ -3700,7 +3700,7 @@ const stats = [
    },
    {
       "id": 138,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Joel",
       "Last": "Wilson",
@@ -3727,7 +3727,7 @@ const stats = [
    },
    {
       "id": 139,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Jay",
       "Last": "Wolfe",
@@ -3754,7 +3754,7 @@ const stats = [
    },
    {
       "id": 140,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Mark",
       "Last": "Pinkleton",
@@ -3781,7 +3781,7 @@ const stats = [
    },
    {
       "id": 141,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Josh",
       "Last": "Hunt",
@@ -3808,7 +3808,7 @@ const stats = [
    },
    {
       "id": 142,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Jake",
       "Last": "Brinkley",
@@ -3835,7 +3835,7 @@ const stats = [
    },
    {
       "id": 143,
-      "Year": 2016,
+      "Year": "2016",
       "Session": "J2",
       "First": "Corey",
       "Last": "Lawson",
@@ -3862,7 +3862,7 @@ const stats = [
    },
    {
       "id": 144,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Mark",
       "Last": "Pinkleton",
@@ -3889,7 +3889,7 @@ const stats = [
    },
    {
       "id": 145,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Corey",
       "Last": "Lawson",
@@ -3916,7 +3916,7 @@ const stats = [
    },
    {
       "id": 146,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Ron",
       "Last": "Brinkley",
@@ -3943,7 +3943,7 @@ const stats = [
    },
    {
       "id": 147,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Aaron",
       "Last": "",
@@ -3970,7 +3970,7 @@ const stats = [
    },
    {
       "id": 148,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Danny",
       "Last": "Wiele",
@@ -3997,7 +3997,7 @@ const stats = [
    },
    {
       "id": 149,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Dave",
       "Last": "Maledy",
@@ -4024,7 +4024,7 @@ const stats = [
    },
    {
       "id": 150,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Jared",
       "Last": "Caplinger",
@@ -4051,7 +4051,7 @@ const stats = [
    },
    {
       "id": 151,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Wes",
       "Last": "Kimberlin",
@@ -4078,7 +4078,7 @@ const stats = [
    },
    {
       "id": 152,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Tony",
       "Last": "Freund",
@@ -4105,7 +4105,7 @@ const stats = [
    },
    {
       "id": 153,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Jeff",
       "Last": "Rodgers",
@@ -4132,7 +4132,7 @@ const stats = [
    },
    {
       "id": 154,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Rob",
       "Last": "",
@@ -4159,7 +4159,7 @@ const stats = [
    },
    {
       "id": 155,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Rich",
       "Last": "Vinson",
@@ -4186,7 +4186,7 @@ const stats = [
    },
    {
       "id": 156,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Jon",
       "Last": "Hessel",
@@ -4213,7 +4213,7 @@ const stats = [
    },
    {
       "id": 157,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Jeremy",
       "Last": "Underhill",
@@ -4240,7 +4240,7 @@ const stats = [
    },
    {
       "id": 158,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Dan",
       "Last": "Glass",
@@ -4267,7 +4267,7 @@ const stats = [
    },
    {
       "id": 159,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Joel",
       "Last": "Wilson",
@@ -4294,7 +4294,7 @@ const stats = [
    },
    {
       "id": 160,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Brandon",
       "Last": "",
@@ -4321,7 +4321,7 @@ const stats = [
    },
    {
       "id": 161,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Josh",
       "Last": "Hunt",
@@ -4348,7 +4348,7 @@ const stats = [
    },
    {
       "id": 162,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Chad",
       "Last": "",
@@ -4375,7 +4375,7 @@ const stats = [
    },
    {
       "id": 163,
-      "Year": 2015,
+      "Year": "2015",
       "Session": "J2",
       "First": "Brett",
       "Last": "Goldschmidt",

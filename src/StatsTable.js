@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import DataTable from 'react-data-table-component';
 import statsData from './stats';
 import Filter from './Filter';
 import columns from './Columns';
+import sessionOptions from './Data/SessionOptions';
+import sessionsArray from './Data/Sessions';
+import yearOptions from './Data/YearOptions';
+import yearsArray from './Data/Years';
 
 const customStyles = {
   headCells: {
@@ -20,52 +24,93 @@ const customStyles = {
   }
 }
 
+
+
+
 const StatsTable = () => {
-   //const [filterText, setFilterText] = React.useState('');
-   //const filteredItems = statsData.filter(item => item.First.toLowerCase() && item.First.toLowerCase().includes(filterText.toLowerCase()));
 
-   const [filterText, setFilterText] = React.useState('');
-   const [sessionSH, setSessionSH] = React.useState('');
-   const [resetPaginationToggle, setResetPaginationToggle] = React.useState(false);
-   let filteredItems = [];
-   
+  const [filterText, setFilterText] = useState('');
+  const [sessions, setSessions] = useState(sessionsArray);
+  const [years, setYears] = useState(yearsArray);
+  const [resetPaginationToggle, setResetPaginationToggle] = useState(false);
+  let filteredItems = [];
 
-   const filteredItemsFunc = () => {
-      filteredItems = statsData.filter(item => item.First.toLowerCase() && item.First.toLowerCase().includes(filterText.toLowerCase()))
-      .filter(item => item.Session.includes(sessionSH));
-   }
+  const filteredItemsFunc = () => {
+    filteredItems = statsData.filter(player => player.First.toLowerCase() && player.First.toLowerCase().includes(filterText.toLowerCase())).filter(player => sessions.includes(player.Session)).filter(player => years.includes(player.Year));
+  }
 
-   filteredItemsFunc();
+  filteredItemsFunc();
+  
+  const resetSessionSelect = () => {
+    sessionOptions.forEach(so => {setSessions(oldArray => [...oldArray, so.value])});
+  }
+  
+  const resetYearsSelect = () => {
+    yearOptions.forEach(yo => {setYears(xx => [...xx, yo.value])});
+  }
  
-   const subHeaderComponentMemo = React.useMemo(() => {
-      const handleClear = () => {
-         if (filterText) {
-            setResetPaginationToggle(!resetPaginationToggle);
-            setFilterText('');
-         } 
-      };
+  const subHeaderComponentMemo = React.useMemo(() => {
+    const handleClear = () => {
+        if (filterText) {
+          setResetPaginationToggle(!resetPaginationToggle);
+          setFilterText('');
+        } 
+    };
 
 
-      const handleSelect = (selectedOptions) => {
-        console.log(selectedOptions);
-        //  const target = event.target;
-        //  const value = target.type === 'checkbox' ? target.checked : target.value;
-
-        // console.log(value);
-
-        //  if (!value){
-        //     setResetPaginationToggle(!resetPaginationToggle);
-        //     setSessionSH('');
-        //  } else {
-        //   setSessionSH('SH');
-        //  }
+    const handleSelect = (inputValue, select) => {
+      if (select === 'years'){
+        if(inputValue){
+          setYears([]);
+          inputValue.forEach(iv => {setYears(xx => [...xx, iv.value])});
+        }
       }
- 
-      return <Filter onFilter={e => setFilterText(e.target.value)} onClear={handleClear} filterText={filterText} onSelectFn={handleSelect}/>;
+      
+      if(select === 'sessions'){
+        if(inputValue){
+          setSessions([]);
+          inputValue.forEach(iv => {setSessions(oldArray => [...oldArray, iv.value])});
+        }
+      }
+      
+      
+    }
 
-   }, [filterText, resetPaginationToggle]);
+    const removeValue = (inputValue, select) => {
+      if(select === 'sessions'){
+        if(inputValue){
+          handleSelect(inputValue, 'sessions');
+        } else {
+          clearSelection('sessions');
+        }
+      }
+      
+      if(select === 'years'){
+        if(inputValue){
+          handleSelect(inputValue, 'years');
+        } else {
+          clearSelection('years');
+        }
+      }
+    }
+
+    const clearSelection = (select) => {
+      if(select === 'sessions'){
+        setSessions([]);
+        resetSessionSelect();
+      } else if (select === 'years'){
+        setYears([]);
+        resetYearsSelect();
+      }
+      
+    }
+
+    return <Filter onFilter={e => setFilterText(e.target.value)} onClear={handleClear} filterText={filterText} onSelectFn={handleSelect} clearSelection={clearSelection} removeValue={removeValue}/>;
+
+  }, [filterText, resetPaginationToggle]);
  
    return (
+
      <DataTable
        title="Softball Stats"
        columns={columns}
@@ -82,6 +127,8 @@ const StatsTable = () => {
        striped={true}
        highlightOnHover={true}
        customStyles={customStyles}
+       defaultSortField="Year"
+       defaultSortAsc={false}
      />
    );
  };

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Button from './shared/Button';
-import SelectSession from './Components/Select';
-import TestSelect from './Components/TestSelect';
+import SessionSelect from './Components/SessionSelect';
+import YearSelect from './Components/YearSelect';
 
 const TextField = styled.input`
    height: 32px;
@@ -34,11 +34,11 @@ const ClearButton = styled(Button)`
    `;
    
 
-const Filter = ({filterText, onFilter, onClear, onSelectFn}) => {
+const Filter = ({filterText, onFilter, onClear, onSelectFn, clearSelection, removeValue}) => {
    return(
       <div>
-         {/* <SelectSession onSelectFn={() => {console.log('testing')}}/> */}
-         <TestSelect onSelectFn={onSelectFn} />
+         <YearSelect onSelectFn={onSelectFn} clearSelection={clearSelection} removeValue={removeValue} />
+         <SessionSelect onSelectFn={onSelectFn} clearSelection={clearSelection} removeValue={removeValue} />
          <TextField id="search" type="text" placeholder="Filter By Name" value={filterText} onChange={onFilter} />
          <ClearButton onClick={onClear}>X</ClearButton>
       </div>
