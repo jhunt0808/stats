@@ -1,0 +1,11 @@
+.filtersWrapper {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+
+   * {
+      flex-grow: 0.5;
+   }
+}

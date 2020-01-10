@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Button from './shared/Button';
 import SessionSelect from './Components/SessionSelect';
 import YearSelect from './Components/YearSelect';
+import styles from './filter.module.scss';
 
 const TextField = styled.input`
    height: 32px;
@@ -36,7 +37,7 @@ const ClearButton = styled(Button)`
 
 const Filter = ({filterText, onFilter, onClear, onSelectFn, clearSelection, removeValue}) => {
    return(
-      <div>
+      <div className={styles.filtersWrapper}>
          <YearSelect onSelectFn={onSelectFn} clearSelection={clearSelection} removeValue={removeValue} />
          <SessionSelect onSelectFn={onSelectFn} clearSelection={clearSelection} removeValue={removeValue} />
          <TextField id="search" type="text" placeholder="Filter By Name" value={filterText} onChange={onFilter} />
