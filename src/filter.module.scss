@@ -5,7 +5,13 @@
    align-items: center;
    width: 100%;
 
-   * {
-      flex-grow: 0.5;
+   > div {
+      margin: 10px 20px;
+      width: 250px;
+   }
+
+   .nameFilter {
+      display: flex;
+      flex-direction: row;;
    }
 }

@@ -7,6 +7,7 @@ import sessionOptions from './Data/SessionOptions';
 import sessionsArray from './Data/Sessions';
 import yearOptions from './Data/YearOptions';
 import yearsArray from './Data/Years';
+import Totals from './Components/Totals';
 
 const customStyles = {
   headCells: {
@@ -26,7 +27,6 @@ const customStyles = {
 
 
 
-
 const StatsTable = () => {
 
   const [filterText, setFilterText] = useState('');
@@ -34,9 +34,12 @@ const StatsTable = () => {
   const [years, setYears] = useState(yearsArray);
   const [resetPaginationToggle, setResetPaginationToggle] = useState(false);
   let filteredItems = [];
+  let totalsData = [];
 
   const filteredItemsFunc = () => {
     filteredItems = statsData.filter(player => player.First.toLowerCase() && player.First.toLowerCase().includes(filterText.toLowerCase())).filter(player => sessions.includes(player.Session)).filter(player => years.includes(player.Year));
+
+    totalsData = [filteredItems];
   }
 
   filteredItemsFunc();
@@ -109,29 +112,32 @@ const StatsTable = () => {
 
   }, [filterText, resetPaginationToggle]);
  
-   return (
+  return (
+    <>
+      <DataTable
+        title="Softball Stats"
+        columns={columns}
+        data={filteredItems}
+        responsive
+        //pagination
+        //paginationResetDefaultPage={resetPaginationToggle} // optionally, a hook to reset pagination to page 1
+        subHeader
+        subHeaderComponent={subHeaderComponentMemo}
+        // fixedHeader
+        // fixedHeaderScrollHeight="600px"
+        dense={true}
+        persistTableHead
+        striped={true}
+        highlightOnHover={true}
+        customStyles={customStyles}
+        defaultSortField="AB"
+        defaultSortAsc={false}
+      />
 
-     <DataTable
-       title="Softball Stats"
-       columns={columns}
-       data={filteredItems}
-       responsive
-       //pagination
-       //paginationResetDefaultPage={resetPaginationToggle} // optionally, a hook to reset pagination to page 1
-       subHeader
-       subHeaderComponent={subHeaderComponentMemo}
-       fixedHeader
-       fixedHeaderScrollHeight="600px"
-       dense={true}
-       persistTableHead
-       striped={true}
-       highlightOnHover={true}
-       customStyles={customStyles}
-       defaultSortField="Year"
-       defaultSortAsc={false}
-     />
-   );
- };
+      <Totals data={totalsData} />
+    </>
+  );
+};
 
 
 export default StatsTable;

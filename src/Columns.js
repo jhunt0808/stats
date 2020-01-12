@@ -113,7 +113,7 @@ const columns = [
       sortable: true,
       center: true,
       width: '70px',
-      format: row => (Math.round(row.AVG * 100) / 100).toFixed(3),
+      format: row => (Math.abs(row.AVG * 100) / 100).toFixed(3),
     },
     {
       name: 'OBP',
@@ -121,7 +121,7 @@ const columns = [
       sortable: true,
       center: true,
       width: '70px',
-      format: row => (Math.round(row.OBP * 100) / 100).toFixed(3),
+      format: row => (Math.abs(row.OBP * 100) / 100).toFixed(3),
     },
     {
       name: 'SLG',
@@ -129,7 +129,7 @@ const columns = [
       sortable: true,
       center: true,
       width: '70px',
-      format: row => (Math.round(row.SLG * 100) / 100).toFixed(3),
+      format: row => (Math.abs(row.SLG * 100) / 100).toFixed(3),
     },
     {
       name: 'OPS',
@@ -137,7 +137,7 @@ const columns = [
       sortable: true,
       center: true,
       width: '70px',
-      format: row => (Math.round(row.OPS * 100) / 100).toFixed(3),
+      format: row => (Math.abs(row.OPS * 100) / 100).toFixed(3),
     },
     
  ];

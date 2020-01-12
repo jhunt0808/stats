@@ -33,6 +33,7 @@ class SessionSelect extends React.Component {
         value={selectedOption}
         onChange={this.onInputChange}
         options={sessionOptions}
+        placeholder="Select Sessions..."
       />
       </React.Fragment>
     );

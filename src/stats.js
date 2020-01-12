@@ -22,9 +22,9 @@ const stats = [
       "OBP": 0.514,
       "SLG": 0.514,
       "OPS": 1.028,
-      "BA/RISP": 0.471,
+      "BARISP": 0.471,
       "LOB": 20,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 2,
@@ -49,9 +49,9 @@ const stats = [
       "OBP": 0.795,
       "SLG": 1.033,
       "OPS": 1.828,
-      "BA/RISP": 0.923,
+      "BARISP": 0.923,
       "LOB": 2,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 3,
@@ -76,9 +76,9 @@ const stats = [
       "OBP": 0.732,
       "SLG": 0.838,
       "OPS": 1.57,
-      "BA/RISP": 0.643,
+      "BARISP": 0.643,
       "LOB": 11,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 4,
@@ -103,9 +103,9 @@ const stats = [
       "OBP": 0.714,
       "SLG": 1.429,
       "OPS": 2.143,
-      "BA/RISP": 0.667,
+      "BARISP": 0.667,
       "LOB": 4,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 5,
@@ -130,9 +130,9 @@ const stats = [
       "OBP": 0.681,
       "SLG": 1.703,
       "OPS": 2.384,
-      "BA/RISP": 0.696,
+      "BARISP": 0.696,
       "LOB": 12,
-      "2OUTRBI": 15
+      "TWOOUTRBI": 15
    },
    {
       "id": 6,
@@ -157,9 +157,9 @@ const stats = [
       "OBP": 0.667,
       "SLG": 0.818,
       "OPS": 1.485,
-      "BA/RISP": 0.6,
+      "BARISP": 0.6,
       "LOB": 21,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 7,
@@ -184,9 +184,9 @@ const stats = [
       "OBP": 0.639,
       "SLG": 0.75,
       "OPS": 1.389,
-      "BA/RISP": 0.647,
+      "BARISP": 0.647,
       "LOB": 11,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 8,
@@ -211,9 +211,9 @@ const stats = [
       "OBP": 0.571,
       "SLG": 0.583,
       "OPS": 1.155,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 6,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 9,
@@ -238,9 +238,9 @@ const stats = [
       "OBP": 0.543,
       "SLG": 0.683,
       "OPS": 1.226,
-      "BA/RISP": 0.409,
+      "BARISP": 0.409,
       "LOB": 23,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 10,
@@ -265,9 +265,9 @@ const stats = [
       "OBP": 0.447,
       "SLG": 0.514,
       "OPS": 0.962,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 15,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 11,
@@ -292,9 +292,9 @@ const stats = [
       "OBP": 0.413,
       "SLG": 0.977,
       "OPS": 1.39,
-      "BA/RISP": 0.462,
+      "BARISP": 0.462,
       "LOB": 34,
-      "2OUTRBI": 9
+      "TWOOUTRBI": 9
    },
    {
       "id": 12,
@@ -319,9 +319,9 @@ const stats = [
       "OBP": 0.4,
       "SLG": 0.667,
       "OPS": 1.067,
-      "BA/RISP": 0.25,
+      "BARISP": 0.25,
       "LOB": 10,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 13,
@@ -346,9 +346,9 @@ const stats = [
       "OBP": 0.375,
       "SLG": 0.375,
       "OPS": 0.75,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 2,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 14,
@@ -373,9 +373,9 @@ const stats = [
       "OBP": 0.367,
       "SLG": 0.433,
       "OPS": 0.8,
-      "BA/RISP": 0.467,
+      "BARISP": 0.467,
       "LOB": 20,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 15,
@@ -400,9 +400,9 @@ const stats = [
       "OBP": 0.313,
       "SLG": 0.4,
       "OPS": 0.713,
-      "BA/RISP": 0.429,
+      "BARISP": 0.429,
       "LOB": 8,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 16,
@@ -427,9 +427,9 @@ const stats = [
       "OBP": 0.889,
       "SLG": 1.222,
       "OPS": 2.111,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 1,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 17,
@@ -454,9 +454,9 @@ const stats = [
       "OBP": 0.833,
       "SLG": 1.667,
       "OPS": 2.5,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 0,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 18,
@@ -481,9 +481,9 @@ const stats = [
       "OBP": 0.826,
       "SLG": 1.913,
       "OPS": 2.739,
-      "BA/RISP": 0.818,
+      "BARISP": 0.818,
       "LOB": 5,
-      "2OUTRBI": 10
+      "TWOOUTRBI": 10
    },
    {
       "id": 19,
@@ -508,9 +508,9 @@ const stats = [
       "OBP": 0.636,
       "SLG": 0.762,
       "OPS": 1.398,
-      "BA/RISP": 0.875,
+      "BARISP": 0.875,
       "LOB": 2,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 20,
@@ -535,9 +535,9 @@ const stats = [
       "OBP": 0.636,
       "SLG": 1.474,
       "OPS": 2.11,
-      "BA/RISP": 0.625,
+      "BARISP": 0.625,
       "LOB": 6,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 21,
@@ -562,9 +562,9 @@ const stats = [
       "OBP": 0.6,
       "SLG": 0.667,
       "OPS": 1.267,
-      "BA/RISP": 0.7,
+      "BARISP": 0.7,
       "LOB": 7,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 22,
@@ -589,9 +589,9 @@ const stats = [
       "OBP": 0.591,
       "SLG": 1.273,
       "OPS": 1.864,
-      "BA/RISP": 0.444,
+      "BARISP": 0.444,
       "LOB": 12,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 23,
@@ -616,9 +616,9 @@ const stats = [
       "OBP": 0.591,
       "SLG": 0.81,
       "OPS": 1.4,
-      "BA/RISP": 0.571,
+      "BARISP": 0.571,
       "LOB": 10,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 24,
@@ -643,9 +643,9 @@ const stats = [
       "OBP": 0.571,
       "SLG": 0.615,
       "OPS": 1.187,
-      "BA/RISP": 0.667,
+      "BARISP": 0.667,
       "LOB": 4,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 25,
@@ -670,9 +670,9 @@ const stats = [
       "OBP": 0.56,
       "SLG": 0.625,
       "OPS": 1.185,
-      "BA/RISP": 0.9,
+      "BARISP": 0.9,
       "LOB": 2,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 26,
@@ -697,9 +697,9 @@ const stats = [
       "OBP": 0.429,
       "SLG": 0.714,
       "OPS": 1.143,
-      "BA/RISP": 0.333,
+      "BARISP": 0.333,
       "LOB": 5,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 27,
@@ -724,9 +724,9 @@ const stats = [
       "OBP": 0.409,
       "SLG": 0.476,
       "OPS": 0.885,
-      "BA/RISP": 0.375,
+      "BARISP": 0.375,
       "LOB": 12,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 28,
@@ -751,9 +751,9 @@ const stats = [
       "OBP": 0.364,
       "SLG": 0.5,
       "OPS": 0.864,
-      "BA/RISP": 0.429,
+      "BARISP": 0.429,
       "LOB": 12,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 29,
@@ -778,9 +778,9 @@ const stats = [
       "OBP": 1,
       "SLG": 1.25,
       "OPS": 2.25,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 0,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 30,
@@ -805,9 +805,9 @@ const stats = [
       "OBP": 0.625,
       "SLG": 0.929,
       "OPS": 1.554,
-      "BA/RISP": 0.875,
+      "BARISP": 0.875,
       "LOB": 15,
-      "2OUTRBI": 5
+      "TWOOUTRBI": 5
    },
    {
       "id": 31,
@@ -832,9 +832,9 @@ const stats = [
       "OBP": 0.614,
       "SLG": 0.927,
       "OPS": 1.541,
-      "BA/RISP": 0.667,
+      "BARISP": 0.667,
       "LOB": 18,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 32,
@@ -859,9 +859,9 @@ const stats = [
       "OBP": 0.596,
       "SLG": 0.646,
       "OPS": 1.242,
-      "BA/RISP": 0.476,
+      "BARISP": 0.476,
       "LOB": 23,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 33,
@@ -886,9 +886,9 @@ const stats = [
       "OBP": 0.545,
       "SLG": 1.097,
       "OPS": 1.642,
-      "BA/RISP": 0.462,
+      "BARISP": 0.462,
       "LOB": 15,
-      "2OUTRBI": 7
+      "TWOOUTRBI": 7
    },
    {
       "id": 34,
@@ -913,9 +913,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.872,
       "OPS": 1.372,
-      "BA/RISP": 0.563,
+      "BARISP": 0.563,
       "LOB": 19,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 35,
@@ -934,15 +934,15 @@ const stats = [
       "SF": 3,
       "FC": 1,
       "K": 3,
-      "RBI": 23,
-      "R": 14,
+      "RBI": 29,
+      "R": 16,
       "AVG": 0.535,
       "OBP": 0.521,
       "SLG": 1.14,
       "OPS": 1.66,
-      "BA/RISP": 0.583,
+      "BARISP": 0.583,
       "LOB": 19,
-      "2OUTRBI": 7
+      "TWOOUTRBI": 7
    },
    {
       "id": 36,
@@ -967,9 +967,9 @@ const stats = [
       "OBP": 0.545,
       "SLG": 0.738,
       "OPS": 1.284,
-      "BA/RISP": 0.462,
+      "BARISP": 0.462,
       "LOB": 17,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 37,
@@ -994,9 +994,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.5,
       "OPS": 1,
-      "BA/RISP": 0.4,
+      "BARISP": 0.4,
       "LOB": 7,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 38,
@@ -1021,9 +1021,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.5,
       "OPS": 1,
-      "BA/RISP": 0,
+      "BARISP": 0,
       "LOB": 4,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 39,
@@ -1048,9 +1048,9 @@ const stats = [
       "OBP": 0.473,
       "SLG": 0.873,
       "OPS": 1.345,
-      "BA/RISP": 0.577,
+      "BARISP": 0.577,
       "LOB": 25,
-      "2OUTRBI": 9
+      "TWOOUTRBI": 9
    },
    {
       "id": 40,
@@ -1075,9 +1075,9 @@ const stats = [
       "OBP": 0.44,
       "SLG": 0.49,
       "OPS": 0.93,
-      "BA/RISP": 0.35,
+      "BARISP": 0.35,
       "LOB": 31,
-      "2OUTRBI": 5
+      "TWOOUTRBI": 5
    },
    {
       "id": 41,
@@ -1102,9 +1102,9 @@ const stats = [
       "OBP": 0.421,
       "SLG": 0.556,
       "OPS": 0.977,
-      "BA/RISP": 0.286,
+      "BARISP": 0.286,
       "LOB": 12,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 42,
@@ -1129,9 +1129,9 @@ const stats = [
       "OBP": 0.512,
       "SLG": 0.951,
       "OPS": 1.463,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 24,
-      "2OUTRBI": 7
+      "TWOOUTRBI": 7
    },
    {
       "id": 43,
@@ -1156,9 +1156,9 @@ const stats = [
       "OBP": 0.667,
       "SLG": 0.952,
       "OPS": 1.619,
-      "BA/RISP": 0.842,
+      "BARISP": 0.842,
       "LOB": 11,
-      "2OUTRBI": 8
+      "TWOOUTRBI": 8
    },
    {
       "id": 44,
@@ -1183,9 +1183,9 @@ const stats = [
       "OBP": 0.585,
       "SLG": 1.081,
       "OPS": 1.666,
-      "BA/RISP": 0.4,
+      "BARISP": 0.4,
       "LOB": 20,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 45,
@@ -1210,9 +1210,9 @@ const stats = [
       "OBP": 0.591,
       "SLG": 0.923,
       "OPS": 1.514,
-      "BA/RISP": 0.563,
+      "BARISP": 0.563,
       "LOB": 19,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 46,
@@ -1237,9 +1237,9 @@ const stats = [
       "OBP": 0.6,
       "SLG": 0.83,
       "OPS": 1.43,
-      "BA/RISP": 0.68,
+      "BARISP": 0.68,
       "LOB": 15,
-      "2OUTRBI": 10
+      "TWOOUTRBI": 10
    },
    {
       "id": 47,
@@ -1264,9 +1264,9 @@ const stats = [
       "OBP": 0.583,
       "SLG": 1.2,
       "OPS": 1.783,
-      "BA/RISP": 0.524,
+      "BARISP": 0.524,
       "LOB": 21,
-      "2OUTRBI": 9
+      "TWOOUTRBI": 9
    },
    {
       "id": 48,
@@ -1291,9 +1291,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.538,
       "OPS": 1.038,
-      "BA/RISP": 0.529,
+      "BARISP": 0.529,
       "LOB": 18,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 49,
@@ -1318,9 +1318,9 @@ const stats = [
       "OBP": 0.658,
       "SLG": 0.903,
       "OPS": 1.561,
-      "BA/RISP": 0.583,
+      "BARISP": 0.583,
       "LOB": 11,
-      "2OUTRBI": 7
+      "TWOOUTRBI": 7
    },
    {
       "id": 50,
@@ -1345,9 +1345,9 @@ const stats = [
       "OBP": 0.538,
       "SLG": 0.559,
       "OPS": 1.097,
-      "BA/RISP": 0.462,
+      "BARISP": 0.462,
       "LOB": 16,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 51,
@@ -1372,9 +1372,9 @@ const stats = [
       "OBP": 0.643,
       "SLG": 0.846,
       "OPS": 1.489,
-      "BA/RISP": 0.364,
+      "BARISP": 0.364,
       "LOB": 15,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 52,
@@ -1399,9 +1399,9 @@ const stats = [
       "OBP": 0.435,
       "SLG": 0.405,
       "OPS": 0.84,
-      "BA/RISP": 0.316,
+      "BARISP": 0.316,
       "LOB": 24,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 53,
@@ -1426,9 +1426,9 @@ const stats = [
       "OBP": 0.563,
       "SLG": 0.75,
       "OPS": 1.313,
-      "BA/RISP": 0.556,
+      "BARISP": 0.556,
       "LOB": 11,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 54,
@@ -1453,9 +1453,9 @@ const stats = [
       "OBP": 0.385,
       "SLG": 0.423,
       "OPS": 0.808,
-      "BA/RISP": 0.25,
+      "BARISP": 0.25,
       "LOB": 19,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 55,
@@ -1480,9 +1480,9 @@ const stats = [
       "OBP": 0.75,
       "SLG": 1.818,
       "OPS": 2.568,
-      "BA/RISP": 0.889,
+      "BARISP": 0.889,
       "LOB": 2,
-      "2OUTRBI": 7
+      "TWOOUTRBI": 7
    },
    {
       "id": 56,
@@ -1507,9 +1507,9 @@ const stats = [
       "OBP": 0.455,
       "SLG": 0.455,
       "OPS": 0.909,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 7,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 57,
@@ -1534,9 +1534,9 @@ const stats = [
       "OBP": 0.429,
       "SLG": 1.143,
       "OPS": 1.571,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 2,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 58,
@@ -1561,9 +1561,9 @@ const stats = [
       "OBP": 0.273,
       "SLG": 0.4,
       "OPS": 0.673,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 8,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 59,
@@ -1588,9 +1588,9 @@ const stats = [
       "OBP": 0.333,
       "SLG": 0.333,
       "OPS": 0.667,
-      "BA/RISP": 0.333,
+      "BARISP": 0.333,
       "LOB": 4,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 60,
@@ -1615,9 +1615,9 @@ const stats = [
       "OBP": 0.6,
       "SLG": 1.071,
       "OPS": 1.671,
-      "BA/RISP": 0.444,
+      "BARISP": 0.444,
       "LOB": 13,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 61,
@@ -1642,9 +1642,9 @@ const stats = [
       "OBP": 1,
       "SLG": 1.4,
       "OPS": 2.4,
-      "BA/RISP": 0,
+      "BARISP": 0,
       "LOB": 0,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 62,
@@ -1669,9 +1669,9 @@ const stats = [
       "OBP": 0.708,
       "SLG": 0.762,
       "OPS": 1.47,
-      "BA/RISP": 0.857,
+      "BARISP": 0.857,
       "LOB": 4,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 63,
@@ -1696,9 +1696,9 @@ const stats = [
       "OBP": 0.627,
       "SLG": 0.525,
       "OPS": 1.152,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 18,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 64,
@@ -1723,9 +1723,9 @@ const stats = [
       "OBP": 0.588,
       "SLG": 0.609,
       "OPS": 1.197,
-      "BA/RISP": 0.538,
+      "BARISP": 0.538,
       "LOB": 16,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 65,
@@ -1750,9 +1750,9 @@ const stats = [
       "OBP": 0.568,
       "SLG": 0.561,
       "OPS": 1.129,
-      "BA/RISP": 0.625,
+      "BARISP": 0.625,
       "LOB": 18,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 66,
@@ -1777,9 +1777,9 @@ const stats = [
       "OBP": 0.56,
       "SLG": 1.535,
       "OPS": 2.095,
-      "BA/RISP": 0.667,
+      "BARISP": 0.667,
       "LOB": 22,
-      "2OUTRBI": 9
+      "TWOOUTRBI": 9
    },
    {
       "id": 67,
@@ -1804,9 +1804,9 @@ const stats = [
       "OBP": 0.532,
       "SLG": 0.641,
       "OPS": 1.173,
-      "BA/RISP": 0.583,
+      "BARISP": 0.583,
       "LOB": 15,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 68,
@@ -1831,9 +1831,9 @@ const stats = [
       "OBP": 0.455,
       "SLG": 0.467,
       "OPS": 0.921,
-      "BA/RISP": 0.375,
+      "BARISP": 0.375,
       "LOB": 18,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 69,
@@ -1858,9 +1858,9 @@ const stats = [
       "OBP": 0.431,
       "SLG": 0.457,
       "OPS": 0.888,
-      "BA/RISP": 0.294,
+      "BARISP": 0.294,
       "LOB": 31,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 70,
@@ -1885,9 +1885,9 @@ const stats = [
       "OBP": 0.425,
       "SLG": 0.722,
       "OPS": 1.147,
-      "BA/RISP": 0.467,
+      "BARISP": 0.467,
       "LOB": 20,
-      "2OUTRBI": 7
+      "TWOOUTRBI": 7
    },
    {
       "id": 71,
@@ -1912,9 +1912,9 @@ const stats = [
       "OBP": 0.375,
       "SLG": 0.419,
       "OPS": 0.794,
-      "BA/RISP": 0.313,
+      "BARISP": 0.313,
       "LOB": 28,
-      "2OUTRBI": 5
+      "TWOOUTRBI": 5
    },
    {
       "id": 72,
@@ -1939,9 +1939,9 @@ const stats = [
       "OBP": 0.34,
       "SLG": 0.184,
       "OPS": 0.525,
-      "BA/RISP": 0.222,
+      "BARISP": 0.222,
       "LOB": 30,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 73,
@@ -1966,9 +1966,9 @@ const stats = [
       "OBP": 0.167,
       "SLG": 0.2,
       "OPS": 0.367,
-      "BA/RISP": 0,
+      "BARISP": 0,
       "LOB": 2,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 74,
@@ -1993,9 +1993,9 @@ const stats = [
       "OBP": 0.761,
       "SLG": 1.725,
       "OPS": 2.486,
-      "BA/RISP": 0.833,
+      "BARISP": 0.833,
       "LOB": 8,
-      "2OUTRBI": 14
+      "TWOOUTRBI": 14
    },
    {
       "id": 75,
@@ -2020,9 +2020,9 @@ const stats = [
       "OBP": 0.714,
       "SLG": 0.833,
       "OPS": 1.548,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 1,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 76,
@@ -2047,9 +2047,9 @@ const stats = [
       "OBP": 0.625,
       "SLG": 0.921,
       "OPS": 1.546,
-      "BA/RISP": 0.667,
+      "BARISP": 0.667,
       "LOB": 15,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 77,
@@ -2074,9 +2074,9 @@ const stats = [
       "OBP": 0.625,
       "SLG": 1.026,
       "OPS": 1.651,
-      "BA/RISP": 0.68,
+      "BARISP": 0.68,
       "LOB": 18,
-      "2OUTRBI": 5
+      "TWOOUTRBI": 5
    },
    {
       "id": 78,
@@ -2101,9 +2101,9 @@ const stats = [
       "OBP": 0.514,
       "SLG": 0.697,
       "OPS": 1.211,
-      "BA/RISP": 0.375,
+      "BARISP": 0.375,
       "LOB": 22,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 79,
@@ -2128,9 +2128,9 @@ const stats = [
       "OBP": 0.512,
       "SLG": 0.514,
       "OPS": 1.026,
-      "BA/RISP": 0.4,
+      "BARISP": 0.4,
       "LOB": 19,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 80,
@@ -2155,9 +2155,9 @@ const stats = [
       "OBP": 0.512,
       "SLG": 0.486,
       "OPS": 0.998,
-      "BA/RISP": 0.2,
+      "BARISP": 0.2,
       "LOB": 22,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 81,
@@ -2182,9 +2182,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.528,
       "OPS": 1.028,
-      "BA/RISP": 0.529,
+      "BARISP": 0.529,
       "LOB": 23,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 82,
@@ -2209,9 +2209,9 @@ const stats = [
       "OBP": 0.467,
       "SLG": 0.425,
       "OPS": 0.892,
-      "BA/RISP": 0.471,
+      "BARISP": 0.471,
       "LOB": 24,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 83,
@@ -2236,9 +2236,9 @@ const stats = [
       "OBP": 0.458,
       "SLG": 0.5,
       "OPS": 0.958,
-      "BA/RISP": 0.273,
+      "BARISP": 0.273,
       "LOB": 19,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 84,
@@ -2263,9 +2263,9 @@ const stats = [
       "OBP": 0.286,
       "SLG": 0.286,
       "OPS": 0.571,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 4,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 85,
@@ -2290,9 +2290,9 @@ const stats = [
       "OBP": 0.216,
       "SLG": 0.147,
       "OPS": 0.363,
-      "BA/RISP": 0.111,
+      "BARISP": 0.111,
       "LOB": 28,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 86,
@@ -2317,9 +2317,9 @@ const stats = [
       "OBP": 0.658,
       "SLG": 1.129,
       "OPS": 1.787,
-      "BA/RISP": 0.909,
+      "BARISP": 0.909,
       "LOB": 7,
-      "2OUTRBI": 8
+      "TWOOUTRBI": 8
    },
    {
       "id": 87,
@@ -2344,9 +2344,9 @@ const stats = [
       "OBP": 0.761,
       "SLG": 1.405,
       "OPS": 2.166,
-      "BA/RISP": 0.833,
+      "BARISP": 0.833,
       "LOB": 9,
-      "2OUTRBI": 13
+      "TWOOUTRBI": 13
    },
    {
       "id": 88,
@@ -2371,9 +2371,9 @@ const stats = [
       "OBP": 0.75,
       "SLG": 1,
       "OPS": 1.75,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 1,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 89,
@@ -2398,9 +2398,9 @@ const stats = [
       "OBP": 0.714,
       "SLG": 1.429,
       "OPS": 2.143,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 3,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 90,
@@ -2425,9 +2425,9 @@ const stats = [
       "OBP": 0.667,
       "SLG": 1.214,
       "OPS": 1.881,
-      "BA/RISP": 0.769,
+      "BARISP": 0.769,
       "LOB": 7,
-      "2OUTRBI": 5
+      "TWOOUTRBI": 5
    },
    {
       "id": 91,
@@ -2452,9 +2452,9 @@ const stats = [
       "OBP": 0.75,
       "SLG": 1,
       "OPS": 1.75,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 3,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 92,
@@ -2479,9 +2479,9 @@ const stats = [
       "OBP": 0.714,
       "SLG": 0.667,
       "OPS": 1.381,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 3,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 93,
@@ -2506,9 +2506,9 @@ const stats = [
       "OBP": 0.64,
       "SLG": 1.02,
       "OPS": 1.66,
-      "BA/RISP": 0.7,
+      "BARISP": 0.7,
       "LOB": 13,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 94,
@@ -2533,9 +2533,9 @@ const stats = [
       "OBP": 0.619,
       "SLG": 0.905,
       "OPS": 1.524,
-      "BA/RISP": 0.556,
+      "BARISP": 0.556,
       "LOB": 8,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 95,
@@ -2560,9 +2560,9 @@ const stats = [
       "OBP": 0.531,
       "SLG": 0.913,
       "OPS": 1.444,
-      "BA/RISP": 0.625,
+      "BARISP": 0.625,
       "LOB": 15,
-      "2OUTRBI": 11
+      "TWOOUTRBI": 11
    },
    {
       "id": 96,
@@ -2587,9 +2587,9 @@ const stats = [
       "OBP": 0.509,
       "SLG": 1.137,
       "OPS": 1.647,
-      "BA/RISP": 0.692,
+      "BARISP": 0.692,
       "LOB": 20,
-      "2OUTRBI": 11
+      "TWOOUTRBI": 11
    },
    {
       "id": 97,
@@ -2614,9 +2614,9 @@ const stats = [
       "OBP": 0.519,
       "SLG": 0.889,
       "OPS": 1.407,
-      "BA/RISP": 0.571,
+      "BARISP": 0.571,
       "LOB": 19,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 98,
@@ -2641,9 +2641,9 @@ const stats = [
       "OBP": 0.457,
       "SLG": 0.529,
       "OPS": 0.987,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 11,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 99,
@@ -2668,9 +2668,9 @@ const stats = [
       "OBP": 0.432,
       "SLG": 0.514,
       "OPS": 0.945,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 21,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 100,
@@ -2695,9 +2695,9 @@ const stats = [
       "OBP": 0.396,
       "SLG": 0.444,
       "OPS": 0.84,
-      "BA/RISP": 0.375,
+      "BARISP": 0.375,
       "LOB": 25,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 101,
@@ -2722,9 +2722,9 @@ const stats = [
       "OBP": 0.333,
       "SLG": 0.833,
       "OPS": 1.167,
-      "BA/RISP": 0.333,
+      "BARISP": 0.333,
       "LOB": 6,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 102,
@@ -2749,9 +2749,9 @@ const stats = [
       "OBP": 0.286,
       "SLG": 0.429,
       "OPS": 0.714,
-      "BA/RISP": 0,
+      "BARISP": 0,
       "LOB": 5,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 103,
@@ -2776,9 +2776,9 @@ const stats = [
       "OBP": 0.578,
       "SLG": 0.951,
       "OPS": 1.529,
-      "BA/RISP": 0.6,
+      "BARISP": 0.6,
       "LOB": 9,
-      "2OUTRBI": 8
+      "TWOOUTRBI": 8
    },
    {
       "id": 104,
@@ -2803,9 +2803,9 @@ const stats = [
       "OBP": 0.689,
       "SLG": 1.302,
       "OPS": 1.991,
-      "BA/RISP": 0.625,
+      "BARISP": 0.625,
       "LOB": 15,
-      "2OUTRBI": 12
+      "TWOOUTRBI": 12
    },
    {
       "id": 105,
@@ -2830,9 +2830,9 @@ const stats = [
       "OBP": 0.8,
       "SLG": 1.5,
       "OPS": 2.3,
-      "BA/RISP": 0.882,
+      "BARISP": 0.882,
       "LOB": 6,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 106,
@@ -2857,9 +2857,9 @@ const stats = [
       "OBP": 0.75,
       "SLG": 1.125,
       "OPS": 1.875,
-      "BA/RISP": 0.75,
+      "BARISP": 0.75,
       "LOB": 2,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 107,
@@ -2884,9 +2884,9 @@ const stats = [
       "OBP": 0.75,
       "SLG": 1.75,
       "OPS": 2.5,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 0,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 108,
@@ -2911,9 +2911,9 @@ const stats = [
       "OBP": 0.708,
       "SLG": 1.283,
       "OPS": 1.991,
-      "BA/RISP": 0.625,
+      "BARISP": 0.625,
       "LOB": 10,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 109,
@@ -2938,9 +2938,9 @@ const stats = [
       "OBP": 0.7,
       "SLG": 0.7,
       "OPS": 1.4,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 2,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 110,
@@ -2965,9 +2965,9 @@ const stats = [
       "OBP": 0.62,
       "SLG": 1.4,
       "OPS": 2.02,
-      "BA/RISP": 0.656,
+      "BARISP": 0.656,
       "LOB": 18,
-      "2OUTRBI": 11
+      "TWOOUTRBI": 11
    },
    {
       "id": 111,
@@ -2992,9 +2992,9 @@ const stats = [
       "OBP": 0.643,
       "SLG": 1.079,
       "OPS": 1.722,
-      "BA/RISP": 0.636,
+      "BARISP": 0.636,
       "LOB": 14,
-      "2OUTRBI": 9
+      "TWOOUTRBI": 9
    },
    {
       "id": 112,
@@ -3019,9 +3019,9 @@ const stats = [
       "OBP": 0.659,
       "SLG": 0.949,
       "OPS": 1.608,
-      "BA/RISP": 0.556,
+      "BARISP": 0.556,
       "LOB": 21,
-      "2OUTRBI": 5
+      "TWOOUTRBI": 5
    },
    {
       "id": 113,
@@ -3046,9 +3046,9 @@ const stats = [
       "OBP": 0.583,
       "SLG": 0.911,
       "OPS": 1.494,
-      "BA/RISP": 0.571,
+      "BARISP": 0.571,
       "LOB": 16,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 114,
@@ -3073,9 +3073,9 @@ const stats = [
       "OBP": 0.614,
       "SLG": 0.902,
       "OPS": 1.516,
-      "BA/RISP": 0.588,
+      "BARISP": 0.588,
       "LOB": 15,
-      "2OUTRBI": 9
+      "TWOOUTRBI": 9
    },
    {
       "id": 115,
@@ -3100,9 +3100,9 @@ const stats = [
       "OBP": 0.605,
       "SLG": 0.707,
       "OPS": 1.312,
-      "BA/RISP": 0.458,
+      "BARISP": 0.458,
       "LOB": 21,
-      "2OUTRBI": 10
+      "TWOOUTRBI": 10
    },
    {
       "id": 116,
@@ -3127,9 +3127,9 @@ const stats = [
       "OBP": 0.571,
       "SLG": 0.786,
       "OPS": 1.357,
-      "BA/RISP": 0.571,
+      "BARISP": 0.571,
       "LOB": 7,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 117,
@@ -3154,9 +3154,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.75,
       "OPS": 1.25,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 5,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 118,
@@ -3181,9 +3181,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 1,
       "OPS": 1.5,
-      "BA/RISP": 0.667,
+      "BARISP": 0.667,
       "LOB": 2,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 119,
@@ -3208,9 +3208,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.75,
       "OPS": 1.25,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 1,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 120,
@@ -3235,9 +3235,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.561,
       "OPS": 1.061,
-      "BA/RISP": 0.421,
+      "BARISP": 0.421,
       "LOB": 25,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 121,
@@ -3262,9 +3262,9 @@ const stats = [
       "OBP": 0.405,
       "SLG": 0.444,
       "OPS": 0.85,
-      "BA/RISP": 0.4,
+      "BARISP": 0.4,
       "LOB": 23,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 122,
@@ -3289,9 +3289,9 @@ const stats = [
       "OBP": 0.429,
       "SLG": 0.333,
       "OPS": 0.762,
-      "BA/RISP": 0,
+      "BARISP": 0,
       "LOB": 5,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 123,
@@ -3316,9 +3316,9 @@ const stats = [
       "OBP": 0.25,
       "SLG": 0,
       "OPS": 0.25,
-      "BA/RISP": 0,
+      "BARISP": 0,
       "LOB": 4,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 124,
@@ -3343,9 +3343,9 @@ const stats = [
       "OBP": 0.875,
       "SLG": 0.875,
       "OPS": 1.75,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 0,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 125,
@@ -3370,9 +3370,9 @@ const stats = [
       "OBP": 0.857,
       "SLG": 1,
       "OPS": 1.857,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 1,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 126,
@@ -3397,9 +3397,9 @@ const stats = [
       "OBP": 0.793,
       "SLG": 1.478,
       "OPS": 2.271,
-      "BA/RISP": 0.8,
+      "BARISP": 0.8,
       "LOB": 8,
-      "2OUTRBI": 5
+      "TWOOUTRBI": 5
    },
    {
       "id": 127,
@@ -3424,9 +3424,9 @@ const stats = [
       "OBP": 0.778,
       "SLG": 0.778,
       "OPS": 1.556,
-      "BA/RISP": 0.75,
+      "BARISP": 0.75,
       "LOB": 2,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 128,
@@ -3451,9 +3451,9 @@ const stats = [
       "OBP": 0.711,
       "SLG": 1.412,
       "OPS": 2.122,
-      "BA/RISP": 0.727,
+      "BARISP": 0.727,
       "LOB": 10,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 129,
@@ -3478,9 +3478,9 @@ const stats = [
       "OBP": 0.667,
       "SLG": 0.92,
       "OPS": 1.587,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 6,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 130,
@@ -3505,9 +3505,9 @@ const stats = [
       "OBP": 0.659,
       "SLG": 0.825,
       "OPS": 1.484,
-      "BA/RISP": 0.65,
+      "BARISP": 0.65,
       "LOB": 12,
-      "2OUTRBI": 5
+      "TWOOUTRBI": 5
    },
    {
       "id": 131,
@@ -3532,9 +3532,9 @@ const stats = [
       "OBP": 0.676,
       "SLG": 1,
       "OPS": 1.676,
-      "BA/RISP": 0.583,
+      "BARISP": 0.583,
       "LOB": 6,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 132,
@@ -3559,9 +3559,9 @@ const stats = [
       "OBP": 0.625,
       "SLG": 1,
       "OPS": 1.625,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 1,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 133,
@@ -3586,9 +3586,9 @@ const stats = [
       "OBP": 0.638,
       "SLG": 1.156,
       "OPS": 1.794,
-      "BA/RISP": 0.679,
+      "BARISP": 0.679,
       "LOB": 15,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 134,
@@ -3613,9 +3613,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.857,
       "OPS": 1.357,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 2,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 135,
@@ -3640,9 +3640,9 @@ const stats = [
       "OBP": 0.537,
       "SLG": 1.442,
       "OPS": 1.979,
-      "BA/RISP": 0.581,
+      "BARISP": 0.581,
       "LOB": 28,
-      "2OUTRBI": 10
+      "TWOOUTRBI": 10
    },
    {
       "id": 136,
@@ -3667,9 +3667,9 @@ const stats = [
       "OBP": 0.56,
       "SLG": 1,
       "OPS": 1.56,
-      "BA/RISP": 0.563,
+      "BARISP": 0.563,
       "LOB": 11,
-      "2OUTRBI": 8
+      "TWOOUTRBI": 8
    },
    {
       "id": 137,
@@ -3694,9 +3694,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.622,
       "OPS": 1.122,
-      "BA/RISP": 0.333,
+      "BARISP": 0.333,
       "LOB": 21,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 138,
@@ -3721,9 +3721,9 @@ const stats = [
       "OBP": 0.5,
       "SLG": 0.69,
       "OPS": 1.19,
-      "BA/RISP": 0.3,
+      "BARISP": 0.3,
       "LOB": 29,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 139,
@@ -3748,9 +3748,9 @@ const stats = [
       "OBP": 0.375,
       "SLG": 0.833,
       "OPS": 1.208,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 5,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 140,
@@ -3775,9 +3775,9 @@ const stats = [
       "OBP": 0.556,
       "SLG": 1,
       "OPS": 1.556,
-      "BA/RISP": 0.333,
+      "BARISP": 0.333,
       "LOB": 4,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 141,
@@ -3802,9 +3802,9 @@ const stats = [
       "OBP": 0.342,
       "SLG": 0.444,
       "OPS": 0.787,
-      "BA/RISP": 0.438,
+      "BARISP": 0.438,
       "LOB": 23,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 142,
@@ -3829,9 +3829,9 @@ const stats = [
       "OBP": 0.25,
       "SLG": 0.25,
       "OPS": 0.5,
-      "BA/RISP": 0,
+      "BARISP": 0,
       "LOB": 7,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 143,
@@ -3856,9 +3856,9 @@ const stats = [
       "OBP": 0.25,
       "SLG": 0.25,
       "OPS": 0.5,
-      "BA/RISP": 0.333,
+      "BARISP": 0.333,
       "LOB": 5,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 144,
@@ -3883,9 +3883,9 @@ const stats = [
       "OBP": 0.64,
       "SLG": 1.048,
       "OPS": 1.688,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 6,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 145,
@@ -3910,9 +3910,9 @@ const stats = [
       "OBP": 0.667,
       "SLG": 0.8,
       "OPS": 1.467,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 4,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 146,
@@ -3937,9 +3937,9 @@ const stats = [
       "OBP": 0.667,
       "SLG": 0.667,
       "OPS": 1.333,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 4,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 147,
@@ -3964,9 +3964,9 @@ const stats = [
       "OBP": 0.667,
       "SLG": 2.333,
       "OPS": 3,
-      "BA/RISP": 0,
+      "BARISP": 0,
       "LOB": 2,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 148,
@@ -3991,9 +3991,9 @@ const stats = [
       "OBP": 0.647,
       "SLG": 1.063,
       "OPS": 1.71,
-      "BA/RISP": 0.9,
+      "BARISP": 0.9,
       "LOB": 10,
-      "2OUTRBI": 7
+      "TWOOUTRBI": 7
    },
    {
       "id": 149,
@@ -4018,9 +4018,9 @@ const stats = [
       "OBP": 0.633,
       "SLG": 1.563,
       "OPS": 2.195,
-      "BA/RISP": 0.519,
+      "BARISP": 0.519,
       "LOB": 27,
-      "2OUTRBI": 7
+      "TWOOUTRBI": 7
    },
    {
       "id": 150,
@@ -4045,9 +4045,9 @@ const stats = [
       "OBP": 0.583,
       "SLG": 1.13,
       "OPS": 1.714,
-      "BA/RISP": 0.75,
+      "BARISP": 0.75,
       "LOB": 8,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 151,
@@ -4072,9 +4072,9 @@ const stats = [
       "OBP": 0.596,
       "SLG": 0.792,
       "OPS": 1.388,
-      "BA/RISP": 0.571,
+      "BARISP": 0.571,
       "LOB": 15,
-      "2OUTRBI": 6
+      "TWOOUTRBI": 6
    },
    {
       "id": 152,
@@ -4099,9 +4099,9 @@ const stats = [
       "OBP": 0.429,
       "SLG": 1.6,
       "OPS": 2.029,
-      "BA/RISP": 1,
+      "BARISP": 1,
       "LOB": 0,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    },
    {
       "id": 153,
@@ -4126,9 +4126,9 @@ const stats = [
       "OBP": 0.56,
       "SLG": 0.979,
       "OPS": 1.539,
-      "BA/RISP": 0.789,
+      "BARISP": 0.789,
       "LOB": 12,
-      "2OUTRBI": 8
+      "TWOOUTRBI": 8
    },
    {
       "id": 154,
@@ -4153,9 +4153,9 @@ const stats = [
       "OBP": 0.571,
       "SLG": 1.571,
       "OPS": 2.143,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 2,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 155,
@@ -4180,9 +4180,9 @@ const stats = [
       "OBP": 0.571,
       "SLG": 0.857,
       "OPS": 1.429,
-      "BA/RISP": 0.667,
+      "BARISP": 0.667,
       "LOB": 2,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 156,
@@ -4207,9 +4207,9 @@ const stats = [
       "OBP": 0.571,
       "SLG": 0.571,
       "OPS": 1.143,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 2,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 157,
@@ -4234,9 +4234,9 @@ const stats = [
       "OBP": 0.564,
       "SLG": 1.216,
       "OPS": 1.78,
-      "BA/RISP": 0.643,
+      "BARISP": 0.643,
       "LOB": 11,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 158,
@@ -4261,9 +4261,9 @@ const stats = [
       "OBP": 0.489,
       "SLG": 0.778,
       "OPS": 1.267,
-      "BA/RISP": 0.688,
+      "BARISP": 0.688,
       "LOB": 18,
-      "2OUTRBI": 4
+      "TWOOUTRBI": 4
    },
    {
       "id": 159,
@@ -4288,9 +4288,9 @@ const stats = [
       "OBP": 0.385,
       "SLG": 0.421,
       "OPS": 0.806,
-      "BA/RISP": 0.6,
+      "BARISP": 0.6,
       "LOB": 18,
-      "2OUTRBI": 5
+      "TWOOUTRBI": 5
    },
    {
       "id": 160,
@@ -4315,9 +4315,9 @@ const stats = [
       "OBP": 0.357,
       "SLG": 0.357,
       "OPS": 0.714,
-      "BA/RISP": 0.167,
+      "BARISP": 0.167,
       "LOB": 13,
-      "2OUTRBI": 0
+      "TWOOUTRBI": 0
    },
    {
       "id": 161,
@@ -4342,9 +4342,9 @@ const stats = [
       "OBP": 0.383,
       "SLG": 0.349,
       "OPS": 0.732,
-      "BA/RISP": 0.5,
+      "BARISP": 0.5,
       "LOB": 26,
-      "2OUTRBI": 3
+      "TWOOUTRBI": 3
    },
    {
       "id": 162,
@@ -4369,9 +4369,9 @@ const stats = [
       "OBP": 0.333,
       "SLG": 0.667,
       "OPS": 1,
-      "BA/RISP": 0.333,
+      "BARISP": 0.333,
       "LOB": 4,
-      "2OUTRBI": 1
+      "TWOOUTRBI": 1
    },
    {
       "id": 163,
@@ -4396,9 +4396,9 @@ const stats = [
       "OBP": 0.273,
       "SLG": 0.318,
       "OPS": 0.591,
-      "BA/RISP": 0.222,
+      "BARISP": 0.222,
       "LOB": 17,
-      "2OUTRBI": 2
+      "TWOOUTRBI": 2
    }
 ]
 

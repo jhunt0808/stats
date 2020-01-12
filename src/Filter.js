@@ -40,8 +40,10 @@ const Filter = ({filterText, onFilter, onClear, onSelectFn, clearSelection, remo
       <div className={styles.filtersWrapper}>
          <YearSelect onSelectFn={onSelectFn} clearSelection={clearSelection} removeValue={removeValue} />
          <SessionSelect onSelectFn={onSelectFn} clearSelection={clearSelection} removeValue={removeValue} />
-         <TextField id="search" type="text" placeholder="Filter By Name" value={filterText} onChange={onFilter} />
-         <ClearButton onClick={onClear}>X</ClearButton>
+         <div className={styles.nameFilter}>
+            <TextField id="search" type="text" placeholder="Filter By Name" value={filterText} onChange={onFilter} />
+            <ClearButton onClick={onClear}>X</ClearButton>
+         </div>
       </div>
    )
 }

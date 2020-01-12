@@ -34,6 +34,7 @@ class YearSelect extends React.Component {
         onChange={this.onYearInputChange}
         options={yearSelectOptions}
         width='400px'
+        placeholder="Select Years..."
       />
       </React.Fragment>
     );
