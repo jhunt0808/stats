@@ -1,13 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, } from 'react';
 import DataTable from 'react-data-table-component';
-import statsData from './stats';
-import Filter from './Filter';
-import columns from './Columns';
-import sessionOptions from './Data/SessionOptions';
-import sessionsArray from './Data/Sessions';
-import yearOptions from './Data/YearOptions';
-import yearsArray from './Data/Years';
-import Totals from './Components/Totals';
+import statsData from '../stats';
+import Filter from '../Filter';
+import columns from '../Columns';
+import sessionOptions from '../Data/SessionOptions';
+import sessionsArray from '../Data/Sessions';
+import yearOptions from '../Data/YearOptions';
+import yearsArray from '../Data/Years';
+import Totals from './Totals';
+
 
 const customStyles = {
   headCells: {
@@ -26,9 +27,7 @@ const customStyles = {
 }
 
 
-
 const StatsTable = () => {
-
   const [filterText, setFilterText] = useState('');
   const [sessions, setSessions] = useState(sessionsArray);
   const [years, setYears] = useState(yearsArray);
@@ -133,8 +132,9 @@ const StatsTable = () => {
         defaultSortField="AB"
         defaultSortAsc={false}
       />
-
-      <Totals data={totalsData} />
+      <Totals 
+        data={totalsData} 
+      />
     </>
   );
 };

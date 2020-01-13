@@ -1,5 +1,5 @@
 import React from 'react';
-import StatsTable from './StatsTable';
+import StatsTable from './Components/StatsTable';
 
 class App extends React.Component {
 

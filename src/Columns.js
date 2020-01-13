@@ -7,7 +7,7 @@ const columns = [
       name: 'Player',
       sortable: true,
       selector: 'First',
-      cell: row => <div><a href={`${row.First}-${row.Last}`}>{row.First} {row.Last}</a></div>,
+      cell: row => row.First === 'Totals' ? <div>{row.First} {row.Last}</div> : <div><a href={`${row.PlayerId}/${row.First}-${row.Last}`}>{row.First} {row.Last}</a></div>,
       width: '140px',
       grow: 1,
     },
