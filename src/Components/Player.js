@@ -4,27 +4,36 @@ import statsData from '../stats';
 import columns from '../Columns';
 import Totals from './Totals';
 
-class Player extends Component {
+const Player = (playerId) => {
+    
+    let filteredItems = [];
+    let totalsData = [];
+    const filteredItemsFunc = () => {
+        filteredItems = statsData.filter(player => player.PlayerId === playerId.playerId);
+        totalsData = [filteredItems];
+    }
+    
+    filteredItemsFunc();
 
-    componentDidMount() {
-        const { match: { params } } = this.props;
-        console.log(params);
-      
-        // axios.get(`/api/users/${params.userId}`)
-        //   .then(({ data: user }) => {
-        //     console.log('user', user);
-      
-        //     this.setState({ user });
-        //   });
-      }
-
-	render() {
-		return (
-			<div className="App">
-				<h1>Player Page</h1>
-			</div>
-		);
-	}
+    return (
+        <div className="App">
+            <h1>Player Page</h1>
+            <DataTable
+                title="Softball Stats"
+                columns={columns}
+                data={filteredItems}
+                responsive
+                dense={true}
+                striped={true}
+                highlightOnHover={true}
+                defaultSortField="AB"
+                defaultSortAsc={false}
+            />
+            <Totals 
+                data={totalsData} 
+            />
+        </div>
+    );
 }
 
 export default Player;

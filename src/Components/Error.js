@@ -4,7 +4,7 @@ class Error extends Component {
 	render() {
 		return (
 			<div className="App">
-				<h1>Strike 3 and you're out.</h1>
+				<h1>Strike 3 ... you're out.</h1>
 			</div>
 		);
 	}

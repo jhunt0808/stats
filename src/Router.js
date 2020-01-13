@@ -9,7 +9,7 @@ const RouterComp = () => {
         <Router>
             <Switch>
                 <Route exact path='/' component={App} />
-                <Route path='/:playerId' component={Player} />
+                <Route exact path='/:pid/:playerName' render={(props) => <Player playerId={Math.abs(props.match.params.pid)} />} />
                 <Route component={Error} />
             </Switch>
         </Router>

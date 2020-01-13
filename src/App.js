@@ -8,10 +8,8 @@ class App extends React.Component {
 		stats: [],
 	};
 
-
-
 	render() {
-		 
+		
 		return (
 			
 			<div className="App">
