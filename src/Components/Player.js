@@ -8,18 +8,19 @@ const Player = (playerId) => {
     
     let filteredItems = [];
     let totalsData = [];
+    let name = '';
     const filteredItemsFunc = () => {
         filteredItems = statsData.filter(player => player.PlayerId === playerId.playerId);
         totalsData = [filteredItems];
+        name = [filteredItems[0].First] + ' ' + [filteredItems[0].Last];
     }
     
     filteredItemsFunc();
 
     return (
         <div className="App">
-            <h1>Player Page</h1>
             <DataTable
-                title="Softball Stats"
+                title={`Stats for ${name}`}
                 columns={columns}
                 data={filteredItems}
                 responsive
