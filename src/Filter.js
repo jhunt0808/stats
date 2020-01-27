@@ -41,7 +41,7 @@ const Filter = ({filterText, onFilter, onClear, onSelectFn, clearSelection, remo
          <YearSelect onSelectFn={onSelectFn} clearSelection={clearSelection} removeValue={removeValue} />
          <SessionSelect onSelectFn={onSelectFn} clearSelection={clearSelection} removeValue={removeValue} />
          <div className={styles.nameFilter}>
-            <TextField id="search" type="text" placeholder="Filter By Name" value={filterText} onChange={onFilter} />
+            <TextField id="search" type="text" placeholder="Filter By First Name" value={filterText} onChange={onFilter} />
             <ClearButton onClick={onClear}>X</ClearButton>
          </div>
       </div>
