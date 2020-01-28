@@ -8,6 +8,8 @@ import sessionsArray from '../Data/Sessions';
 import yearOptions from '../Data/YearOptions';
 import yearsArray from '../Data/Years';
 import Totals from './Totals';
+import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
+
 
 
 const customStyles = {
@@ -113,28 +115,36 @@ const StatsTable = () => {
  
   return (
     <>
-      <DataTable
-        title="Softball Stats"
-        columns={columns}
-        data={filteredItems}
-        responsive
-        //pagination
-        //paginationResetDefaultPage={resetPaginationToggle} // optionally, a hook to reset pagination to page 1
-        subHeader
-        subHeaderComponent={subHeaderComponentMemo}
-        // fixedHeader
-        // fixedHeaderScrollHeight="600px"
-        dense={true}
-        persistTableHead
-        striped={true}
-        highlightOnHover={true}
-        customStyles={customStyles}
-        defaultSortField="AB"
-        defaultSortAsc={false}
-      />
-      <Totals 
-        data={totalsData} 
-      />
+      <ScrollSync>
+        <div>
+          <ScrollSyncPane>
+          <DataTable
+            title="Softball Stats"
+            columns={columns}
+            data={filteredItems}
+            responsive
+            //pagination
+            //paginationResetDefaultPage={resetPaginationToggle} // optionally, a hook to reset pagination to page 1
+            subHeader
+            subHeaderComponent={subHeaderComponentMemo}
+            // fixedHeader
+            // fixedHeaderScrollHeight="600px"
+            dense={true}
+            persistTableHead
+            striped={true}
+            highlightOnHover={true}
+            customStyles={customStyles}
+            defaultSortField="AB"
+            defaultSortAsc={false}
+          />
+          </ScrollSyncPane>
+          <ScrollSyncPane>
+          <Totals 
+            data={totalsData} 
+          />
+          </ScrollSyncPane>
+        </div>
+      </ScrollSync>
     </>
   );
 };
