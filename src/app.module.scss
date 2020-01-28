@@ -1,0 +1,11 @@
+@import './colors.scss';
+
+.app {
+    a {
+        color: $primary;
+
+        &:hover {
+            color: lighten($color: $primary, $amount: 20)
+        }
+    }
+}
