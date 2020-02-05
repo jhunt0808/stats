@@ -1,15 +1,13 @@
-import React from 'react';
-import StatsTable from './Components/StatsTable';
+import React from "react";
+import StatsTable from "./Components/StatsTable/StatsTable";
 
 class App extends React.Component {
-
 	state = {
 		players: [],
-		stats: [],
+		stats: []
 	};
 
 	render() {
-		
 		return (
 			<>
 				<StatsTable />
