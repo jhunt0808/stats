@@ -9,12 +9,12 @@ const Header = () => {
 	const [openPanel, setOpenPanel] = useState(false);
 
 	let intViewportWidth = window.innerWidth;
-	let size = 60;
+	let size = 50;
 
 	if (intViewportWidth > 1200) {
 		size = 17;
 	} else if (intViewportWidth > 500) {
-		size = 20;
+		size = 30;
 	}
 
 	return (
