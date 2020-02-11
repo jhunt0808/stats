@@ -15,4 +15,15 @@
 		--fa-secondary-color: rgb(255, 255, 255);
 		--fa-secondary-opacity: 1.0;
 	}
+
+	.logo {
+		a {
+			color: $white;
+			text-decoration: none;
+
+			&:hover {
+				color: $white;
+			}
+		}
+	}
 }

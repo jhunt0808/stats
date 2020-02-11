@@ -24,7 +24,7 @@ const Player = (playerId) => {
 			<div>
 				<ScrollSyncPane>
 					<DataTable
-						title={`Stats for ${name}`}
+						title={`Career Stats for ${name}`}
 						columns={columns}
 						data={filteredItems}
 						responsive

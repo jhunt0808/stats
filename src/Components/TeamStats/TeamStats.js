@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import DataTable from 'react-data-table-component';
-import statsData from '../../Data/stats';
 import Filter from '../Filter/Filter';
-import columns from '../../Columns';
+import teamColumns from './TeamColumns';
 import sessionOptions from '../../Data/SessionOptions';
 import sessionsArray from '../../Data/Sessions';
 import yearOptions from '../../Data/YearOptions';
 import yearsArray from '../../Data/Years';
-import Totals from '../Totals';
+import Totals from './Totals';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
+import teamStats from '../../Data/teamStats';
 
 const customStyles = {
 	headCells: {
@@ -26,25 +26,16 @@ const customStyles = {
 	}
 };
 
-const StatsTable = () => {
-	const [filterText, setFilterText] = useState('');
+const TeamStats = () => {
 	const [sessions, setSessions] = useState(sessionsArray);
 	const [years, setYears] = useState(yearsArray);
-	const [resetPaginationToggle, setResetPaginationToggle] = useState(false);
 	let filteredItems = [];
 	let totalsData = [];
 
 	const filteredItemsFunc = () => {
-		filteredItems = statsData
-			.filter(
-				(player) =>
-					player.First.toLowerCase() &&
-					player.First.toLowerCase().includes(
-						filterText.toLowerCase()
-					)
-			)
-			.filter((player) => sessions.includes(player.Session))
-			.filter((player) => years.includes(player.Year));
+		filteredItems = teamStats
+			.filter((team) => years.includes(team.Year))
+			.filter((team) => sessions.includes(team.Session));
 
 		totalsData = [filteredItems];
 	};
@@ -64,13 +55,6 @@ const StatsTable = () => {
 	};
 
 	const subHeaderComponentMemo = React.useMemo(() => {
-		const handleClear = () => {
-			if (filterText) {
-				setResetPaginationToggle(!resetPaginationToggle);
-				setFilterText('');
-			}
-		};
-
 		const handleSelect = (inputValue, select) => {
 			if (select === 'years') {
 				if (inputValue) {
@@ -121,18 +105,19 @@ const StatsTable = () => {
 
 		return (
 			<Filter
-				onFilter={(e) => setFilterText(e.target.value)}
-				onClear={handleClear}
-				filterText={filterText}
+				onFilter={() => {}}
+				filters={'sessions'}
+				onClear={''}
+				filterText={''}
 				onSelectFn={handleSelect}
 				clearSelection={clearSelection}
 				removeValue={removeValue}
 				yearsFilter={true}
 				sessionFilter={true}
-				textFilter={true}
+				textFilter={false}
 			/>
 		);
-	}, [filterText, resetPaginationToggle]);
+	}, []);
 
 	return (
 		<>
@@ -140,8 +125,8 @@ const StatsTable = () => {
 				<div>
 					<ScrollSyncPane>
 						<DataTable
-							title='Softball Stats'
-							columns={columns}
+							title='Team Stats'
+							columns={teamColumns}
 							data={filteredItems}
 							responsive
 							//pagination
@@ -168,4 +153,4 @@ const StatsTable = () => {
 	);
 };
 
-export default StatsTable;
+export default TeamStats;

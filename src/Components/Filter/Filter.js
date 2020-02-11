@@ -41,30 +41,39 @@ const Filter = ({
 	onClear,
 	onSelectFn,
 	clearSelection,
-	removeValue
+	removeValue,
+	yearsFilter,
+	sessionFilter,
+	textFilter
 }) => {
 	return (
 		<div className={styles.filtersWrapper}>
-			<YearSelect
-				onSelectFn={onSelectFn}
-				clearSelection={clearSelection}
-				removeValue={removeValue}
-			/>
-			<SessionSelect
-				onSelectFn={onSelectFn}
-				clearSelection={clearSelection}
-				removeValue={removeValue}
-			/>
-			<div className={styles.nameFilter}>
-				<TextField
-					id='search'
-					type='text'
-					placeholder='Filter By First Name'
-					value={filterText}
-					onChange={onFilter}
+			{yearsFilter && (
+				<YearSelect
+					onSelectFn={onSelectFn}
+					clearSelection={clearSelection}
+					removeValue={removeValue}
 				/>
-				<ClearButton onClick={onClear}>X</ClearButton>
-			</div>
+			)}
+			{sessionFilter && (
+				<SessionSelect
+					onSelectFn={onSelectFn}
+					clearSelection={clearSelection}
+					removeValue={removeValue}
+				/>
+			)}
+			{textFilter && (
+				<div className={styles.nameFilter}>
+					<TextField
+						id='search'
+						type='text'
+						placeholder='Filter By First Name'
+						value={filterText}
+						onChange={onFilter}
+					/>
+					<ClearButton onClick={onClear}>X</ClearButton>
+				</div>
+			)}
 		</div>
 	);
 };

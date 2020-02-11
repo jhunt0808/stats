@@ -1,23 +1,19 @@
 import React from 'react';
 
-const columns = [
+const teamColumns = [
 	{
-		name: 'Player',
+		name: 'Team',
 		sortable: true,
-		selector: 'First',
+		selector: 'Session',
 		cell: (row) =>
 			row.First === 'Totals' ? (
 				<div>
 					{row.First} {row.Last}
 				</div>
 			) : (
-				<div>
-					<a href={`${row.PlayerId}/${row.First}-${row.Last}`}>
-						{row.First} {row.Last}
-					</a>
-				</div>
+				<div>{row.Session}</div>
 			),
-		width: '140px',
+		width: '70px',
 		grow: 1
 	},
 	{
@@ -27,16 +23,30 @@ const columns = [
 		width: '70px'
 	},
 	{
-		name: 'Session',
-		selector: 'Session',
+		name: 'Wins',
+		selector: 'WINS',
 		sortable: true,
-		width: '80px'
+		width: '70px'
+	},
+	{
+		name: 'Loses',
+		selector: 'LOSES',
+		sortable: true,
+		width: '70px'
 	},
 	{
 		name: 'AB',
 		selector: 'AB',
 		sortable: true,
 		center: true,
+		cell: (row) =>
+			row.First === 'Totals' ? (
+				<div>
+					{row.First} {row.Last}
+				</div>
+			) : (
+				<div>{row.AB}</div>
+			),
 		width: '65px'
 	},
 	{
@@ -150,4 +160,4 @@ const columns = [
 	}
 ];
 
-export default columns;
+export default teamColumns;

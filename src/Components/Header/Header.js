@@ -2,16 +2,56 @@ import React, { useState } from 'react';
 import styles from './header.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBaseballBall } from '@fortawesome/pro-duotone-svg-icons/faBaseballBall';
-import { faBars } from '@fortawesome/free-solid-svg-icons/faBars';
+import { faBars, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+import SlidingPanel from 'react-sliding-side-panel';
 
 const Header = () => {
-	const [isMenuOpen, setIsMenuOpen] = useState(false);
+	const [openPanel, setOpenPanel] = useState(false);
+
+	let intViewportWidth = window.innerWidth;
+	let size = 40;
+
+	if (intViewportWidth > 1200) {
+		size = 17;
+	} else if (intViewportWidth > 500) {
+		size = 20;
+	}
 
 	return (
-		<div className={styles.header}>
-			<div>Stats</div>
-			{/* <div><FontAwesomeIcon icon={faBars} /></div> */}
-		</div>
+		<>
+			<div className={styles.header}>
+				<div className={styles.logo}>
+					<a href='/'>Stats</a>
+				</div>
+				<div>
+					<FontAwesomeIcon
+						icon={faBars}
+						onClick={() => setOpenPanel(true)}
+					/>
+				</div>
+			</div>
+			<SlidingPanel
+				type={'right'}
+				isOpen={openPanel}
+				size={size}
+				backdropClicked={() => setOpenPanel(false)}
+			>
+				<div>
+					<div className='panelHeading'>
+						<FontAwesomeIcon
+							icon={faTimesCircle}
+							className='closeIcon'
+							onClick={() => setOpenPanel(false)}
+						/>
+					</div>
+					<div className='panelContent'>
+						<a href='/'>All Players Stats</a>
+						<a href='/compare'>Compare Players</a>
+						<a href='/teams'>Team Stats</a>
+					</div>
+				</div>
+			</SlidingPanel>
+		</>
 	);
 };
 

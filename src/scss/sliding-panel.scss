@@ -1,0 +1,36 @@
+@import '../colors.scss';
+
+.sliding-panel-container {
+	.panel {
+		background: $secondary;
+		color: $white;
+
+		.panelHeading {
+			padding: 10px;
+
+			.closeIcon {
+				cursor: pointer;
+			}
+		}
+
+		.panelContent {
+			align-items: flex-end;
+			display: flex;
+			flex-direction: column;
+			justify-self: center;
+			padding: 10px;
+
+
+			a {
+				color: $white;
+				font-size: 1.25rem;
+				margin: 6px 0;
+				text-decoration: none;
+
+				&:hover {
+					color: darken($color:$white, $amount: 10);
+				}
+			}
+		}
+	}
+}

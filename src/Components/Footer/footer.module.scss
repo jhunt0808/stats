@@ -2,8 +2,22 @@
 
 .footer {
 	background-color: $dark;
+	color: $white;
+	font-size: 1em;
 	height: 50px;
 	margin-top: 50px;
 	padding: 24px;
-	width: 100%;
+	width: calc(100% - 48px);
+
+	.footerText {
+		margin-bottom: 8px;
+	}
+
+	a.footerLink {
+		color: darken($color: $white, $amount: 10%);
+
+		&:hover {
+			color: $white;
+		}
+	}
 }
