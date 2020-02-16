@@ -1,5 +1,6 @@
 import React from 'react';
 import fields from '../../Data/performanceFields';
+import styles from './topPerformers.module.scss';
 
 const TopPerformers = (props) => {
 	const paramValue = props.param;
@@ -30,21 +31,22 @@ const TopPerformers = (props) => {
 		let value;
 		switch (paramValue) {
 			case fields.AVG:
-				value = (Math.abs(player.AVG * 100) / 100).toFixed(3);
+				value =
+					player.First +
+					' ' +
+					(Math.abs(player.AVG * 100) / 100).toFixed(3);
 				break;
 			case fields.HR:
-				value = player.HR;
+				if (player.HR > 0) {
+					value = player.First + ' ' + player.HR;
+				}
 				break;
 			case fields.RBI:
-				value = player.RBI;
+				value = player.First + ' ' + player.RBI;
 				break;
 		}
 
-		return (
-			<div key={player.id}>
-				{player.First} {value}
-			</div>
-		);
+		return <div key={player.id}>{value}</div>;
 	});
 
 	return (

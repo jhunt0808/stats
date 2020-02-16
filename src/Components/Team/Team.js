@@ -12,6 +12,7 @@ import stats from '../../Data/stats';
 import teamStats from '../../Data/teamStats';
 import TopPerformers from '../TopPerformers/TopPerformers';
 import fields from '../../Data/performanceFields';
+import styles from './team.module.scss';
 
 const Team = (teamId) => {
 	let filteredPlayers = [];
@@ -44,7 +45,7 @@ const Team = (teamId) => {
 				</div>
 				<div>
 					<h3>Team Leaders</h3>
-					<div>
+					<div className={styles.topPerformersWrapper}>
 						<TopPerformers
 							filteredPlayers={filteredPlayers}
 							param={fields.AVG}
