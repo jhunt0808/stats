@@ -27,10 +27,10 @@ const columns = [
 		width: '70px'
 	},
 	{
-		name: 'Session',
+		name: 'Team / Session',
 		selector: 'Session',
 		sortable: true,
-		width: '80px'
+		width: '140px'
 	},
 	{
 		name: 'AB',

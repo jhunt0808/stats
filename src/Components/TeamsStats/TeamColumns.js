@@ -2,18 +2,15 @@ import React from 'react';
 
 const teamColumns = [
 	{
-		name: 'Team',
+		name: 'Team / Session',
 		sortable: true,
 		selector: 'Session',
-		cell: (row) =>
-			row.First === 'Totals' ? (
-				<div>
-					{row.First} {row.Last}
-				</div>
-			) : (
-				<div>{row.Session}</div>
-			),
-		width: '70px',
+		cell: (row) => (
+			<div>
+				<a href={`/teams/${row.id}`}>{row.Session}</a>
+			</div>
+		),
+		width: '145px',
 		grow: 1
 	},
 	{
@@ -26,13 +23,13 @@ const teamColumns = [
 		name: 'Wins',
 		selector: 'WINS',
 		sortable: true,
-		width: '70px'
+		width: '60px'
 	},
 	{
 		name: 'Loses',
 		selector: 'LOSES',
 		sortable: true,
-		width: '70px'
+		width: '60px'
 	},
 	{
 		name: 'AB',

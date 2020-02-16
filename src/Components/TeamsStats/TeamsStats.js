@@ -26,7 +26,7 @@ const customStyles = {
 	}
 };
 
-const TeamStats = () => {
+const TeamsStats = () => {
 	const [sessions, setSessions] = useState(sessionsArray);
 	const [years, setYears] = useState(yearsArray);
 	let filteredItems = [];
@@ -153,4 +153,4 @@ const TeamStats = () => {
 	);
 };
 
-export default TeamStats;
+export default TeamsStats;

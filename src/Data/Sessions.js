@@ -1,3 +1,8 @@
-const sessions = ["SH - 1", "SH - 2", "SH - 3", "J2"];
+const sessions = [
+	'Scared Hitless - 1',
+	'Scared Hitless - 2',
+	'Scared Hitless - 3',
+	'Journey 2'
+];
 
 export default sessions;

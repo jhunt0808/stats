@@ -1,5 +1,6 @@
 const teamStats = [
 	{
+		id: 801,
 		AB: 537,
 		BARISP: 0.564,
 		BB: 15,
@@ -16,7 +17,7 @@ const teamStats = [
 		RBI: 195,
 		S: 189,
 		SF: 10,
-		Session: 'J2',
+		Session: 'Journey 2',
 		T: 12,
 		TWOOUTRBI: 63,
 		Year: '2019',
@@ -26,6 +27,7 @@ const teamStats = [
 		OPS: 1.395
 	},
 	{
+		id: 802,
 		AB: 500,
 		BARISP: 0.601,
 		BB: 19,
@@ -42,7 +44,7 @@ const teamStats = [
 		RBI: 200,
 		S: 175,
 		SF: 13,
-		Session: 'J2',
+		Session: 'Journey 2',
 		T: 23,
 		TWOOUTRBI: 84,
 		Year: '2018',
@@ -52,6 +54,7 @@ const teamStats = [
 		OPS: 1.506
 	},
 	{
+		id: 803,
 		AB: 461,
 		BARISP: 0.584,
 		BB: 21,
@@ -68,7 +71,7 @@ const teamStats = [
 		RBI: 199,
 		S: 172,
 		SF: 14,
-		Session: 'J2',
+		Session: 'Journey 2',
 		T: 22,
 		TWOOUTRBI: 77,
 		Year: '2017',
@@ -78,6 +81,7 @@ const teamStats = [
 		OPS: 1.563
 	},
 	{
+		id: 804,
 		AB: 474,
 		BARISP: 0.57,
 		BB: 19,
@@ -94,7 +98,7 @@ const teamStats = [
 		RBI: 195,
 		S: 167,
 		SF: 13,
-		Session: 'J2',
+		Session: 'Journey 2',
 		T: 20,
 		TWOOUTRBI: 54,
 		Year: '2016',
@@ -104,6 +108,7 @@ const teamStats = [
 		OPS: 1.541
 	},
 	{
+		id: 805,
 		AB: 485,
 		BARISP: 0.594,
 		BB: 12,
@@ -120,7 +125,7 @@ const teamStats = [
 		RBI: 170,
 		S: 161,
 		SF: 14,
-		Session: 'J2',
+		Session: 'Journey 2',
 		T: 26,
 		TWOOUTRBI: 52,
 		Year: '2015',
@@ -130,6 +135,7 @@ const teamStats = [
 		OPS: 1.397
 	},
 	{
+		id: 806,
 		AB: 221,
 		BARISP: 0.67,
 		BB: 6,
@@ -146,7 +152,7 @@ const teamStats = [
 		RBI: 93,
 		S: 86,
 		SF: 4,
-		Session: 'SH - 1',
+		Session: 'Scared Hitless - 1',
 		T: 2,
 		TWOOUTRBI: 33,
 		Year: '2019',
@@ -156,6 +162,7 @@ const teamStats = [
 		OPS: 1.552
 	},
 	{
+		id: 807,
 		AB: 421,
 		BARISP: 0.553,
 		BB: 34,
@@ -172,7 +179,7 @@ const teamStats = [
 		RBI: 169,
 		S: 159,
 		SF: 13,
-		Session: 'SH - 2',
+		Session: 'Scared Hitless - 2',
 		T: 7,
 		TWOOUTRBI: 57,
 		Year: '2019',
@@ -182,6 +189,7 @@ const teamStats = [
 		OPS: 1.376
 	},
 	{
+		id: 808,
 		AB: 435,
 		BARISP: 0.478,
 		BB: 24,
@@ -198,7 +206,7 @@ const teamStats = [
 		RBI: 130,
 		S: 162,
 		SF: 6,
-		Session: 'SH - 3',
+		Session: 'Scared Hitless - 3',
 		T: 9,
 		TWOOUTRBI: 42,
 		Year: '2019',
@@ -208,6 +216,7 @@ const teamStats = [
 		OPS: 1.246
 	},
 	{
+		id: 809,
 		AB: 402,
 		BARISP: 0.545,
 		BB: 48,
@@ -224,7 +233,7 @@ const teamStats = [
 		RBI: 141,
 		S: 134,
 		SF: 7,
-		Session: 'SH - 1',
+		Session: 'Scared Hitless - 1',
 		T: 11,
 		TWOOUTRBI: 49,
 		Year: '2018',
@@ -234,6 +243,7 @@ const teamStats = [
 		OPS: 1.282
 	},
 	{
+		id: 810,
 		AB: 449,
 		BARISP: 0.465,
 		BB: 60,
@@ -250,7 +260,7 @@ const teamStats = [
 		RBI: 133,
 		S: 162,
 		SF: 10,
-		Session: 'SH - 2',
+		Session: 'Scared Hitless - 2',
 		T: 6,
 		TWOOUTRBI: 50,
 		Year: '2018',
@@ -260,6 +270,7 @@ const teamStats = [
 		OPS: 1.182
 	},
 	{
+		id: 811,
 		AB: 439,
 		BARISP: 0.508,
 		BB: 31,
@@ -276,7 +287,7 @@ const teamStats = [
 		RBI: 141,
 		S: 159,
 		SF: 11,
-		Session: 'SH - 3',
+		Session: 'Scared Hitless - 3',
 		T: 22,
 		TWOOUTRBI: 60,
 		Year: '2018',
@@ -286,6 +297,7 @@ const teamStats = [
 		OPS: 1.337
 	},
 	{
+		id: 812,
 		AB: 404,
 		BARISP: 0.474,
 		BB: 36,
@@ -302,7 +314,7 @@ const teamStats = [
 		RBI: 114,
 		S: 146,
 		SF: 9,
-		Session: 'SH - 2',
+		Session: 'Scared Hitless - 2',
 		T: 11,
 		TWOOUTRBI: 60,
 		Year: '2017',
@@ -312,6 +324,7 @@ const teamStats = [
 		OPS: 1.129
 	},
 	{
+		id: 813,
 		AB: 345,
 		BARISP: 0.516,
 		BB: 14,
@@ -328,7 +341,7 @@ const teamStats = [
 		RBI: 98,
 		S: 124,
 		SF: 6,
-		Session: 'SH - 3',
+		Session: 'Scared Hitless - 3',
 		T: 5,
 		TWOOUTRBI: 36,
 		Year: '2017',
@@ -338,6 +351,7 @@ const teamStats = [
 		OPS: 1.2
 	},
 	{
+		id: 814,
 		AB: 459,
 		BARISP: 0.578,
 		BB: 51,
@@ -354,7 +368,7 @@ const teamStats = [
 		RBI: 180,
 		S: 192,
 		SF: 21,
-		Session: 'SH - 1',
+		Session: 'Scared Hitless - 1',
 		T: 16,
 		TWOOUTRBI: 66,
 		Year: '2016',
@@ -364,6 +378,7 @@ const teamStats = [
 		OPS: 1.303
 	},
 	{
+		id: 815,
 		AB: 379,
 		BARISP: 0.497,
 		BB: 29,
@@ -380,7 +395,7 @@ const teamStats = [
 		RBI: 99,
 		S: 152,
 		SF: 8,
-		Session: 'SH - 2',
+		Session: 'Scared Hitless - 2',
 		T: 6,
 		TWOOUTRBI: 41,
 		Year: '2016',
@@ -390,6 +405,7 @@ const teamStats = [
 		OPS: 1.072
 	},
 	{
+		id: 816,
 		AB: 379,
 		BARISP: 0.585,
 		BB: 40,
@@ -406,7 +422,7 @@ const teamStats = [
 		RBI: 151,
 		S: 129,
 		SF: 8,
-		Session: 'SH - 3',
+		Session: 'Scared Hitless - 3',
 		T: 11,
 		TWOOUTRBI: 69,
 		Year: '2016',
@@ -416,6 +432,7 @@ const teamStats = [
 		OPS: 1.379
 	},
 	{
+		id: 817,
 		AB: 309,
 		BARISP: 0.493,
 		BB: 24,
@@ -432,7 +449,7 @@ const teamStats = [
 		RBI: 82,
 		S: 106,
 		SF: 8,
-		Session: 'SH - 1',
+		Session: 'Scared Hitless - 1',
 		T: 5,
 		TWOOUTRBI: 23,
 		Year: '2015',
@@ -442,6 +459,7 @@ const teamStats = [
 		OPS: 1.151
 	},
 	{
+		id: 818,
 		AB: 371,
 		BARISP: 0.442,
 		BB: 17,
@@ -458,7 +476,7 @@ const teamStats = [
 		RBI: 81,
 		S: 124,
 		SF: 7,
-		Session: 'SH - 2',
+		Session: 'Scared Hitless - 2',
 		T: 14,
 		TWOOUTRBI: 28,
 		Year: '2015',
