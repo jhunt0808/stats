@@ -45,9 +45,9 @@ const Header = () => {
 						/>
 					</div>
 					<div className='panelContent'>
-						<a href='/'>All Players Stats</a>
-						<a href='/compare'>Compare Players</a>
 						<a href='/teams'>Team Stats</a>
+						<a href='/compare'>Compare Players</a>
+						<a href='/'>All Players Stats</a>
 					</div>
 				</div>
 			</SlidingPanel>

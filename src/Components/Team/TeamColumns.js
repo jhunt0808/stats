@@ -1,6 +1,6 @@
 import React from 'react';
 
-const columns = [
+const teamColumns = [
 	{
 		name: 'Player',
 		sortable: true,
@@ -19,23 +19,6 @@ const columns = [
 			),
 		width: '140px',
 		grow: 1
-	},
-	{
-		name: 'Year',
-		selector: 'Year',
-		sortable: true,
-		width: '70px'
-	},
-	{
-		name: 'Team / Session',
-		selector: 'Session',
-		cell: (row) => (
-			<div>
-				<a href={`/teams/${row.teamId}`}>{row.Session}</a>
-			</div>
-		),
-		sortable: true,
-		width: '140px'
 	},
 	{
 		name: 'AB',
@@ -155,4 +138,4 @@ const columns = [
 	}
 ];
 
-export default columns;
+export default teamColumns;

@@ -1,18 +1,13 @@
 import React from 'react';
 import DataTable from 'react-data-table-component';
-import Filter from '../Filter/Filter';
-import columns from '../../Columns';
-import sessionOptions from '../../Data/SessionOptions';
-import sessionsArray from '../../Data/Sessions';
-import yearOptions from '../../Data/YearOptions';
-import yearsArray from '../../Data/Years';
-import Totals from '../Totals';
+import Totals from './Totals';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
 import stats from '../../Data/stats';
 import teamStats from '../../Data/teamStats';
 import TopPerformers from '../TopPerformers/TopPerformers';
 import fields from '../../Data/performanceFields';
 import styles from './team.module.scss';
+import teamColumns from './TeamColumns';
 
 const Team = (teamId) => {
 	let filteredPlayers = [];
@@ -74,7 +69,8 @@ const Team = (teamId) => {
 				<div>
 					<ScrollSyncPane>
 						<DataTable
-							columns={columns}
+							title={`${teamName} Stats`}
+							columns={teamColumns}
 							data={filteredPlayers}
 							responsive
 							dense={true}
@@ -82,7 +78,6 @@ const Team = (teamId) => {
 							highlightOnHover={true}
 							defaultSortField='AB'
 							defaultSortAsc={false}
-							noHeader
 						/>
 					</ScrollSyncPane>
 					<ScrollSyncPane>
