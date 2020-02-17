@@ -2,32 +2,16 @@ import React from 'react';
 
 const columns = [
 	{
-		name: 'Player',
-		sortable: true,
-		selector: 'First',
-		cell: (row) =>
-			row.First === 'Totals' ? (
-				<div>
-					{row.First} {row.Last}
-				</div>
-			) : (
-				<div>
-					<a href={`/${row.PlayerId}/${row.First}-${row.Last}`}>
-						{row.First} {row.Last}
-					</a>
-				</div>
-			),
-		width: '140px',
-		grow: 1
-	},
-	{
 		name: 'Team / Session',
 		selector: 'Session',
-		cell: (row) => (
-			<div>
-				<a href={`/teams/${row.teamId}`}>{row.Session}</a>
-			</div>
-		),
+		cell: (row) =>
+			row.Session === 'Totals' ? (
+				<div>{row.Session}</div>
+			) : (
+				<div>
+					<a href={`/teams/${row.teamId}`}>{row.Session}</a>
+				</div>
+			),
 		sortable: true,
 		width: '140px'
 	},

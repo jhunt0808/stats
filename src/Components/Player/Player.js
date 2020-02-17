@@ -1,8 +1,8 @@
 import React from 'react';
 import DataTable from 'react-data-table-component';
 import statsData from '../../Data/stats';
-import columns from '../../Columns';
-import Totals from '../Totals';
+import columns from './Columns';
+import Totals from './Totals';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
 
 const customStyles = {
