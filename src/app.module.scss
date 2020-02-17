@@ -1,8 +1,21 @@
 @import './colors.scss';
+@import './variables.scss';
 
 html {
 	height: 100vh;
 	width: 100vw;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	padding: 1em 0;
 }
 
 .app {
@@ -13,4 +26,8 @@ html {
 			color: lighten($color: $primary, $amount: 20)
 		}
 	}
+}
+
+.pageContent {
+	padding: 16px;
 }

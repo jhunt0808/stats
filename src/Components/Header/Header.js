@@ -23,7 +23,7 @@ const Header = () => {
 				<div className={styles.logo}>
 					<a href='/'>Stats</a>
 				</div>
-				<div>
+				<div className={styles.menuIcon}>
 					<FontAwesomeIcon
 						icon={faBars}
 						onClick={() => setOpenPanel(true)}

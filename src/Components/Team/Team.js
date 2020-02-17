@@ -26,7 +26,10 @@ const Team = (teamId) => {
 		);
 		totalsData = [filteredPlayers];
 		teamName =
-			[filteredPlayers[0].Session] + ' ' + [filteredPlayers[0].Year];
+			[filteredPlayers[0].Session] +
+			' - ' +
+			[filteredPlayers[0].Year] +
+			' - ';
 	};
 
 	filteredItemsFunc();
@@ -36,14 +39,14 @@ const Team = (teamId) => {
 			<div>
 				<h2>{teamName} Team Page</h2>
 			</div>
-			<div>
-				<div>
+			<div className={styles.teamInfo}>
+				<div className={styles.record}>
 					<h3>Record</h3>
 					<div>
 						{teamStat[0].WINS} - {teamStat[0].LOSES}
 					</div>
 				</div>
-				<div>
+				<div className={styles.teamLeaders}>
 					<h3>Team Leaders</h3>
 					<div className={styles.topPerformersWrapper}>
 						<TopPerformers
@@ -60,6 +63,10 @@ const Team = (teamId) => {
 							filteredPlayers={filteredPlayers}
 							param={fields.RBI}
 						/>
+						<TopPerformers
+							filteredPlayers={filteredPlayers}
+							param={fields.Hits}
+						/>
 					</div>
 				</div>
 			</div>
@@ -67,7 +74,6 @@ const Team = (teamId) => {
 				<div>
 					<ScrollSyncPane>
 						<DataTable
-							title={`Team Stats`}
 							columns={columns}
 							data={filteredPlayers}
 							responsive
@@ -76,6 +82,7 @@ const Team = (teamId) => {
 							highlightOnHover={true}
 							defaultSortField='AB'
 							defaultSortAsc={false}
+							noHeader
 						/>
 					</ScrollSyncPane>
 					<ScrollSyncPane>

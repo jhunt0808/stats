@@ -12,7 +12,7 @@ const columns = [
 				</div>
 			) : (
 				<div>
-					<a href={`${row.PlayerId}/${row.First}-${row.Last}`}>
+					<a href={`/${row.PlayerId}/${row.First}-${row.Last}`}>
 						{row.First} {row.Last}
 					</a>
 				</div>
@@ -29,8 +29,13 @@ const columns = [
 	{
 		name: 'Team / Session',
 		selector: 'Session',
+		cell: (row) => (
+			<div>
+				<a href={`/teams/${row.teamId}`}>{row.Session}</a>
+			</div>
+		),
 		sortable: true,
-		width: '140px'
+		width: '150px'
 	},
 	{
 		name: 'AB',

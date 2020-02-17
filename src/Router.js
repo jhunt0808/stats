@@ -15,32 +15,34 @@ const RouterComp = () => {
 	return (
 		<div className={styles.app}>
 			<Header />
-			<Router>
-				<Switch>
-					<Route exact path='/' component={App} />
-					<Route exact path='/teams' component={Teams} />
-					<Route
-						exact
-						path='/teams/:teamId'
-						render={(props) => (
-							<Team
-								teamId={Math.abs(props.match.params.teamId)}
-							/>
-						)}
-					/>
-					<Route exact path='/compare' component={Compare} />
-					<Route
-						exact
-						path='/:pid/:playerName'
-						render={(props) => (
-							<Player
-								playerId={Math.abs(props.match.params.pid)}
-							/>
-						)}
-					/>
-					<Route component={Error} />
-				</Switch>
-			</Router>
+			<div className={styles.pageContent}>
+				<Router>
+					<Switch>
+						<Route exact path='/' component={App} />
+						<Route exact path='/teams' component={Teams} />
+						<Route
+							exact
+							path='/teams/:teamId'
+							render={(props) => (
+								<Team
+									teamId={Math.abs(props.match.params.teamId)}
+								/>
+							)}
+						/>
+						<Route exact path='/compare' component={Compare} />
+						<Route
+							exact
+							path='/:pid/:playerName'
+							render={(props) => (
+								<Player
+									playerId={Math.abs(props.match.params.pid)}
+								/>
+							)}
+						/>
+						<Route component={Error} />
+					</Switch>
+				</Router>
+			</div>
 			<Footer />
 		</div>
 	);

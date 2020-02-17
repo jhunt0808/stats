@@ -20,6 +20,10 @@ const TopPerformers = (props) => {
 				return (sorted = props.filteredPlayers.sort(
 					(a, b) => b.RBI - a.RBI
 				));
+			case fields.Hits:
+				return (sorted = props.filteredPlayers.sort(
+					(a, b) => b.Hits - a.Hits
+				));
 			default:
 				return 0;
 		}
@@ -31,28 +35,41 @@ const TopPerformers = (props) => {
 		let value;
 		switch (paramValue) {
 			case fields.AVG:
-				value =
-					player.First +
-					' ' +
-					(Math.abs(player.AVG * 100) / 100).toFixed(3);
+				value = (Math.abs(player.AVG * 100) / 100).toFixed(3);
 				break;
 			case fields.HR:
 				if (player.HR > 0) {
-					value = player.First + ' ' + player.HR;
+					value = player.HR;
 				}
 				break;
 			case fields.RBI:
-				value = player.First + ' ' + player.RBI;
+				value = player.RBI;
+				break;
+			case fields.Hits:
+				value = player.Hits;
 				break;
 		}
 
-		return <div key={player.id}>{value}</div>;
+		return value > 0 ? (
+			<div className={styles.leaders}>
+				<div className={styles.player}>
+					<a
+						href={`/${player.PlayerId}/${player.First}-${player.Last}`}
+					>
+						{player.First} {player.Last}
+					</a>
+				</div>
+				<div className={styles.value}>{value}</div>
+			</div>
+		) : (
+			<></>
+		);
 	});
 
 	return (
-		<div>
-			<div>{paramValue}</div>
-			<div>{sliced}</div>
+		<div className={styles.topPerformer}>
+			<div className={styles.category}>{paramValue}</div>
+			{sliced}
 		</div>
 	);
 };
