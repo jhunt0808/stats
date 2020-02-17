@@ -5,6 +5,22 @@ import columns from '../../Columns';
 import Totals from '../Totals';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
 
+const customStyles = {
+	headCells: {
+		style: {
+			'align-items': 'center',
+			paddingLeft: '10px',
+			paddingRight: '10px'
+		}
+	},
+	cells: {
+		style: {
+			paddingLeft: '10px',
+			paddingRight: '10px'
+		}
+	}
+};
+
 const Player = (playerId) => {
 	let filteredItems = [];
 	let totalsData = [];
@@ -33,6 +49,7 @@ const Player = (playerId) => {
 						highlightOnHover={true}
 						defaultSortField='AB'
 						defaultSortAsc={false}
+						customStyles={customStyles}
 					/>
 				</ScrollSyncPane>
 				<ScrollSyncPane>

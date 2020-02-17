@@ -144,12 +144,8 @@ const StatsTable = () => {
 							columns={columns}
 							data={filteredItems}
 							responsive
-							//pagination
-							//paginationResetDefaultPage={resetPaginationToggle} // optionally, a hook to reset pagination to page 1
 							subHeader
 							subHeaderComponent={subHeaderComponentMemo}
-							// fixedHeader
-							// fixedHeaderScrollHeight="600px"
 							dense={true}
 							persistTableHead
 							striped={true}
