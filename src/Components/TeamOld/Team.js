@@ -1,51 +1,46 @@
 import React from 'react';
 import DataTable from 'react-data-table-component';
-import statsData from '../../Data/stats';
-import styles from './team.module.scss';
-import fields from '../../Data/performanceFields';
-import TopPerformers from '../TopPerformers/TopPerformers';
+import Totals from './Totals';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
+import stats from '../../Data/stats';
+import teamStats from '../../Data/teamStats';
+import TopPerformers from '../TopPerformers/TopPerformers';
+import fields from '../../Data/performanceFields';
+import styles from './team.module.scss';
+import teamColumns from './TeamColumns';
 
-const Team = (props) => {
+const TeamOld = (teamId) => {
 	let filteredPlayers = [];
 	let totalsData = [];
-	let name = props.teamName;
-
-	const filteredPlayersFunc = () => {
-		if (props.teamName === 'Journey 2') {
-			filteredPlayers = statsData.filter(
-				(team) => team.Session === props.teamName
-			);
-		} else {
-			filteredPlayers = statsData.filter(
-				(team) => team.Session !== 'Journey 2'
-			);
-		}
-
-		if (props.teamId) {
-			filteredPlayers = statsData.filter(
-				(team) => team.teamId === props.teamId
-			);
-		}
-		console.log(filteredPlayers);
+	let teamName = '';
+	let teamStat = [];
+	const filteredItemsFunc = () => {
+		teamStat = teamStats.filter((team) => team.id === teamId.teamId);
+		filteredPlayers = stats.filter(
+			(player) => player.teamId === teamId.teamId
+		);
 		totalsData = [filteredPlayers];
+		teamName =
+			[filteredPlayers[0].Session] +
+			' - ' +
+			[filteredPlayers[0].Year] +
+			' - ';
 	};
 
-	filteredPlayersFunc();
+	filteredItemsFunc();
 
 	return (
-		<div>
-			{name} = {props.teamId}
+		<>
 			<div>
-				<h2>{name} Team Page</h2>
+				<h2>{teamName} Team Page</h2>
 			</div>
 			<div className={styles.teamInfo}>
-				{/* <div className={styles.record}>
+				<div className={styles.record}>
 					<h3>Record</h3>
 					<div>
 						{teamStat[0].WINS} - {teamStat[0].LOSES}
 					</div>
-				</div> */}
+				</div>
 				<div className={styles.teamLeaders}>
 					<h3>Team Leaders</h3>
 					<div className={styles.topPerformersWrapper}>
@@ -70,29 +65,28 @@ const Team = (props) => {
 					</div>
 				</div>
 			</div>
-			{/* <ScrollSync>
+			<ScrollSync>
 				<div>
 					<ScrollSyncPane>
 						<DataTable
-							title={`Career Stats for ${name}`}
-							columns={columns}
-							data={filteredItems}
+							title={`${teamName} Stats`}
+							columns={teamColumns}
+							data={filteredPlayers}
 							responsive
 							dense={true}
 							striped={true}
 							highlightOnHover={true}
 							defaultSortField='AB'
 							defaultSortAsc={false}
-							customStyles={customStyles}
 						/>
 					</ScrollSyncPane>
 					<ScrollSyncPane>
 						<Totals data={totalsData} />
 					</ScrollSyncPane>
 				</div>
-			</ScrollSync> */}
-		</div>
+			</ScrollSync>
+		</>
 	);
 };
 
-export default Team;
+export default TeamOld;

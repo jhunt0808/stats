@@ -48,10 +48,12 @@ const TopPerformers = (props) => {
 			case fields.Hits:
 				value = player.Hits;
 				break;
+			default:
+				return 0;
 		}
 
 		return value > 0 ? (
-			<div className={styles.leaders}>
+			<div className={styles.leaders} key={`${player.id}+${paramValue}`}>
 				<div className={styles.player}>
 					<a
 						href={`/${player.PlayerId}/${player.First}-${player.Last}`}
@@ -61,9 +63,7 @@ const TopPerformers = (props) => {
 				</div>
 				<div className={styles.value}>{value}</div>
 			</div>
-		) : (
-			<></>
-		);
+		) : null;
 	});
 
 	return (

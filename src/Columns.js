@@ -12,7 +12,9 @@ const columns = [
 				</div>
 			) : (
 				<div>
-					<a href={`/${row.PlayerId}/${row.First}-${row.Last}`}>
+					<a
+						href={`/player/${row.PlayerId}/${row.First}-${row.Last}`}
+					>
 						{row.First} {row.Last}
 					</a>
 				</div>
