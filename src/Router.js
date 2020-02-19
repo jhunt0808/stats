@@ -30,7 +30,7 @@ const RouterComp = () => {
 						/>
 						{/* <Route
 							exact
-							path='/teams/:teamName/:teamId?'
+							path='/teams/:teamName?/:teamId?'
 							render={(props) => (
 								<Team
 									teamName={props.match.params.teamName}

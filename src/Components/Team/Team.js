@@ -47,7 +47,7 @@ const Team = (props) => {
 					</div>
 				</div> */}
 				<div className={styles.teamLeaders}>
-					<h3>Team Leaders</h3>
+					<h3>{name} Leaders</h3>
 					<div className={styles.topPerformersWrapper}>
 						<TopPerformers
 							filteredPlayers={filteredPlayers}

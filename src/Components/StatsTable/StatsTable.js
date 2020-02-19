@@ -9,6 +9,9 @@ import yearOptions from '../../Data/YearOptions';
 import yearsArray from '../../Data/Years';
 import Totals from '../Totals';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
+import styles from '../Team/team.module.scss';
+import fields from '../../Data/performanceFields';
+import TopPerformers from '../TopPerformers/TopPerformers';
 
 const customStyles = {
 	headCells: {
@@ -31,11 +34,11 @@ const StatsTable = () => {
 	const [sessions, setSessions] = useState(sessionsArray);
 	const [years, setYears] = useState(yearsArray);
 	const [resetPaginationToggle, setResetPaginationToggle] = useState(false);
-	let filteredItems = [];
+	let filteredPlayers = [];
 	let totalsData = [];
 
-	const filteredItemsFunc = () => {
-		filteredItems = statsData
+	const filteredPlayersFunc = () => {
+		filteredPlayers = statsData
 			.filter(
 				(player) =>
 					player.First.toLowerCase() &&
@@ -46,10 +49,10 @@ const StatsTable = () => {
 			.filter((player) => sessions.includes(player.Session))
 			.filter((player) => years.includes(player.Year));
 
-		totalsData = [filteredItems];
+		totalsData = [filteredPlayers];
 	};
 
-	filteredItemsFunc();
+	filteredPlayersFunc();
 
 	const resetSessionSelect = () => {
 		sessionOptions.forEach((so) => {
@@ -136,30 +139,63 @@ const StatsTable = () => {
 
 	return (
 		<>
-			<ScrollSync>
-				<div>
-					<ScrollSyncPane>
-						<DataTable
-							title='Softball Stats'
-							columns={columns}
-							data={filteredItems}
-							responsive
-							subHeader
-							subHeaderComponent={subHeaderComponentMemo}
-							dense={true}
-							persistTableHead
-							striped={true}
-							highlightOnHover={true}
-							customStyles={customStyles}
-							defaultSortField='AB'
-							defaultSortAsc={false}
-						/>
-					</ScrollSyncPane>
-					<ScrollSyncPane>
-						<Totals data={totalsData} />
-					</ScrollSyncPane>
+			<div>
+				<div className={styles.teamInfo}>
+					{/* <div className={styles.record}>
+					<h3>Record</h3>
+					<div>
+						{teamStat[0].WINS} - {teamStat[0].LOSES}
+					</div>
+				</div> */}
+					<div className={styles.teamLeaders}>
+						<h3>Leaders</h3>
+						<div className={styles.topPerformersWrapper}>
+							<TopPerformers
+								filteredPlayers={statsData}
+								param={fields.AVG}
+							/>
+
+							<TopPerformers
+								filteredPlayers={statsData}
+								param={fields.HR}
+							/>
+
+							<TopPerformers
+								filteredPlayers={statsData}
+								param={fields.RBI}
+							/>
+							<TopPerformers
+								filteredPlayers={statsData}
+								param={fields.Hits}
+							/>
+						</div>
+					</div>
 				</div>
-			</ScrollSync>
+				<ScrollSync>
+					<div>
+						<ScrollSyncPane>
+							<DataTable
+								title='Softball Stats'
+								columns={columns}
+								data={filteredPlayers}
+								responsive
+								subHeader
+								subHeaderComponent={subHeaderComponentMemo}
+								dense={true}
+								persistTableHead
+								striped={true}
+								highlightOnHover={true}
+								customStyles={customStyles}
+								defaultSortField='AB'
+								defaultSortAsc={false}
+							/>
+						</ScrollSyncPane>
+						<ScrollSyncPane>
+							<Totals data={totalsData} />
+						</ScrollSyncPane>
+					</div>
+				</ScrollSync>
+			</div>
 		</>
 	);
 };
