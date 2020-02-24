@@ -6,6 +6,9 @@ import columns from '../../Columns';
 import playersDropdown from '../../Data/players';
 import Totals from '../Totals';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
+import styles from '../Team/team.module.scss';
+import fields from '../../Data/performanceFields';
+import TopPerformers from '../TopPerformers/TopPerformers';
 
 const customStyles = {
 	headCells: {
@@ -28,24 +31,21 @@ playersDropdown.forEach((p) => playerDropdownValue.push(p.value));
 
 const Compare = () => {
 	const [players, setPlayers] = useState(playerDropdownValue);
-	const [resetPaginationToggle, setResetPaginationToggle] = useState(false);
-	let filteredItems = [];
+	let filteredPlayers = [];
 	let totalsData = [];
 
-	const filteredItemsFunc = () => {
-		filteredItems = statsData.filter((player) =>
+	const filteredPlayersFunc = () => {
+		filteredPlayers = statsData.filter((player) =>
 			players.includes(player.PlayerId)
 		);
 
-		totalsData = [filteredItems];
+		totalsData = [filteredPlayers];
 	};
 
-	filteredItemsFunc();
+	filteredPlayersFunc();
 
 	const resetPlayersSelect = () => {
-		players.forEach((so) => {
-			setPlayers((oldArray) => [...oldArray, so.value]);
-		});
+		setPlayers(playerDropdownValue);
 	};
 
 	const subHeaderComponentMemo = React.useMemo(() => {
@@ -79,24 +79,55 @@ const Compare = () => {
 				removeValue={removeValue}
 			/>
 		);
-	}, [resetPaginationToggle]);
+	}, []);
 
 	return (
-		<>
+		<div>
+			<div>
+				<h2>
+					{/* {name} {props.teamId ? sessionYear : <></>} Team Page */}
+				</h2>
+			</div>
+			<div className={styles.teamInfo}>
+				<div className={styles.teamLeaders}>
+					<h3>
+						{/* {name} {props.teamId ? sessionYear : <></>} Leaders */}
+					</h3>
+					<div className={styles.topPerformersWrapper}>
+						<TopPerformers
+							filteredPlayers={filteredPlayers}
+							param={fields.AVG}
+							teamPage={false}
+						/>
+
+						<TopPerformers
+							filteredPlayers={filteredPlayers}
+							param={fields.HR}
+							teamPage={false}
+						/>
+
+						<TopPerformers
+							filteredPlayers={filteredPlayers}
+							param={fields.RBI}
+							teamPage={false}
+						/>
+						<TopPerformers
+							filteredPlayers={filteredPlayers}
+							param={fields.Hits}
+							teamPage={false}
+						/>
+					</div>
+				</div>
+			</div>
 			<ScrollSync>
 				<div>
 					<ScrollSyncPane>
 						<DataTable
-							title='Compare Players'
 							columns={columns}
-							data={filteredItems}
+							data={filteredPlayers}
 							responsive
-							//pagination
-							//paginationResetDefaultPage={resetPaginationToggle} // optionally, a hook to reset pagination to page 1
 							subHeader
 							subHeaderComponent={subHeaderComponentMemo}
-							// fixedHeader
-							// fixedHeaderScrollHeight="600px"
 							dense={true}
 							persistTableHead
 							striped={true}
@@ -104,6 +135,7 @@ const Compare = () => {
 							customStyles={customStyles}
 							defaultSortField='AB'
 							defaultSortAsc={false}
+							noHeader={true}
 						/>
 					</ScrollSyncPane>
 					<ScrollSyncPane>
@@ -111,7 +143,7 @@ const Compare = () => {
 					</ScrollSyncPane>
 				</div>
 			</ScrollSync>
-		</>
+		</div>
 	);
 };
 

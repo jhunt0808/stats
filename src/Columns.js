@@ -27,7 +27,7 @@ const columns = [
 		selector: 'Session',
 		cell: (row) => (
 			<div>
-				<a href={`/teams/${row.teamId}`}>{row.Session}</a>
+				<a href={`/teams/${row.Session}`}>{row.Session}</a>
 			</div>
 		),
 		sortable: true,
@@ -36,6 +36,11 @@ const columns = [
 	{
 		name: 'Year',
 		selector: 'Year',
+		cell: (row) => (
+			<div>
+				<a href={`/teams/${row.Session}/${row.teamId}`}>{row.Year}</a>
+			</div>
+		),
 		sortable: true,
 		width: '70px'
 	},

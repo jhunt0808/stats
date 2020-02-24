@@ -8,7 +8,10 @@ import yearOptions from '../../Data/YearOptions';
 import yearsArray from '../../Data/Years';
 import Totals from './Totals';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
+import TopPerformers from '../TopPerformers/TopPerformers';
 import teamStats from '../../Data/teamStats';
+import fields from '../../Data/performanceFields';
+import styles from '../Team/team.module.scss';
 
 const customStyles = {
 	headCells: {
@@ -29,18 +32,18 @@ const customStyles = {
 const TeamsStats = () => {
 	const [sessions, setSessions] = useState(sessionsArray);
 	const [years, setYears] = useState(yearsArray);
-	let filteredItems = [];
+	let filteredPlayers = [];
 	let totalsData = [];
 
-	const filteredItemsFunc = () => {
-		filteredItems = teamStats
+	const filteredPlayersFunc = () => {
+		filteredPlayers = teamStats
 			.filter((team) => years.includes(team.Year))
 			.filter((team) => sessions.includes(team.Session));
 
-		totalsData = [filteredItems];
+		totalsData = [filteredPlayers];
 	};
 
-	filteredItemsFunc();
+	filteredPlayersFunc();
 
 	const resetSessionSelect = () => {
 		sessionOptions.forEach((so) => {
@@ -120,21 +123,49 @@ const TeamsStats = () => {
 	}, []);
 
 	return (
-		<>
+		<div>
+			<div>
+				<h2>Teams Stats</h2>
+			</div>
+			<div className={styles.teamInfo}>
+				<div className={styles.teamLeaders}>
+					<h3>Leaders</h3>
+					<div className={styles.topPerformersWrapper}>
+						<TopPerformers
+							filteredPlayers={filteredPlayers}
+							param={fields.AVG}
+							teamPage={true}
+						/>
+
+						<TopPerformers
+							filteredPlayers={filteredPlayers}
+							param={fields.HR}
+							teamPage={true}
+						/>
+
+						<TopPerformers
+							filteredPlayers={filteredPlayers}
+							param={fields.RBI}
+							teamPage={true}
+						/>
+						<TopPerformers
+							filteredPlayers={filteredPlayers}
+							param={fields.Hits}
+							teamPage={true}
+						/>
+					</div>
+				</div>
+			</div>
+
 			<ScrollSync>
 				<div>
 					<ScrollSyncPane>
 						<DataTable
-							title='Team Stats'
 							columns={teamColumns}
-							data={filteredItems}
+							data={filteredPlayers}
 							responsive
-							//pagination
-							//paginationResetDefaultPage={resetPaginationToggle} // optionally, a hook to reset pagination to page 1
 							subHeader
 							subHeaderComponent={subHeaderComponentMemo}
-							// fixedHeader
-							// fixedHeaderScrollHeight="600px"
 							dense={true}
 							persistTableHead
 							striped={true}
@@ -142,6 +173,7 @@ const TeamsStats = () => {
 							customStyles={customStyles}
 							defaultSortField='AB'
 							defaultSortAsc={false}
+							noHeader={true}
 						/>
 					</ScrollSyncPane>
 					<ScrollSyncPane>
@@ -149,7 +181,7 @@ const TeamsStats = () => {
 					</ScrollSyncPane>
 				</div>
 			</ScrollSync>
-		</>
+		</div>
 	);
 };
 

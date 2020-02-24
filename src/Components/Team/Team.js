@@ -1,15 +1,33 @@
 import React from 'react';
 import DataTable from 'react-data-table-component';
 import statsData from '../../Data/stats';
+import teamStats from '../../Data/teamStats';
 import styles from './team.module.scss';
 import fields from '../../Data/performanceFields';
 import TopPerformers from '../TopPerformers/TopPerformers';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
+import columns from '../../Columns';
+import Totals from '../Totals';
+
+const customStyles = {
+	headCells: {
+		style: {
+			'align-items': 'center',
+			paddingLeft: '10px',
+			paddingRight: '10px'
+		}
+	},
+	cells: {
+		style: {
+			paddingLeft: '10px',
+			paddingRight: '10px'
+		}
+	}
+};
 
 const Team = (props) => {
 	let filteredPlayers = [];
 	let totalsData = [];
-	let name = props.teamName;
 
 	const filteredPlayersFunc = () => {
 		if (props.teamName === 'Journey 2') {
@@ -27,56 +45,75 @@ const Team = (props) => {
 				(team) => team.teamId === props.teamId
 			);
 		}
-		console.log(filteredPlayers);
+
 		totalsData = [filteredPlayers];
 	};
 
 	filteredPlayersFunc();
 
+	let filteredTeams = [];
+	if (!isNaN(props.teamId)) {
+		filteredTeams = teamStats.filter((team) => team.id === props.teamId);
+	}
+
+	let sessionYear = ' - ' + filteredPlayers[0].Year + ' - ';
+	let name = props.teamName;
+
 	return (
 		<div>
-			{name} = {props.teamId}
 			<div>
-				<h2>{name} Team Page</h2>
+				<h2>
+					{name} {props.teamId ? sessionYear : <></>} Team Page
+				</h2>
 			</div>
 			<div className={styles.teamInfo}>
-				{/* <div className={styles.record}>
-					<h3>Record</h3>
-					<div>
-						{teamStat[0].WINS} - {teamStat[0].LOSES}
+				{!isNaN(props.teamId) ? (
+					<div className={styles.record}>
+						<h3>Record</h3>
+						<div>
+							{filteredTeams[0].WINS} - {filteredTeams[0].LOSES}
+						</div>
 					</div>
-				</div> */}
+				) : (
+					<></>
+				)}
 				<div className={styles.teamLeaders}>
-					<h3>{name} Leaders</h3>
+					<h3>
+						{name} {props.teamId ? sessionYear : <></>} Leaders
+					</h3>
 					<div className={styles.topPerformersWrapper}>
 						<TopPerformers
 							filteredPlayers={filteredPlayers}
 							param={fields.AVG}
+							teamPage={false}
 						/>
 
 						<TopPerformers
 							filteredPlayers={filteredPlayers}
 							param={fields.HR}
+							teamPage={false}
 						/>
 
 						<TopPerformers
 							filteredPlayers={filteredPlayers}
 							param={fields.RBI}
+							teamPage={false}
 						/>
 						<TopPerformers
 							filteredPlayers={filteredPlayers}
 							param={fields.Hits}
+							teamPage={false}
 						/>
 					</div>
 				</div>
 			</div>
-			{/* <ScrollSync>
+			<ScrollSync>
 				<div>
 					<ScrollSyncPane>
 						<DataTable
-							title={`Career Stats for ${name}`}
+							noHeader={true}
 							columns={columns}
-							data={filteredItems}
+							data={filteredPlayers}
 							responsive
 							dense={true}
 							striped={true}
@@ -90,7 +127,7 @@ const Team = (props) => {
 						<Totals data={totalsData} />
 					</ScrollSyncPane>
 				</div>
-			</ScrollSync> */}
+			</ScrollSync>
 		</div>
 	);
 };

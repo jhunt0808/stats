@@ -175,7 +175,6 @@ const StatsTable = () => {
 					<div>
 						<ScrollSyncPane>
 							<DataTable
-								title='Softball Stats'
 								columns={columns}
 								data={filteredPlayers}
 								responsive
@@ -188,6 +187,7 @@ const StatsTable = () => {
 								customStyles={customStyles}
 								defaultSortField='AB'
 								defaultSortAsc={false}
+								noHeader={true}
 							/>
 						</ScrollSyncPane>
 						<ScrollSyncPane>

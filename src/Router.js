@@ -5,7 +5,6 @@ import Compare from './Components/Player/Compare';
 import Player from './Components/Player/Player';
 import Teams from './Components/TeamsStats/TeamsStats';
 import Team from './Components/Team/Team';
-import TeamOld from './Components/TeamOld/Team';
 import Error from './Components/Error';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
@@ -28,7 +27,8 @@ const RouterComp = () => {
 								/>
 							)}
 						/>
-						{/* <Route
+						<Route exact path='/teams' component={Teams} />
+						<Route
 							exact
 							path='/teams/:teamName?/:teamId?'
 							render={(props) => (
@@ -37,18 +37,8 @@ const RouterComp = () => {
 									teamId={Math.abs(props.match.params.teamId)}
 								/>
 							)}
-						/> */}
-
-						<Route
-							exact
-							path='/teams/:teamId'
-							render={(props) => (
-								<TeamOld
-									teamId={Math.abs(props.match.params.teamId)}
-								/>
-							)}
 						/>
-						<Route exact path='/teams' component={Teams} />
+
 						<Route exact path='/compare' component={Compare} />
 
 						<Route exact path='/' component={App} />

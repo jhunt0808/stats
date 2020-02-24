@@ -3,13 +3,16 @@ import fields from '../../Data/performanceFields';
 import styles from './topPerformers.module.scss';
 
 const TopPerformers = (props) => {
+	console.log(props);
 	const paramValue = props.param;
 	let criteria;
 	let sorted = [];
 	const sortPlayers = () => {
 		switch (paramValue) {
 			case fields.AVG:
-				criteria = 'min. 20 AB';
+				if (!props.teamPage) {
+					criteria = 'min. 20 AB';
+				}
 				return (sorted = props.filteredPlayers.sort(
 					(a, b) => b.AVG - a.AVG
 				));
@@ -79,15 +82,27 @@ const TopPerformers = (props) => {
 					className={styles.leaders}
 					key={`${player.id}+${paramValue}`}
 				>
-					<div className={styles.player}>
-						<a
-							href={`/${player.PlayerId}/${player.First}-${player.Last}`}
-						>
-							{player.First} {player.Last}
-						</a>{' '}
-						<span className={styles.sessionYear}>
-							{session(player.Session)} - {player.Year}
-						</span>
+					<div>
+						{props.teamPage === true ? (
+							<div>
+								<a
+									href={`teams/${player.Session}/${player.id}`}
+								>
+									{session(player.Session)} - {player.Year}
+								</a>
+							</div>
+						) : (
+							<div>
+								<a
+									href={`player/${player.PlayerId}/${player.First}-${player.Last}`}
+								>
+									{player.First} {player.Last}
+								</a>{' '}
+								<span className={styles.sessionYear}>
+									{session(player.Session)} - {player.Year}
+								</span>
+							</div>
+						)}
 					</div>
 					<div className={styles.value}>{value}</div>
 				</div>
