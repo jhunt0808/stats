@@ -43,6 +43,7 @@ const Player = (playerId) => {
 						title={`Career Stats for ${name}`}
 						columns={columns}
 						data={filteredItems}
+						fixedHeader={true}
 						responsive
 						dense={true}
 						striped={true}

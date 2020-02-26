@@ -3,7 +3,6 @@ import fields from '../../Data/performanceFields';
 import styles from './topPerformers.module.scss';
 
 const TopPerformers = (props) => {
-	console.log(props);
 	const paramValue = props.param;
 	let criteria;
 	let sorted = [];
@@ -45,11 +44,24 @@ const TopPerformers = (props) => {
 				return 'SH-2';
 			case 'Scared Hitless - 3':
 				return 'SH-3';
+			default:
+				return '';
 		}
 	};
 
 	const hasMinTwentyAB = (player) => {
-		return player.AB > 19;
+		switch (paramValue) {
+			case fields.AVG:
+				return player.AB > 19;
+			case fields.HR:
+				return player;
+			case fields.RBI:
+				return player;
+			case fields.Hits:
+				return player;
+			default:
+				return 0;
+		}
 	};
 
 	const sliced = sorted

@@ -177,6 +177,7 @@ const StatsTable = () => {
 							<DataTable
 								columns={columns}
 								data={filteredPlayers}
+								fixedHeader={true}
 								responsive
 								subHeader
 								subHeaderComponent={subHeaderComponentMemo}

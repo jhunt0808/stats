@@ -8,6 +8,7 @@ import Team from './Components/Team/Team';
 import Error from './Components/Error';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
+import Home from './Components/Home/Home';
 import styles from './app.module.scss';
 import './scss/sliding-panel.scss';
 
@@ -41,7 +42,8 @@ const RouterComp = () => {
 
 						<Route exact path='/compare' component={Compare} />
 
-						<Route exact path='/' component={App} />
+						<Route exact path='/all' component={App} />
+						<Route exact path='/' component={Home} />
 						<Route component={Error} />
 					</Switch>
 				</Router>

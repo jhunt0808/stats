@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styles from './header.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBaseballBall } from '@fortawesome/pro-duotone-svg-icons/faBaseballBall';
 import { faBars, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import SlidingPanel from 'react-sliding-side-panel';
 
@@ -46,10 +45,11 @@ const Header = () => {
 					</div>
 					<div className='panelContent'>
 						<a href='/'>Home</a>
-						<a href='/teams'>Team Stats</a>
-						<a href='/compare'>Compare Players</a>
 						<a href='/teams/Scared Hitless'>Scared Hitless</a>
 						<a href='/teams/Journey 2'>Journey 2</a>
+						<a href='/teams'>Team Stats</a>
+						<a href='/compare'>Compare Players</a>
+						<a href='/all'>View All Stats</a>
 					</div>
 				</div>
 			</SlidingPanel>

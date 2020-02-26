@@ -44,7 +44,8 @@ const Filter = ({
 	removeValue,
 	yearsFilter,
 	sessionFilter,
-	textFilter
+	textFilter,
+	teamsPage
 }) => {
 	return (
 		<div className={styles.filtersWrapper}>
@@ -60,6 +61,7 @@ const Filter = ({
 					onSelectFn={onSelectFn}
 					clearSelection={clearSelection}
 					removeValue={removeValue}
+					teamsPage={teamsPage}
 				/>
 			)}
 			{textFilter && (

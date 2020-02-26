@@ -8,7 +8,6 @@ class PlayerSelect extends React.Component {
 	};
 
 	onInputChange = (inputValue, { action }) => {
-		console.log(inputValue);
 		switch (action) {
 			case 'clear':
 				this.props.clearSelection();

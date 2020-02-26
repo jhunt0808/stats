@@ -164,6 +164,7 @@ const TeamsStats = () => {
 							columns={teamColumns}
 							data={filteredPlayers}
 							responsive
+							fixedHeader={true}
 							subHeader
 							subHeaderComponent={subHeaderComponentMemo}
 							dense={true}

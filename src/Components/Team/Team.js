@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import DataTable from 'react-data-table-component';
 import statsData from '../../Data/stats';
 import teamStats from '../../Data/teamStats';
 import styles from './team.module.scss';
+import Filter from '../Filter/Filter';
 import fields from '../../Data/performanceFields';
 import TopPerformers from '../TopPerformers/TopPerformers';
+import sessionOptions from '../../Data/SessionOptions';
+import sessionsArray from '../../Data/Sessions';
+import yearOptions from '../../Data/YearOptions';
+import yearsArray from '../../Data/Years';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
 import columns from '../../Columns';
 import Totals from '../Totals';
@@ -26,18 +31,24 @@ const customStyles = {
 };
 
 const Team = (props) => {
+	const [sessions, setSessions] = useState(sessionsArray);
+	const [years, setYears] = useState(yearsArray);
 	let filteredPlayers = [];
 	let totalsData = [];
+	let isJourney = false;
 
 	const filteredPlayersFunc = () => {
 		if (props.teamName === 'Journey 2') {
-			filteredPlayers = statsData.filter(
-				(team) => team.Session === props.teamName
-			);
+			filteredPlayers = statsData
+				.filter((team) => team.Session === props.teamName)
+				.filter((team) => years.includes(team.Year));
+			isJourney = true;
 		} else {
-			filteredPlayers = statsData.filter(
-				(team) => team.Session !== 'Journey 2'
-			);
+			filteredPlayers = statsData
+				.filter((team) => team.Session !== 'Journey 2')
+				.filter((team) => years.includes(team.Year))
+				.filter((team) => sessions.includes(team.Session));
+			isJourney = false;
 		}
 
 		if (props.teamId) {
@@ -58,6 +69,86 @@ const Team = (props) => {
 
 	let sessionYear = ' - ' + filteredPlayers[0].Year + ' - ';
 	let name = props.teamName;
+
+	const resetSessionSelect = () => {
+		sessionOptions.forEach((so) => {
+			setSessions((oldArray) => [...oldArray, so.value]);
+		});
+	};
+
+	const resetYearsSelect = () => {
+		yearOptions.forEach((yo) => {
+			setYears((xx) => [...xx, yo.value]);
+		});
+	};
+
+	const subHeaderComponentMemo = React.useMemo(() => {
+		const handleSelect = (inputValue, select) => {
+			if (select === 'years') {
+				if (inputValue) {
+					setYears([]);
+					inputValue.forEach((iv) => {
+						setYears((xx) => [...xx, iv.value]);
+					});
+				}
+			}
+
+			if (select === 'sessions') {
+				if (inputValue) {
+					setSessions([]);
+					inputValue.forEach((iv) => {
+						setSessions((oldArray) => [...oldArray, iv.value]);
+					});
+				}
+			}
+		};
+
+		const removeValue = (inputValue, select) => {
+			if (select === 'sessions') {
+				if (inputValue) {
+					handleSelect(inputValue, 'sessions');
+				} else {
+					clearSelection('sessions');
+				}
+			}
+
+			if (select === 'years') {
+				if (inputValue) {
+					handleSelect(inputValue, 'years');
+				} else {
+					clearSelection('years');
+				}
+			}
+		};
+
+		const clearSelection = (select) => {
+			if (select === 'sessions') {
+				setSessions([]);
+				resetSessionSelect();
+			} else if (select === 'years') {
+				setYears([]);
+				resetYearsSelect();
+			}
+		};
+
+		return (
+			isNaN(props.teamId) && (
+				<Filter
+					onFilter={() => {}}
+					filters={'sessions'}
+					onClear={''}
+					filterText={''}
+					onSelectFn={handleSelect}
+					clearSelection={clearSelection}
+					removeValue={removeValue}
+					yearsFilter={true}
+					sessionFilter={!isJourney}
+					textFilter={false}
+					teamsPage={!isJourney}
+				/>
+			)
+		);
+	}, [isJourney, props.teamId]);
 
 	return (
 		<div>
@@ -115,8 +206,11 @@ const Team = (props) => {
 							columns={columns}
 							data={filteredPlayers}
 							responsive
+							fixedHeader={true}
 							dense={true}
 							striped={true}
+							subHeader
+							subHeaderComponent={subHeaderComponentMemo}
 							highlightOnHover={true}
 							defaultSortField='AB'
 							defaultSortAsc={false}
