@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import App from './App';
 import Compare from './Components/Player/Compare';
@@ -12,12 +14,22 @@ import Home from './Components/Home/Home';
 import styles from './app.module.scss';
 import './scss/sliding-panel.scss';
 
+const history = createBrowserHistory();
+
+const trackingId = 'UA-92871100-2';
+ReactGA.initialize(trackingId);
+
+history.listen((location) => {
+	ReactGA.set({ page: location.pathname }); // Update the user's current page
+	ReactGA.pageview(location.pathname); // Record a pageview for the given page
+});
+
 const RouterComp = () => {
 	return (
 		<div className={styles.app}>
 			<Header />
 			<div className={styles.pageContent}>
-				<Router>
+				<Router history={history}>
 					<Switch>
 						<Route
 							exact

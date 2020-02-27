@@ -38,18 +38,26 @@ const Team = (props) => {
 	let isJourney = false;
 
 	const filteredPlayersFunc = () => {
-		if (props.teamName === 'Journey 2') {
-			filteredPlayers = statsData
-				.filter((team) => team.Session === props.teamName)
-				.filter((team) => years.includes(team.Year));
+		// if (props.teamName === 'Journey 2') {
+		// 	filteredPlayers = statsData
+		// 		.filter((team) => team.Session === props.teamName)
+		// 		.filter((team) => years.includes(team.Year));
+		// 	isJourney = true;
+		// } else {
+		// 	filteredPlayers = statsData
+		// 		.filter((team) => team.Session !== 'Journey 2')
+		// 		.filter((team) => years.includes(team.Year))
+		// 		.filter((team) => sessions.includes(team.Session));
+		// 	isJourney = false;
+		// }
+
+		if (props.teamName !== 'Scared Hitless') {
 			isJourney = true;
-		} else {
-			filteredPlayers = statsData
-				.filter((team) => team.Session !== 'Journey 2')
-				.filter((team) => years.includes(team.Year))
-				.filter((team) => sessions.includes(team.Session));
-			isJourney = false;
 		}
+		filteredPlayers = statsData
+			.filter((team) => team.Session.includes(props.teamName))
+			.filter((team) => years.includes(team.Year))
+			.filter((team) => sessions.includes(team.Session));
 
 		if (props.teamId) {
 			filteredPlayers = statsData.filter(
