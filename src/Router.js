@@ -16,8 +16,10 @@ import './scss/sliding-panel.scss';
 
 const history = createBrowserHistory();
 
-const trackingId = 'UA-92871100-2';
-ReactGA.initialize(trackingId);
+function initializeReactGA() {
+	ReactGA.initialize('UA-92871100-2');
+}
+initializeReactGA();
 
 history.listen((location) => {
 	ReactGA.set({ page: location.pathname }); // Update the user's current page

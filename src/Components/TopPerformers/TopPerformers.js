@@ -106,7 +106,7 @@ const TopPerformers = (props) => {
 						) : (
 							<div>
 								<a
-									href={`player/${player.PlayerId}/${player.First}-${player.Last}`}
+									href={`/player/${player.PlayerId}/${player.First}-${player.Last}`}
 								>
 									{player.First} {player.Last}
 								</a>{' '}
