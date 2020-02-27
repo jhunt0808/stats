@@ -4,12 +4,15 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import RouterComp from './Router';
 import * as serviceWorker from './serviceWorker';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-92871100-2');
 
 ReactDOM.render(
-    <BrowserRouter>
-        <RouterComp />
-    </BrowserRouter>,
-    document.getElementById('root')
+	<BrowserRouter>
+		<RouterComp />
+	</BrowserRouter>,
+	document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

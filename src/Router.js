@@ -14,19 +14,14 @@ import Home from './Components/Home/Home';
 import styles from './app.module.scss';
 import './scss/sliding-panel.scss';
 
-const history = createBrowserHistory();
-
-function initializeReactGA() {
-	ReactGA.initialize('UA-92871100-2');
-}
-initializeReactGA();
-
-history.listen((location) => {
-	ReactGA.set({ page: location.pathname }); // Update the user's current page
-	ReactGA.pageview(location.pathname); // Record a pageview for the given page
-});
-
 const RouterComp = () => {
+	const history = createBrowserHistory();
+
+	history.listen((location) => {
+		ReactGA.set({ page: location.pathname });
+		ReactGA.pageview(location.pathname);
+	});
+
 	return (
 		<div className={styles.app}>
 			<Header />
