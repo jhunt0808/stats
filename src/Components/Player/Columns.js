@@ -9,7 +9,9 @@ const columns = [
 				<div>{row.Session}</div>
 			) : (
 				<div>
-					<a href={`/teams/${row.teamId}`}>{row.Session}</a>
+					<a href={`/teams/${row.Session}/${row.teamId}`}>
+						{row.Session}
+					</a>
 				</div>
 			),
 		sortable: true,

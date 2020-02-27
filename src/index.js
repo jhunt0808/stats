@@ -2,15 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
-import RouterComp from './Router';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
-import ReactGA from 'react-ga';
-
-ReactGA.initialize('UA-92871100-2');
 
 ReactDOM.render(
 	<BrowserRouter>
-		<RouterComp />
+		<App />
 	</BrowserRouter>,
 	document.getElementById('root')
 );
