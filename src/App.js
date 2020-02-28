@@ -1,10 +1,10 @@
-import createHistory from 'history/createBrowserHistory';
 import React from 'react';
 import ReactGA from 'react-ga';
 import { Route, Router, Switch } from 'react-router-dom';
+import * as createHistory from 'history';
 import styles from './app.module.scss';
 import All from './Components/All/All';
-import Error from './Components/Error';
+import Error from './Components/Error/Error';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
@@ -14,7 +14,7 @@ import Team from './Components/Team/Team';
 import Teams from './Components/TeamsStats/TeamsStats';
 import './scss/sliding-panel.scss';
 
-const history = createHistory();
+const history = createHistory.createBrowserHistory();
 ReactGA.initialize('UA-92871100-2');
 history.listen((location, action) => {
 	ReactGA.pageview(location.pathname + location.search);
