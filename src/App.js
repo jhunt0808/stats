@@ -1,17 +1,17 @@
+import createHistory from 'history/createBrowserHistory';
 import React from 'react';
 import ReactGA from 'react-ga';
-import createHistory from 'history/createBrowserHistory';
-import { Router, Route, Switch } from 'react-router-dom';
+import { Route, Router, Switch } from 'react-router-dom';
+import styles from './app.module.scss';
 import All from './Components/All/All';
+import Error from './Components/Error';
+import Footer from './Components/Footer/Footer';
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
 import Compare from './Components/Player/Compare';
 import Player from './Components/Player/Player';
-import Teams from './Components/TeamsStats/TeamsStats';
 import Team from './Components/Team/Team';
-import Error from './Components/Error';
-import Header from './Components/Header/Header';
-import Footer from './Components/Footer/Footer';
-import Home from './Components/Home/Home';
-import styles from './app.module.scss';
+import Teams from './Components/TeamsStats/TeamsStats';
 import './scss/sliding-panel.scss';
 
 const history = createHistory();
