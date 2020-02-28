@@ -14,8 +14,6 @@ import Home from './Components/Home/Home';
 import styles from './app.module.scss';
 import './scss/sliding-panel.scss';
 
-ReactGA.initialize('UA-92871100-2');
-
 const RouterComp = () => {
 	const history = createBrowserHistory();
 
