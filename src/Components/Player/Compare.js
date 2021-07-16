@@ -15,15 +15,15 @@ const customStyles = {
 		style: {
 			'align-items': 'center',
 			paddingLeft: '10px',
-			paddingRight: '10px'
-		}
+			paddingRight: '10px',
+		},
 	},
 	cells: {
 		style: {
 			paddingLeft: '10px',
-			paddingRight: '10px'
-		}
-	}
+			paddingRight: '10px',
+		},
+	},
 };
 
 const playerDropdownValue = [];
@@ -140,7 +140,7 @@ const Compare = () => {
 						/>
 					</ScrollSyncPane>
 					<ScrollSyncPane>
-						<Totals data={totalsData} />
+						<Totals data={totalsData} columns={columns} />
 					</ScrollSyncPane>
 				</div>
 			</ScrollSync>

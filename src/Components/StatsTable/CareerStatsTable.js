@@ -1,17 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import DataTable from 'react-data-table-component';
 import statsData from '../../Data/stats';
 import Filter from '../Filter/Filter';
-import columns from '../../Columns';
-import sessionOptions from '../../Data/SessionOptions';
-import sessionsArray from '../../Data/Sessions';
+import careerColumns from '../../CareerColumns';
 import yearOptions from '../../Data/YearOptions';
 import yearsArray from '../../Data/Years';
+import leagueArray from '../../Data/league';
+import leagueOptions from '../../Data/league';
 import Totals from '../Totals';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
 import styles from '../Team/team.module.scss';
 import fields from '../../Data/performanceFields';
 import TopPerformers from '../TopPerformers/TopPerformers';
+import players from '../../Data/players';
+import calcTotals from '../../utils/totals';
 
 const customStyles = {
 	headCells: {
@@ -29,40 +31,45 @@ const customStyles = {
 	},
 };
 
-const StatsTable = () => {
+const CareerStatsTable = () => {
 	const [filterText, setFilterText] = useState('');
-	const [sessions, setSessions] = useState(sessionsArray);
 	const [years, setYears] = useState(yearsArray);
+	const [league, setLeague] = useState(leagueArray);
 	const [resetPaginationToggle, setResetPaginationToggle] = useState(false);
-	let filteredPlayers = [];
 	let totalsData = [];
 
-	const filteredPlayersFunc = () => {
-		filteredPlayers = statsData
-			.filter(
-				(player) =>
-					player.First.toLowerCase() &&
-					player.First.toLowerCase().includes(
-						filterText.toLowerCase()
-					)
-			)
-			.filter((player) => sessions.includes(player.Session))
-			.filter((player) => years.includes(player.Year));
+	const careerStats = [];
+	const careerStatsFunc = () => {
+		players.forEach((player) => {
+			let playerCareer = [];
+			statsData
+				.filter((stat) => years.includes(stat.Year))
+				.filter((stat) => league.some((v) => stat.Session.includes(v)))
+				.map((stat) => {
+					if (stat.PlayerId === player.value) {
+						playerCareer.push(stat);
+					}
+				});
 
-		totalsData = [filteredPlayers];
-	};
-
-	filteredPlayersFunc();
-
-	const resetSessionSelect = () => {
-		sessionOptions.forEach((so) => {
-			setSessions((oldArray) => [...oldArray, so.value]);
+			if (playerCareer.length) {
+				careerStats.push(calcTotals(playerCareer));
+			}
 		});
+
+		totalsData = careerStats;
 	};
+
+	careerStatsFunc();
 
 	const resetYearsSelect = () => {
 		yearOptions.forEach((yo) => {
 			setYears((xx) => [...xx, yo.value]);
+		});
+	};
+
+	const resetLeagueSelect = () => {
+		leagueOptions.forEach((lo) => {
+			setLeague((zz) => [...zz, lo.value]);
 		});
 	};
 
@@ -84,25 +91,17 @@ const StatsTable = () => {
 				}
 			}
 
-			if (select === 'sessions') {
+			if (select === 'league') {
 				if (inputValue) {
-					setSessions([]);
+					setLeague([]);
 					inputValue.forEach((iv) => {
-						setSessions((oldArray) => [...oldArray, iv.value]);
+						setLeague((zz) => [...zz, iv.value]);
 					});
 				}
 			}
 		};
 
 		const removeValue = (inputValue, select) => {
-			if (select === 'sessions') {
-				if (inputValue) {
-					handleSelect(inputValue, 'sessions');
-				} else {
-					clearSelection('sessions');
-				}
-			}
-
 			if (select === 'years') {
 				if (inputValue) {
 					handleSelect(inputValue, 'years');
@@ -110,15 +109,23 @@ const StatsTable = () => {
 					clearSelection('years');
 				}
 			}
+
+			if (select === 'league') {
+				if (inputValue) {
+					handleSelect(inputValue, 'league');
+				} else {
+					clearSelection('league');
+				}
+			}
 		};
 
 		const clearSelection = (select) => {
-			if (select === 'sessions') {
-				setSessions([]);
-				resetSessionSelect();
-			} else if (select === 'years') {
+			if (select === 'years') {
 				setYears([]);
 				resetYearsSelect();
+			} else if (select === 'league') {
+				setLeague([]);
+				resetLeagueSelect();
 			}
 		};
 
@@ -131,8 +138,9 @@ const StatsTable = () => {
 				clearSelection={clearSelection}
 				removeValue={removeValue}
 				yearsFilter={true}
-				sessionFilter={true}
-				textFilter={true}
+				sessionFilter={false}
+				textFilter={false}
+				leagueFilter={true}
 			/>
 		);
 	}, [filterText, resetPaginationToggle]);
@@ -141,31 +149,25 @@ const StatsTable = () => {
 		<>
 			<div>
 				<div className={styles.teamInfo}>
-					{/* <div className={styles.record}>
-					<h3>Record</h3>
-					<div>
-						{teamStat[0].WINS} - {teamStat[0].LOSES}
-					</div>
-				</div> */}
 					<div className={styles.teamLeaders}>
 						<h3>Leaders</h3>
 						<div className={styles.topPerformersWrapper}>
 							<TopPerformers
-								filteredPlayers={statsData}
+								filteredPlayers={careerStats}
 								param={fields.AVG}
 							/>
 
 							<TopPerformers
-								filteredPlayers={statsData}
+								filteredPlayers={careerStats}
 								param={fields.HR}
 							/>
 
 							<TopPerformers
-								filteredPlayers={statsData}
+								filteredPlayers={careerStats}
 								param={fields.RBI}
 							/>
 							<TopPerformers
-								filteredPlayers={statsData}
+								filteredPlayers={careerStats}
 								param={fields.Hits}
 							/>
 						</div>
@@ -175,8 +177,8 @@ const StatsTable = () => {
 					<div>
 						<ScrollSyncPane>
 							<DataTable
-								columns={columns}
-								data={filteredPlayers}
+								columns={careerColumns}
+								data={careerStats}
 								fixedHeader={true}
 								responsive
 								subHeader
@@ -192,7 +194,7 @@ const StatsTable = () => {
 							/>
 						</ScrollSyncPane>
 						<ScrollSyncPane>
-							<Totals data={totalsData} />
+							<Totals data={totalsData} career={true} />
 						</ScrollSyncPane>
 					</div>
 				</ScrollSync>
@@ -201,4 +203,4 @@ const StatsTable = () => {
 	);
 };
 
-export default StatsTable;
+export default CareerStatsTable;
