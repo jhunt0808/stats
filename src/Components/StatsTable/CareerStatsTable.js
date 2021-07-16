@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import DataTable from 'react-data-table-component';
 import statsData from '../../Data/stats';
 import Filter from '../Filter/Filter';
 import careerColumns from '../../CareerColumns';
 import yearOptions from '../../Data/YearOptions';
 import yearsArray from '../../Data/Years';
-import leagueArray from '../../Data/league';
-import leagueOptions from '../../Data/league';
+import { leagueArray, leagueOptions } from '../../Data/league';
 import Totals from '../Totals';
 import { ScrollSync, ScrollSyncPane } from 'react-scroll-sync';
 import styles from '../Team/team.module.scss';
@@ -38,24 +37,28 @@ const CareerStatsTable = () => {
 	const [resetPaginationToggle, setResetPaginationToggle] = useState(false);
 	let totalsData = [];
 
-	const careerStats = [];
+	let careerStats = [];
 	const careerStatsFunc = () => {
+		let x = [];
 		players.forEach((player) => {
 			let playerCareer = [];
 			statsData
 				.filter((stat) => years.includes(stat.Year))
 				.filter((stat) => league.some((v) => stat.Session.includes(v)))
-				.map((stat) => {
+				.forEach((stat) => {
 					if (stat.PlayerId === player.value) {
 						playerCareer.push(stat);
 					}
 				});
 
 			if (playerCareer.length) {
-				careerStats.push(calcTotals(playerCareer));
+				x.push(calcTotals(playerCareer));
 			}
 		});
 
+		// TODO: create filter for min AB
+		//careerStats = x.filter((player) => player.AB > 41);
+		careerStats = x;
 		totalsData = careerStats;
 	};
 

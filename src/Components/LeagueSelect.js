@@ -1,5 +1,5 @@
 import React from 'react';
-import leagueOptions from '../Data/leagueOptions';
+import { leagueOptions } from '../Data/league';
 import Select from 'react-select';
 
 class LeagueSelect extends React.Component {
