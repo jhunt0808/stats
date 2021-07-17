@@ -48,6 +48,7 @@ const Header = () => {
 						<a href='/teams/Scared Hitless'>Scared Hitless</a>
 						<a href='/teams/Journey 2'>Journey 2</a>
 						<a href='/teams'>Team Stats</a>
+						<a href='/career'>Career Stats</a>
 						<a href='/compare'>Compare Players</a>
 						<a href='/all'>View All Stats</a>
 					</div>

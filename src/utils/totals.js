@@ -1,26 +1,5 @@
-import React from 'react';
-import DataTable from 'react-data-table-component';
-import careerColumns from '../CareerColumns';
-import columns from '../Columns';
-
-const customStyles = {
-	headCells: {
-		style: {
-			'align-items': 'center',
-			paddingLeft: '10px',
-			paddingRight: '10px',
-		},
-	},
-	cells: {
-		style: {
-			paddingLeft: '10px',
-			paddingRight: '10px',
-		},
-	},
-};
-
-const Totals = (props) => {
-	const totals = props.data;
+const calcTotals = (playersStats) => {
+	const totals = playersStats;
 
 	let pa = 0;
 	let ab = 0;
@@ -90,45 +69,35 @@ const Totals = (props) => {
 	// obp + slg
 	ops = obp + slg;
 
-	let totalsData = [
-		{
-			id: 1,
-			Year: '',
-			Session: '',
-			First: 'Totals',
-			Last: '',
-			PA: pa,
-			AB: ab,
-			Hits: hits,
-			S: s,
-			D: d,
-			T: t,
-			HR: hr,
-			BB: bb,
-			SF: sf,
-			FC: fc,
-			K: k,
-			RBI: rbi,
-			R: r,
-			AVG: avg,
-			OBP: obp,
-			SLG: slg,
-			OPS: ops,
-			BARISP: barisp,
-			LOB: lob,
-			TWOOUTRBI: twooutrbi,
-		},
-	];
+	let totalsData = {
+		id: totals[0].PlayerId,
+		Year: '',
+		Session: '',
+		First: totals[0].First,
+		Last: totals[0].Last,
+		PA: pa,
+		AB: ab,
+		Hits: hits,
+		S: s,
+		D: d,
+		T: t,
+		HR: hr,
+		BB: bb,
+		SF: sf,
+		FC: fc,
+		K: k,
+		RBI: rbi,
+		R: r,
+		AVG: avg,
+		OBP: obp,
+		SLG: slg,
+		OPS: ops,
+		BARISP: barisp,
+		LOB: lob,
+		TWOOUTRBI: twooutrbi,
+	};
 
-	return (
-		<DataTable
-			columns={props.career ? careerColumns : columns}
-			data={totalsData}
-			customStyles={customStyles}
-			noHeader={true}
-			noTableHead={true}
-		/>
-	);
+	return totalsData;
 };
 
-export default Totals;
+export default calcTotals;

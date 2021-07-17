@@ -110,9 +110,12 @@ const TopPerformers = (props) => {
 								>
 									{player.First} {player.Last}
 								</a>{' '}
-								<span className={styles.sessionYear}>
-									{session(player.Session)} - {player.Year}
-								</span>
+								{player.session && (
+									<span className={styles.sessionYear}>
+										{session(player.Session)} -{' '}
+										{player.Year}
+									</span>
+								)}
 							</div>
 						)}
 					</div>

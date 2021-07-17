@@ -12,6 +12,7 @@ import Player from './Components/Player/Player';
 import Team from './Components/Team/Team';
 import Teams from './Components/TeamsStats/TeamsStats';
 import './scss/sliding-panel.scss';
+import Career from './Components/Career/Career';
 
 const history = createHistory.createBrowserHistory();
 
@@ -43,6 +44,7 @@ const App = () => {
 							)}
 						/>
 
+						<Route exact path='/career' component={Career} />
 						<Route exact path='/compare' component={Compare} />
 
 						<Route exact path='/all' component={All} />

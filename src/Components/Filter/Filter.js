@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Button from '../../shared/Button';
 import SessionSelect from '../SessionSelect';
 import YearSelect from '../YearSelect';
+import LeagueSelect from '../LeagueSelect';
 import styles from './filter.module.scss';
 
 const TextField = styled.input`
@@ -45,10 +46,18 @@ const Filter = ({
 	yearsFilter,
 	sessionFilter,
 	textFilter,
-	teamsPage
+	leagueFilter,
+	teamsPage,
 }) => {
 	return (
 		<div className={styles.filtersWrapper}>
+			{leagueFilter && (
+				<LeagueSelect
+					onSelectFn={onSelectFn}
+					clearSelection={clearSelection}
+					removeValue={removeValue}
+				/>
+			)}
 			{yearsFilter && (
 				<YearSelect
 					onSelectFn={onSelectFn}
