@@ -20,7 +20,7 @@ const customStyles = {
 };
 
 const Totals = (props) => {
-	const totals = props.data;
+	const totals = props.data[0];
 
 	let pa = 0;
 	let ab = 0;

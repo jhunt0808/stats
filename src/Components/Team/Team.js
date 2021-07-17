@@ -213,7 +213,7 @@ const Team = (props) => {
 						/>
 					</ScrollSyncPane>
 					<ScrollSyncPane>
-						<Totals data={totalsData} />
+						<Totals data={totalsData} columns={columns} />
 					</ScrollSyncPane>
 				</div>
 			</ScrollSync>

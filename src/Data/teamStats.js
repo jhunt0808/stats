@@ -24,7 +24,7 @@ const teamStats = [
 		AVG: 0.546,
 		OBP: 0.548,
 		SLG: 0.847,
-		OPS: 1.395
+		OPS: 1.395,
 	},
 	{
 		id: 802,
@@ -51,7 +51,7 @@ const teamStats = [
 		AVG: 0.564,
 		OBP: 0.566,
 		SLG: 0.94,
-		OPS: 1.506
+		OPS: 1.506,
 	},
 	{
 		id: 803,
@@ -78,7 +78,7 @@ const teamStats = [
 		AVG: 0.61,
 		OBP: 0.609,
 		SLG: 0.954,
-		OPS: 1.563
+		OPS: 1.563,
 	},
 	{
 		id: 804,
@@ -105,7 +105,7 @@ const teamStats = [
 		AVG: 0.584,
 		OBP: 0.585,
 		SLG: 0.956,
-		OPS: 1.541
+		OPS: 1.541,
 	},
 	{
 		id: 805,
@@ -132,7 +132,7 @@ const teamStats = [
 		AVG: 0.528,
 		OBP: 0.524,
 		SLG: 0.872,
-		OPS: 1.397
+		OPS: 1.397,
 	},
 	{
 		id: 806,
@@ -159,7 +159,7 @@ const teamStats = [
 		AVG: 0.593,
 		OBP: 0.593,
 		SLG: 0.959,
-		OPS: 1.552
+		OPS: 1.552,
 	},
 	{
 		id: 807,
@@ -186,7 +186,7 @@ const teamStats = [
 		AVG: 0.551,
 		OBP: 0.568,
 		SLG: 0.808,
-		OPS: 1.376
+		OPS: 1.376,
 	},
 	{
 		id: 808,
@@ -213,7 +213,7 @@ const teamStats = [
 		AVG: 0.508,
 		OBP: 0.527,
 		SLG: 0.72,
-		OPS: 1.246
+		OPS: 1.246,
 	},
 	{
 		id: 809,
@@ -240,7 +240,7 @@ const teamStats = [
 		AVG: 0.493,
 		OBP: 0.538,
 		SLG: 0.744,
-		OPS: 1.282
+		OPS: 1.282,
 	},
 	{
 		id: 810,
@@ -267,7 +267,7 @@ const teamStats = [
 		AVG: 0.465,
 		OBP: 0.518,
 		SLG: 0.664,
-		OPS: 1.182
+		OPS: 1.182,
 	},
 	{
 		id: 811,
@@ -294,7 +294,7 @@ const teamStats = [
 		AVG: 0.528,
 		OBP: 0.547,
 		SLG: 0.79,
-		OPS: 1.337
+		OPS: 1.337,
 	},
 	{
 		id: 812,
@@ -321,7 +321,7 @@ const teamStats = [
 		AVG: 0.475,
 		OBP: 0.508,
 		SLG: 0.621,
-		OPS: 1.129
+		OPS: 1.129,
 	},
 	{
 		id: 813,
@@ -348,7 +348,7 @@ const teamStats = [
 		AVG: 0.496,
 		OBP: 0.507,
 		SLG: 0.693,
-		OPS: 1.2
+		OPS: 1.2,
 	},
 	{
 		id: 814,
@@ -375,7 +375,7 @@ const teamStats = [
 		AVG: 0.549,
 		OBP: 0.571,
 		SLG: 0.732,
-		OPS: 1.303
+		OPS: 1.303,
 	},
 	{
 		id: 815,
@@ -402,7 +402,7 @@ const teamStats = [
 		AVG: 0.475,
 		OBP: 0.502,
 		SLG: 0.57,
-		OPS: 1.072
+		OPS: 1.072,
 	},
 	{
 		id: 816,
@@ -429,7 +429,7 @@ const teamStats = [
 		AVG: 0.538,
 		OBP: 0.571,
 		SLG: 0.807,
-		OPS: 1.379
+		OPS: 1.379,
 	},
 	{
 		id: 817,
@@ -456,7 +456,7 @@ const teamStats = [
 		AVG: 0.482,
 		OBP: 0.507,
 		SLG: 0.644,
-		OPS: 1.151
+		OPS: 1.151,
 	},
 	{
 		id: 818,
@@ -483,8 +483,62 @@ const teamStats = [
 		AVG: 0.456,
 		OBP: 0.471,
 		SLG: 0.615,
-		OPS: 1.085
-	}
+		OPS: 1.085,
+	},
+	{
+		id: 819,
+		AB: 115,
+		BARISP: 0.49,
+		BB: 1,
+		D: 7,
+		FC: 13,
+		HR: 3,
+		Hits: 59,
+		K: 3,
+		LOB: 23,
+		PA: 117,
+		R: 34,
+		WINS: 1,
+		LOSES: 3,
+		RBI: 34,
+		S: 48,
+		SF: 1,
+		Session: 'Scared Hitless - 1',
+		T: 1,
+		TWOOUTRBI: 10,
+		Year: '2020',
+		AVG: 0.513,
+		OBP: 0.513,
+		SLG: 0.67,
+		OPS: 1.182,
+	},
+	{
+		id: 820,
+		AB: 467,
+		BARISP: 0.597,
+		BB: 22,
+		D: 54,
+		FC: 20,
+		HR: 26,
+		Hits: 256,
+		K: 14,
+		LOB: 83,
+		PA: 497,
+		R: 184,
+		WINS: 5,
+		LOSES: 9,
+		RBI: 184,
+		S: 163,
+		SF: 8,
+		Session: 'Scared Hitless - 1',
+		T: 13,
+		TWOOUTRBI: 69,
+		Year: '2021',
+		AVG: 0.548,
+		OBP: 0.559,
+		SLG: 0.887,
+		OPS: 1.446,
+	},
 ];
 
 export default teamStats;
