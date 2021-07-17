@@ -59,7 +59,7 @@ const CareerStatsTable = () => {
 		// TODO: create filter for min AB
 		//careerStats = x.filter((player) => player.AB > 41);
 		careerStats = x;
-		totalsData = careerStats;
+		totalsData = [careerStats];
 	};
 
 	careerStatsFunc();
@@ -149,60 +149,61 @@ const CareerStatsTable = () => {
 	}, [filterText, resetPaginationToggle]);
 
 	return (
-		<>
+		<div>
 			<div>
-				<div className={styles.teamInfo}>
-					<div className={styles.teamLeaders}>
-						<h3>Leaders</h3>
-						<div className={styles.topPerformersWrapper}>
-							<TopPerformers
-								filteredPlayers={careerStats}
-								param={fields.AVG}
-							/>
+				<h2>Career Stats</h2>
+			</div>
+			<div className={styles.teamInfo}>
+				<div className={styles.teamLeaders}>
+					<h3>Leaders</h3>
+					<div className={styles.topPerformersWrapper}>
+						<TopPerformers
+							filteredPlayers={careerStats}
+							param={fields.AVG}
+						/>
 
-							<TopPerformers
-								filteredPlayers={careerStats}
-								param={fields.HR}
-							/>
+						<TopPerformers
+							filteredPlayers={careerStats}
+							param={fields.HR}
+						/>
 
-							<TopPerformers
-								filteredPlayers={careerStats}
-								param={fields.RBI}
-							/>
-							<TopPerformers
-								filteredPlayers={careerStats}
-								param={fields.Hits}
-							/>
-						</div>
+						<TopPerformers
+							filteredPlayers={careerStats}
+							param={fields.RBI}
+						/>
+						<TopPerformers
+							filteredPlayers={careerStats}
+							param={fields.Hits}
+						/>
 					</div>
 				</div>
-				<ScrollSync>
-					<div>
-						<ScrollSyncPane>
-							<DataTable
-								columns={careerColumns}
-								data={careerStats}
-								fixedHeader={true}
-								responsive
-								subHeader
-								subHeaderComponent={subHeaderComponentMemo}
-								dense={true}
-								persistTableHead
-								striped={true}
-								highlightOnHover={true}
-								customStyles={customStyles}
-								defaultSortField='AB'
-								defaultSortAsc={false}
-								noHeader={true}
-							/>
-						</ScrollSyncPane>
-						<ScrollSyncPane>
-							<Totals data={totalsData} career={true} />
-						</ScrollSyncPane>
-					</div>
-				</ScrollSync>
 			</div>
-		</>
+			<ScrollSync>
+				<div>
+					<ScrollSyncPane>
+						<DataTable
+							columns={careerColumns}
+							data={careerStats}
+							fixedHeader={true}
+							responsive
+							subHeader
+							subHeaderComponent={subHeaderComponentMemo}
+							dense={true}
+							persistTableHead
+							striped={true}
+							highlightOnHover={true}
+							customStyles={customStyles}
+							defaultSortField='AB'
+							defaultSortAsc={false}
+							noHeader={true}
+						/>
+					</ScrollSyncPane>
+					<ScrollSyncPane>
+						<Totals data={totalsData} career={true} />
+					</ScrollSyncPane>
+				</div>
+			</ScrollSync>
+		</div>
 	);
 };
 

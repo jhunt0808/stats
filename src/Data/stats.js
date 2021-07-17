@@ -26,7 +26,7 @@ const stats = [
 		OPS: 1.028,
 		BARISP: 0.471,
 		LOB: 20,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 2,
@@ -55,7 +55,7 @@ const stats = [
 		OPS: 1.828,
 		BARISP: 0.923,
 		LOB: 2,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 3,
@@ -84,7 +84,7 @@ const stats = [
 		OPS: 1.57,
 		BARISP: 0.643,
 		LOB: 11,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 4,
@@ -113,7 +113,7 @@ const stats = [
 		OPS: 2.143,
 		BARISP: 0.667,
 		LOB: 4,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 5,
@@ -142,7 +142,7 @@ const stats = [
 		OPS: 2.384,
 		BARISP: 0.696,
 		LOB: 12,
-		TWOOUTRBI: 15
+		TWOOUTRBI: 15,
 	},
 	{
 		id: 6,
@@ -171,7 +171,7 @@ const stats = [
 		OPS: 1.485,
 		BARISP: 0.6,
 		LOB: 21,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 7,
@@ -200,7 +200,7 @@ const stats = [
 		OPS: 1.389,
 		BARISP: 0.647,
 		LOB: 11,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 8,
@@ -229,7 +229,7 @@ const stats = [
 		OPS: 1.155,
 		BARISP: 0.5,
 		LOB: 6,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 9,
@@ -258,7 +258,7 @@ const stats = [
 		OPS: 1.226,
 		BARISP: 0.409,
 		LOB: 23,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 10,
@@ -287,7 +287,7 @@ const stats = [
 		OPS: 0.962,
 		BARISP: 0.5,
 		LOB: 15,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 11,
@@ -316,7 +316,7 @@ const stats = [
 		OPS: 1.39,
 		BARISP: 0.462,
 		LOB: 34,
-		TWOOUTRBI: 9
+		TWOOUTRBI: 9,
 	},
 	{
 		id: 12,
@@ -345,7 +345,7 @@ const stats = [
 		OPS: 1.067,
 		BARISP: 0.25,
 		LOB: 10,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 13,
@@ -374,7 +374,7 @@ const stats = [
 		OPS: 0.75,
 		BARISP: 1,
 		LOB: 2,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 14,
@@ -403,7 +403,7 @@ const stats = [
 		OPS: 0.8,
 		BARISP: 0.467,
 		LOB: 20,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 15,
@@ -432,7 +432,7 @@ const stats = [
 		OPS: 0.713,
 		BARISP: 0.429,
 		LOB: 8,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 16,
@@ -461,7 +461,7 @@ const stats = [
 		OPS: 2.111,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 17,
@@ -490,7 +490,7 @@ const stats = [
 		OPS: 2.5,
 		BARISP: 1,
 		LOB: 0,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 18,
@@ -519,7 +519,7 @@ const stats = [
 		OPS: 2.739,
 		BARISP: 0.818,
 		LOB: 5,
-		TWOOUTRBI: 10
+		TWOOUTRBI: 10,
 	},
 	{
 		id: 19,
@@ -548,7 +548,7 @@ const stats = [
 		OPS: 1.398,
 		BARISP: 0.875,
 		LOB: 2,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 20,
@@ -577,7 +577,7 @@ const stats = [
 		OPS: 2.11,
 		BARISP: 0.625,
 		LOB: 6,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 21,
@@ -606,7 +606,7 @@ const stats = [
 		OPS: 1.267,
 		BARISP: 0.7,
 		LOB: 7,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 22,
@@ -635,7 +635,7 @@ const stats = [
 		OPS: 1.864,
 		BARISP: 0.444,
 		LOB: 12,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 23,
@@ -664,7 +664,7 @@ const stats = [
 		OPS: 1.4,
 		BARISP: 0.571,
 		LOB: 10,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 24,
@@ -693,7 +693,7 @@ const stats = [
 		OPS: 1.187,
 		BARISP: 0.667,
 		LOB: 4,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 25,
@@ -722,7 +722,7 @@ const stats = [
 		OPS: 1.185,
 		BARISP: 0.9,
 		LOB: 2,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 26,
@@ -751,7 +751,7 @@ const stats = [
 		OPS: 1.143,
 		BARISP: 0.333,
 		LOB: 5,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 27,
@@ -780,7 +780,7 @@ const stats = [
 		OPS: 0.885,
 		BARISP: 0.375,
 		LOB: 12,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 28,
@@ -809,7 +809,7 @@ const stats = [
 		OPS: 0.864,
 		BARISP: 0.429,
 		LOB: 12,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 29,
@@ -838,7 +838,7 @@ const stats = [
 		OPS: 2.25,
 		BARISP: 1,
 		LOB: 0,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 30,
@@ -867,7 +867,7 @@ const stats = [
 		OPS: 1.554,
 		BARISP: 0.875,
 		LOB: 15,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 31,
@@ -896,7 +896,7 @@ const stats = [
 		OPS: 1.541,
 		BARISP: 0.667,
 		LOB: 18,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 32,
@@ -925,7 +925,7 @@ const stats = [
 		OPS: 1.242,
 		BARISP: 0.476,
 		LOB: 23,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 33,
@@ -954,7 +954,7 @@ const stats = [
 		OPS: 1.642,
 		BARISP: 0.462,
 		LOB: 15,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 34,
@@ -983,7 +983,7 @@ const stats = [
 		OPS: 1.372,
 		BARISP: 0.563,
 		LOB: 19,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 35,
@@ -1012,7 +1012,7 @@ const stats = [
 		OPS: 1.66,
 		BARISP: 0.583,
 		LOB: 19,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 36,
@@ -1041,7 +1041,7 @@ const stats = [
 		OPS: 1.284,
 		BARISP: 0.462,
 		LOB: 17,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 37,
@@ -1070,7 +1070,7 @@ const stats = [
 		OPS: 1,
 		BARISP: 0.4,
 		LOB: 7,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 38,
@@ -1099,7 +1099,7 @@ const stats = [
 		OPS: 1,
 		BARISP: 0,
 		LOB: 4,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 39,
@@ -1128,7 +1128,7 @@ const stats = [
 		OPS: 1.345,
 		BARISP: 0.577,
 		LOB: 25,
-		TWOOUTRBI: 9
+		TWOOUTRBI: 9,
 	},
 	{
 		id: 40,
@@ -1157,7 +1157,7 @@ const stats = [
 		OPS: 0.93,
 		BARISP: 0.35,
 		LOB: 31,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 41,
@@ -1186,7 +1186,7 @@ const stats = [
 		OPS: 0.977,
 		BARISP: 0.286,
 		LOB: 12,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 42,
@@ -1215,7 +1215,7 @@ const stats = [
 		OPS: 1.463,
 		BARISP: 0.5,
 		LOB: 24,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 43,
@@ -1244,7 +1244,7 @@ const stats = [
 		OPS: 1.619,
 		BARISP: 0.842,
 		LOB: 11,
-		TWOOUTRBI: 8
+		TWOOUTRBI: 8,
 	},
 	{
 		id: 44,
@@ -1273,7 +1273,7 @@ const stats = [
 		OPS: 1.666,
 		BARISP: 0.4,
 		LOB: 20,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 45,
@@ -1302,7 +1302,7 @@ const stats = [
 		OPS: 1.514,
 		BARISP: 0.563,
 		LOB: 19,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 46,
@@ -1331,7 +1331,7 @@ const stats = [
 		OPS: 1.43,
 		BARISP: 0.68,
 		LOB: 15,
-		TWOOUTRBI: 10
+		TWOOUTRBI: 10,
 	},
 	{
 		id: 47,
@@ -1360,7 +1360,7 @@ const stats = [
 		OPS: 1.783,
 		BARISP: 0.524,
 		LOB: 21,
-		TWOOUTRBI: 9
+		TWOOUTRBI: 9,
 	},
 	{
 		id: 48,
@@ -1389,7 +1389,7 @@ const stats = [
 		OPS: 1.038,
 		BARISP: 0.529,
 		LOB: 18,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 49,
@@ -1418,7 +1418,7 @@ const stats = [
 		OPS: 1.561,
 		BARISP: 0.583,
 		LOB: 11,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 50,
@@ -1447,7 +1447,7 @@ const stats = [
 		OPS: 1.097,
 		BARISP: 0.462,
 		LOB: 16,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 51,
@@ -1476,7 +1476,7 @@ const stats = [
 		OPS: 1.489,
 		BARISP: 0.364,
 		LOB: 15,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 52,
@@ -1505,7 +1505,7 @@ const stats = [
 		OPS: 0.84,
 		BARISP: 0.316,
 		LOB: 24,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 53,
@@ -1534,7 +1534,7 @@ const stats = [
 		OPS: 1.313,
 		BARISP: 0.556,
 		LOB: 11,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 54,
@@ -1563,7 +1563,7 @@ const stats = [
 		OPS: 0.808,
 		BARISP: 0.25,
 		LOB: 19,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 55,
@@ -1592,7 +1592,7 @@ const stats = [
 		OPS: 2.568,
 		BARISP: 0.889,
 		LOB: 2,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 56,
@@ -1621,7 +1621,7 @@ const stats = [
 		OPS: 0.909,
 		BARISP: 0.5,
 		LOB: 7,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 57,
@@ -1650,7 +1650,7 @@ const stats = [
 		OPS: 1.571,
 		BARISP: 0.5,
 		LOB: 2,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 58,
@@ -1679,7 +1679,7 @@ const stats = [
 		OPS: 0.673,
 		BARISP: 0.5,
 		LOB: 8,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 59,
@@ -1708,7 +1708,7 @@ const stats = [
 		OPS: 0.667,
 		BARISP: 0.333,
 		LOB: 4,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 60,
@@ -1737,7 +1737,7 @@ const stats = [
 		OPS: 1.671,
 		BARISP: 0.444,
 		LOB: 13,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 61,
@@ -1766,7 +1766,7 @@ const stats = [
 		OPS: 2.4,
 		BARISP: 0,
 		LOB: 0,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 62,
@@ -1795,7 +1795,7 @@ const stats = [
 		OPS: 1.47,
 		BARISP: 0.857,
 		LOB: 4,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 63,
@@ -1824,7 +1824,7 @@ const stats = [
 		OPS: 1.152,
 		BARISP: 0.5,
 		LOB: 18,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 64,
@@ -1853,7 +1853,7 @@ const stats = [
 		OPS: 1.197,
 		BARISP: 0.538,
 		LOB: 16,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 65,
@@ -1882,7 +1882,7 @@ const stats = [
 		OPS: 1.129,
 		BARISP: 0.625,
 		LOB: 18,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 66,
@@ -1911,7 +1911,7 @@ const stats = [
 		OPS: 2.095,
 		BARISP: 0.667,
 		LOB: 22,
-		TWOOUTRBI: 9
+		TWOOUTRBI: 9,
 	},
 	{
 		id: 67,
@@ -1940,7 +1940,7 @@ const stats = [
 		OPS: 1.173,
 		BARISP: 0.583,
 		LOB: 15,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 68,
@@ -1969,7 +1969,7 @@ const stats = [
 		OPS: 0.921,
 		BARISP: 0.375,
 		LOB: 18,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 69,
@@ -1998,7 +1998,7 @@ const stats = [
 		OPS: 0.888,
 		BARISP: 0.294,
 		LOB: 31,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 70,
@@ -2027,7 +2027,7 @@ const stats = [
 		OPS: 1.147,
 		BARISP: 0.467,
 		LOB: 20,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 71,
@@ -2056,7 +2056,7 @@ const stats = [
 		OPS: 0.794,
 		BARISP: 0.313,
 		LOB: 28,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 72,
@@ -2085,7 +2085,7 @@ const stats = [
 		OPS: 0.525,
 		BARISP: 0.222,
 		LOB: 30,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 73,
@@ -2114,7 +2114,7 @@ const stats = [
 		OPS: 0.367,
 		BARISP: 0,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 74,
@@ -2143,7 +2143,7 @@ const stats = [
 		OPS: 2.486,
 		BARISP: 0.833,
 		LOB: 8,
-		TWOOUTRBI: 14
+		TWOOUTRBI: 14,
 	},
 	{
 		id: 75,
@@ -2172,7 +2172,7 @@ const stats = [
 		OPS: 1.548,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 76,
@@ -2201,7 +2201,7 @@ const stats = [
 		OPS: 1.546,
 		BARISP: 0.667,
 		LOB: 15,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 77,
@@ -2230,7 +2230,7 @@ const stats = [
 		OPS: 1.651,
 		BARISP: 0.68,
 		LOB: 18,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 78,
@@ -2259,7 +2259,7 @@ const stats = [
 		OPS: 1.211,
 		BARISP: 0.375,
 		LOB: 22,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 79,
@@ -2288,7 +2288,7 @@ const stats = [
 		OPS: 1.026,
 		BARISP: 0.4,
 		LOB: 19,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 80,
@@ -2317,7 +2317,7 @@ const stats = [
 		OPS: 0.998,
 		BARISP: 0.2,
 		LOB: 22,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 81,
@@ -2346,7 +2346,7 @@ const stats = [
 		OPS: 1.028,
 		BARISP: 0.529,
 		LOB: 23,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 82,
@@ -2375,7 +2375,7 @@ const stats = [
 		OPS: 0.892,
 		BARISP: 0.471,
 		LOB: 24,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 83,
@@ -2404,7 +2404,7 @@ const stats = [
 		OPS: 0.958,
 		BARISP: 0.273,
 		LOB: 19,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 84,
@@ -2433,7 +2433,7 @@ const stats = [
 		OPS: 0.571,
 		BARISP: 0.5,
 		LOB: 4,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 85,
@@ -2462,7 +2462,7 @@ const stats = [
 		OPS: 0.363,
 		BARISP: 0.111,
 		LOB: 28,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 86,
@@ -2491,7 +2491,7 @@ const stats = [
 		OPS: 1.787,
 		BARISP: 0.909,
 		LOB: 7,
-		TWOOUTRBI: 8
+		TWOOUTRBI: 8,
 	},
 	{
 		id: 87,
@@ -2520,7 +2520,7 @@ const stats = [
 		OPS: 2.166,
 		BARISP: 0.833,
 		LOB: 9,
-		TWOOUTRBI: 13
+		TWOOUTRBI: 13,
 	},
 	{
 		id: 88,
@@ -2549,7 +2549,7 @@ const stats = [
 		OPS: 1.75,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 89,
@@ -2578,7 +2578,7 @@ const stats = [
 		OPS: 2.143,
 		BARISP: 0.5,
 		LOB: 3,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 90,
@@ -2607,7 +2607,7 @@ const stats = [
 		OPS: 1.881,
 		BARISP: 0.769,
 		LOB: 7,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 91,
@@ -2636,7 +2636,7 @@ const stats = [
 		OPS: 1.75,
 		BARISP: 0.5,
 		LOB: 3,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 92,
@@ -2665,7 +2665,7 @@ const stats = [
 		OPS: 1.381,
 		BARISP: 0.5,
 		LOB: 3,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 93,
@@ -2694,7 +2694,7 @@ const stats = [
 		OPS: 1.66,
 		BARISP: 0.7,
 		LOB: 13,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 94,
@@ -2723,7 +2723,7 @@ const stats = [
 		OPS: 1.524,
 		BARISP: 0.556,
 		LOB: 8,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 95,
@@ -2752,7 +2752,7 @@ const stats = [
 		OPS: 1.444,
 		BARISP: 0.625,
 		LOB: 15,
-		TWOOUTRBI: 11
+		TWOOUTRBI: 11,
 	},
 	{
 		id: 96,
@@ -2781,7 +2781,7 @@ const stats = [
 		OPS: 1.647,
 		BARISP: 0.692,
 		LOB: 20,
-		TWOOUTRBI: 11
+		TWOOUTRBI: 11,
 	},
 	{
 		id: 97,
@@ -2810,7 +2810,7 @@ const stats = [
 		OPS: 1.407,
 		BARISP: 0.571,
 		LOB: 19,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 98,
@@ -2839,7 +2839,7 @@ const stats = [
 		OPS: 0.987,
 		BARISP: 0.5,
 		LOB: 11,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 99,
@@ -2868,7 +2868,7 @@ const stats = [
 		OPS: 0.945,
 		BARISP: 0.5,
 		LOB: 21,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 100,
@@ -2897,7 +2897,7 @@ const stats = [
 		OPS: 0.84,
 		BARISP: 0.375,
 		LOB: 25,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 101,
@@ -2926,7 +2926,7 @@ const stats = [
 		OPS: 1.167,
 		BARISP: 0.333,
 		LOB: 6,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 102,
@@ -2955,7 +2955,7 @@ const stats = [
 		OPS: 0.714,
 		BARISP: 0,
 		LOB: 5,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 103,
@@ -2984,7 +2984,7 @@ const stats = [
 		OPS: 1.529,
 		BARISP: 0.6,
 		LOB: 9,
-		TWOOUTRBI: 8
+		TWOOUTRBI: 8,
 	},
 	{
 		id: 104,
@@ -3013,7 +3013,7 @@ const stats = [
 		OPS: 1.991,
 		BARISP: 0.625,
 		LOB: 15,
-		TWOOUTRBI: 12
+		TWOOUTRBI: 12,
 	},
 	{
 		id: 105,
@@ -3042,7 +3042,7 @@ const stats = [
 		OPS: 2.3,
 		BARISP: 0.882,
 		LOB: 6,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 106,
@@ -3071,7 +3071,7 @@ const stats = [
 		OPS: 1.875,
 		BARISP: 0.75,
 		LOB: 2,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 107,
@@ -3100,7 +3100,7 @@ const stats = [
 		OPS: 2.5,
 		BARISP: 1,
 		LOB: 0,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 108,
@@ -3129,7 +3129,7 @@ const stats = [
 		OPS: 1.991,
 		BARISP: 0.625,
 		LOB: 10,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 109,
@@ -3158,7 +3158,7 @@ const stats = [
 		OPS: 1.4,
 		BARISP: 1,
 		LOB: 2,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 110,
@@ -3187,7 +3187,7 @@ const stats = [
 		OPS: 2.02,
 		BARISP: 0.656,
 		LOB: 18,
-		TWOOUTRBI: 11
+		TWOOUTRBI: 11,
 	},
 	{
 		id: 111,
@@ -3216,7 +3216,7 @@ const stats = [
 		OPS: 1.722,
 		BARISP: 0.636,
 		LOB: 14,
-		TWOOUTRBI: 9
+		TWOOUTRBI: 9,
 	},
 	{
 		id: 112,
@@ -3245,7 +3245,7 @@ const stats = [
 		OPS: 1.608,
 		BARISP: 0.556,
 		LOB: 21,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 113,
@@ -3274,7 +3274,7 @@ const stats = [
 		OPS: 1.494,
 		BARISP: 0.571,
 		LOB: 16,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 114,
@@ -3303,7 +3303,7 @@ const stats = [
 		OPS: 1.516,
 		BARISP: 0.588,
 		LOB: 15,
-		TWOOUTRBI: 9
+		TWOOUTRBI: 9,
 	},
 	{
 		id: 115,
@@ -3332,7 +3332,7 @@ const stats = [
 		OPS: 1.312,
 		BARISP: 0.458,
 		LOB: 21,
-		TWOOUTRBI: 10
+		TWOOUTRBI: 10,
 	},
 	{
 		id: 116,
@@ -3361,7 +3361,7 @@ const stats = [
 		OPS: 1.357,
 		BARISP: 0.571,
 		LOB: 7,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 117,
@@ -3390,7 +3390,7 @@ const stats = [
 		OPS: 1.25,
 		BARISP: 0.5,
 		LOB: 5,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 118,
@@ -3419,7 +3419,7 @@ const stats = [
 		OPS: 1.5,
 		BARISP: 0.667,
 		LOB: 2,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 119,
@@ -3448,7 +3448,7 @@ const stats = [
 		OPS: 1.25,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 120,
@@ -3477,7 +3477,7 @@ const stats = [
 		OPS: 1.061,
 		BARISP: 0.421,
 		LOB: 25,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 121,
@@ -3506,7 +3506,7 @@ const stats = [
 		OPS: 0.85,
 		BARISP: 0.4,
 		LOB: 23,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 122,
@@ -3535,7 +3535,7 @@ const stats = [
 		OPS: 0.762,
 		BARISP: 0,
 		LOB: 5,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 123,
@@ -3564,7 +3564,7 @@ const stats = [
 		OPS: 0.25,
 		BARISP: 0,
 		LOB: 4,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 124,
@@ -3593,7 +3593,7 @@ const stats = [
 		OPS: 1.75,
 		BARISP: 1,
 		LOB: 0,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 125,
@@ -3622,7 +3622,7 @@ const stats = [
 		OPS: 1.857,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 126,
@@ -3651,7 +3651,7 @@ const stats = [
 		OPS: 2.271,
 		BARISP: 0.8,
 		LOB: 8,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 127,
@@ -3680,7 +3680,7 @@ const stats = [
 		OPS: 1.556,
 		BARISP: 0.75,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 128,
@@ -3709,7 +3709,7 @@ const stats = [
 		OPS: 2.122,
 		BARISP: 0.727,
 		LOB: 10,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 129,
@@ -3738,7 +3738,7 @@ const stats = [
 		OPS: 1.587,
 		BARISP: 0.5,
 		LOB: 6,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 130,
@@ -3767,7 +3767,7 @@ const stats = [
 		OPS: 1.484,
 		BARISP: 0.65,
 		LOB: 12,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 131,
@@ -3796,7 +3796,7 @@ const stats = [
 		OPS: 1.676,
 		BARISP: 0.583,
 		LOB: 6,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 132,
@@ -3825,7 +3825,7 @@ const stats = [
 		OPS: 1.625,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 133,
@@ -3854,7 +3854,7 @@ const stats = [
 		OPS: 1.794,
 		BARISP: 0.679,
 		LOB: 15,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 134,
@@ -3883,7 +3883,7 @@ const stats = [
 		OPS: 1.357,
 		BARISP: 1,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 135,
@@ -3912,7 +3912,7 @@ const stats = [
 		OPS: 1.979,
 		BARISP: 0.581,
 		LOB: 28,
-		TWOOUTRBI: 10
+		TWOOUTRBI: 10,
 	},
 	{
 		id: 136,
@@ -3941,7 +3941,7 @@ const stats = [
 		OPS: 1.56,
 		BARISP: 0.563,
 		LOB: 11,
-		TWOOUTRBI: 8
+		TWOOUTRBI: 8,
 	},
 	{
 		id: 137,
@@ -3970,7 +3970,7 @@ const stats = [
 		OPS: 1.122,
 		BARISP: 0.333,
 		LOB: 21,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 138,
@@ -3999,7 +3999,7 @@ const stats = [
 		OPS: 1.19,
 		BARISP: 0.3,
 		LOB: 29,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 139,
@@ -4028,7 +4028,7 @@ const stats = [
 		OPS: 1.208,
 		BARISP: 0.5,
 		LOB: 5,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 140,
@@ -4057,7 +4057,7 @@ const stats = [
 		OPS: 1.556,
 		BARISP: 0.333,
 		LOB: 4,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 141,
@@ -4086,7 +4086,7 @@ const stats = [
 		OPS: 0.787,
 		BARISP: 0.438,
 		LOB: 23,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 142,
@@ -4115,7 +4115,7 @@ const stats = [
 		OPS: 0.5,
 		BARISP: 0,
 		LOB: 7,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 143,
@@ -4144,7 +4144,7 @@ const stats = [
 		OPS: 0.5,
 		BARISP: 0.333,
 		LOB: 5,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 144,
@@ -4173,7 +4173,7 @@ const stats = [
 		OPS: 1.688,
 		BARISP: 1,
 		LOB: 6,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 145,
@@ -4202,7 +4202,7 @@ const stats = [
 		OPS: 1.467,
 		BARISP: 0.5,
 		LOB: 4,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 146,
@@ -4231,7 +4231,7 @@ const stats = [
 		OPS: 1.333,
 		BARISP: 0.5,
 		LOB: 4,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 147,
@@ -4260,7 +4260,7 @@ const stats = [
 		OPS: 3,
 		BARISP: 0,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 148,
@@ -4289,7 +4289,7 @@ const stats = [
 		OPS: 1.71,
 		BARISP: 0.9,
 		LOB: 10,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 149,
@@ -4318,7 +4318,7 @@ const stats = [
 		OPS: 2.195,
 		BARISP: 0.519,
 		LOB: 27,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 150,
@@ -4347,7 +4347,7 @@ const stats = [
 		OPS: 1.714,
 		BARISP: 0.75,
 		LOB: 8,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 151,
@@ -4376,7 +4376,7 @@ const stats = [
 		OPS: 1.388,
 		BARISP: 0.571,
 		LOB: 15,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 152,
@@ -4405,7 +4405,7 @@ const stats = [
 		OPS: 2.029,
 		BARISP: 1,
 		LOB: 0,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 153,
@@ -4434,7 +4434,7 @@ const stats = [
 		OPS: 1.539,
 		BARISP: 0.789,
 		LOB: 12,
-		TWOOUTRBI: 8
+		TWOOUTRBI: 8,
 	},
 	{
 		id: 154,
@@ -4463,7 +4463,7 @@ const stats = [
 		OPS: 2.143,
 		BARISP: 0.5,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 155,
@@ -4492,7 +4492,7 @@ const stats = [
 		OPS: 1.429,
 		BARISP: 0.667,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 156,
@@ -4521,7 +4521,7 @@ const stats = [
 		OPS: 1.143,
 		BARISP: 0.5,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 157,
@@ -4550,7 +4550,7 @@ const stats = [
 		OPS: 1.78,
 		BARISP: 0.643,
 		LOB: 11,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 158,
@@ -4579,7 +4579,7 @@ const stats = [
 		OPS: 1.267,
 		BARISP: 0.688,
 		LOB: 18,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 159,
@@ -4608,7 +4608,7 @@ const stats = [
 		OPS: 0.806,
 		BARISP: 0.6,
 		LOB: 18,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 160,
@@ -4637,7 +4637,7 @@ const stats = [
 		OPS: 0.714,
 		BARISP: 0.167,
 		LOB: 13,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 161,
@@ -4666,7 +4666,7 @@ const stats = [
 		OPS: 0.732,
 		BARISP: 0.5,
 		LOB: 26,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 162,
@@ -4695,7 +4695,7 @@ const stats = [
 		OPS: 1,
 		BARISP: 0.333,
 		LOB: 4,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 163,
@@ -4724,7 +4724,7 @@ const stats = [
 		OPS: 0.591,
 		BARISP: 0.222,
 		LOB: 17,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 164,
@@ -4753,7 +4753,7 @@ const stats = [
 		OPS: 1.877,
 		BARISP: 0.667,
 		LOB: 18,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 165,
@@ -4782,7 +4782,7 @@ const stats = [
 		OPS: 1.69,
 		BARISP: 0.615,
 		LOB: 16,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 166,
@@ -4811,7 +4811,7 @@ const stats = [
 		OPS: 1.449,
 		BARISP: 0.591,
 		LOB: 20,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 167,
@@ -4840,7 +4840,7 @@ const stats = [
 		OPS: 1.506,
 		BARISP: 0.563,
 		LOB: 15,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 168,
@@ -4869,7 +4869,7 @@ const stats = [
 		OPS: 1.374,
 		BARISP: 0.5,
 		LOB: 15,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 169,
@@ -4898,7 +4898,7 @@ const stats = [
 		OPS: 1.237,
 		BARISP: 0.313,
 		LOB: 26,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 170,
@@ -4927,7 +4927,7 @@ const stats = [
 		OPS: 1.25,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 171,
@@ -4956,7 +4956,7 @@ const stats = [
 		OPS: 1.058,
 		BARISP: 0.474,
 		LOB: 26,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 172,
@@ -4985,7 +4985,7 @@ const stats = [
 		OPS: 1.131,
 		BARISP: 0.462,
 		LOB: 21,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 173,
@@ -5014,7 +5014,7 @@ const stats = [
 		OPS: 0.972,
 		BARISP: 0.412,
 		LOB: 18,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 174,
@@ -5043,7 +5043,7 @@ const stats = [
 		OPS: 0.929,
 		BARISP: 0.333,
 		LOB: 8,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 175,
@@ -5072,7 +5072,7 @@ const stats = [
 		OPS: 0.92,
 		BARISP: 0.5,
 		LOB: 16,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 176,
@@ -5101,7 +5101,7 @@ const stats = [
 		OPS: 1.03,
 		BARISP: 0.364,
 		LOB: 14,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 177,
@@ -5130,7 +5130,7 @@ const stats = [
 		OPS: 0.63,
 		BARISP: 0.231,
 		LOB: 22,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 178,
@@ -5159,7 +5159,7 @@ const stats = [
 		OPS: 1.938,
 		BARISP: 0.8,
 		LOB: 6,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 179,
@@ -5188,7 +5188,7 @@ const stats = [
 		OPS: 1.5,
 		BARISP: 0,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 180,
@@ -5217,7 +5217,7 @@ const stats = [
 		OPS: 2,
 		BARISP: 1,
 		LOB: 0,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 181,
@@ -5246,7 +5246,7 @@ const stats = [
 		OPS: 1.444,
 		BARISP: 0.5,
 		LOB: 5,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 182,
@@ -5275,7 +5275,7 @@ const stats = [
 		OPS: 1.553,
 		BARISP: 0.765,
 		LOB: 12,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 183,
@@ -5304,7 +5304,7 @@ const stats = [
 		OPS: 1.13,
 		BARISP: 0.556,
 		LOB: 7,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 184,
@@ -5333,7 +5333,7 @@ const stats = [
 		OPS: 1.238,
 		BARISP: 0.5,
 		LOB: 2,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 185,
@@ -5362,7 +5362,7 @@ const stats = [
 		OPS: 1.205,
 		BARISP: 0.5,
 		LOB: 14,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 186,
@@ -5391,7 +5391,7 @@ const stats = [
 		OPS: 0.956,
 		BARISP: 0.294,
 		LOB: 23,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 187,
@@ -5420,7 +5420,7 @@ const stats = [
 		OPS: 1.052,
 		BARISP: 0.385,
 		LOB: 20,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 188,
@@ -5449,7 +5449,7 @@ const stats = [
 		OPS: 1.126,
 		BARISP: 0.545,
 		LOB: 15,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 189,
@@ -5478,7 +5478,7 @@ const stats = [
 		OPS: 0.989,
 		BARISP: 0.529,
 		LOB: 21,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 190,
@@ -5507,7 +5507,7 @@ const stats = [
 		OPS: 0.886,
 		BARISP: 0.313,
 		LOB: 24,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 191,
@@ -5536,7 +5536,7 @@ const stats = [
 		OPS: 0.84,
 		BARISP: 0.364,
 		LOB: 12,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 192,
@@ -5565,7 +5565,7 @@ const stats = [
 		OPS: 0.921,
 		BARISP: 0.379,
 		LOB: 36,
-		TWOOUTRBI: 12
+		TWOOUTRBI: 12,
 	},
 	{
 		id: 193,
@@ -5594,7 +5594,7 @@ const stats = [
 		OPS: 0.571,
 		BARISP: 0.333,
 		LOB: 8,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 194,
@@ -5623,7 +5623,7 @@ const stats = [
 		OPS: 1.833,
 		BARISP: 1,
 		LOB: 0,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 195,
@@ -5652,7 +5652,7 @@ const stats = [
 		OPS: 1.943,
 		BARISP: 0.813,
 		LOB: 8,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 196,
@@ -5681,7 +5681,7 @@ const stats = [
 		OPS: 3.25,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 197,
@@ -5710,7 +5710,7 @@ const stats = [
 		OPS: 1.333,
 		BARISP: 0.75,
 		LOB: 2,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 198,
@@ -5739,7 +5739,7 @@ const stats = [
 		OPS: 1.646,
 		BARISP: 0.455,
 		LOB: 14,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 199,
@@ -5768,7 +5768,7 @@ const stats = [
 		OPS: 1.571,
 		BARISP: 0.615,
 		LOB: 14,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 200,
@@ -5797,7 +5797,7 @@ const stats = [
 		OPS: 1.087,
 		BARISP: 0.5,
 		LOB: 12,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 201,
@@ -5826,7 +5826,7 @@ const stats = [
 		OPS: 1.095,
 		BARISP: 0.667,
 		LOB: 6,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 202,
@@ -5855,7 +5855,7 @@ const stats = [
 		OPS: 0.998,
 		BARISP: 0.3,
 		LOB: 9,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 203,
@@ -5884,7 +5884,7 @@ const stats = [
 		OPS: 1.016,
 		BARISP: 0.5,
 		LOB: 15,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 204,
@@ -5913,7 +5913,7 @@ const stats = [
 		OPS: 1.5,
 		BARISP: 0.5,
 		LOB: 3,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 205,
@@ -5942,7 +5942,7 @@ const stats = [
 		OPS: 1.335,
 		BARISP: 0.65,
 		LOB: 12,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 206,
@@ -5971,7 +5971,7 @@ const stats = [
 		OPS: 0.838,
 		BARISP: 0,
 		LOB: 8,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 207,
@@ -6000,7 +6000,7 @@ const stats = [
 		OPS: 0.741,
 		BARISP: 0.214,
 		LOB: 23,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 208,
@@ -6029,7 +6029,7 @@ const stats = [
 		OPS: 0.624,
 		BARISP: 0.375,
 		LOB: 18,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 209,
@@ -6058,7 +6058,7 @@ const stats = [
 		OPS: 0.385,
 		BARISP: 0,
 		LOB: 11,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 210,
@@ -6087,7 +6087,7 @@ const stats = [
 		OPS: 2.264,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 211,
@@ -6116,7 +6116,7 @@ const stats = [
 		OPS: 2.025,
 		BARISP: 0.789,
 		LOB: 16,
-		TWOOUTRBI: 12
+		TWOOUTRBI: 12,
 	},
 	{
 		id: 212,
@@ -6145,7 +6145,7 @@ const stats = [
 		OPS: 1.429,
 		BARISP: 1,
 		LOB: 0,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 213,
@@ -6174,7 +6174,7 @@ const stats = [
 		OPS: 1.527,
 		BARISP: 0.789,
 		LOB: 18,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 214,
@@ -6203,7 +6203,7 @@ const stats = [
 		OPS: 1.738,
 		BARISP: 0.75,
 		LOB: 3,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 215,
@@ -6232,7 +6232,7 @@ const stats = [
 		OPS: 1.569,
 		BARISP: 0.667,
 		LOB: 26,
-		TWOOUTRBI: 9
+		TWOOUTRBI: 9,
 	},
 	{
 		id: 216,
@@ -6261,7 +6261,7 @@ const stats = [
 		OPS: 1.243,
 		BARISP: 0.611,
 		LOB: 23,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 217,
@@ -6290,7 +6290,7 @@ const stats = [
 		OPS: 1.36,
 		BARISP: 0.714,
 		LOB: 12,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 218,
@@ -6319,7 +6319,7 @@ const stats = [
 		OPS: 1.132,
 		BARISP: 0.4,
 		LOB: 25,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 219,
@@ -6348,7 +6348,7 @@ const stats = [
 		OPS: 1.144,
 		BARISP: 0.524,
 		LOB: 28,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 220,
@@ -6377,7 +6377,7 @@ const stats = [
 		OPS: 1.089,
 		BARISP: 0.412,
 		LOB: 30,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 221,
@@ -6406,7 +6406,7 @@ const stats = [
 		OPS: 1.088,
 		BARISP: 0.556,
 		LOB: 20,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 222,
@@ -6435,7 +6435,7 @@ const stats = [
 		OPS: 1.04,
 		BARISP: 0.438,
 		LOB: 22,
-		TWOOUTRBI: 8
+		TWOOUTRBI: 8,
 	},
 	{
 		id: 223,
@@ -6464,7 +6464,7 @@ const stats = [
 		OPS: 1.243,
 		BARISP: 0.714,
 		LOB: 6,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 224,
@@ -6493,7 +6493,7 @@ const stats = [
 		OPS: 0.833,
 		BARISP: 0.25,
 		LOB: 7,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 225,
@@ -6522,7 +6522,7 @@ const stats = [
 		OPS: 0.721,
 		BARISP: 0.267,
 		LOB: 24,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 226,
@@ -6551,7 +6551,7 @@ const stats = [
 		OPS: 1.6,
 		BARISP: 0.667,
 		LOB: 2,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 227,
@@ -6580,7 +6580,7 @@ const stats = [
 		OPS: 1.633,
 		BARISP: 0.75,
 		LOB: 4,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 228,
@@ -6609,7 +6609,7 @@ const stats = [
 		OPS: 1.429,
 		BARISP: 1,
 		LOB: 0,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 229,
@@ -6638,7 +6638,7 @@ const stats = [
 		OPS: 1.625,
 		BARISP: 1,
 		LOB: 2,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 230,
@@ -6667,7 +6667,7 @@ const stats = [
 		OPS: 1.447,
 		BARISP: 0.583,
 		LOB: 10,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 231,
@@ -6696,7 +6696,7 @@ const stats = [
 		OPS: 1.301,
 		BARISP: 0.533,
 		LOB: 12,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 232,
@@ -6725,7 +6725,7 @@ const stats = [
 		OPS: 1.287,
 		BARISP: 0.643,
 		LOB: 13,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 233,
@@ -6754,7 +6754,7 @@ const stats = [
 		OPS: 1.109,
 		BARISP: 0.7,
 		LOB: 11,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 234,
@@ -6783,7 +6783,7 @@ const stats = [
 		OPS: 1.284,
 		BARISP: 0.381,
 		LOB: 31,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 235,
@@ -6812,7 +6812,7 @@ const stats = [
 		OPS: 0.95,
 		BARISP: 0.5,
 		LOB: 28,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 236,
@@ -6841,7 +6841,7 @@ const stats = [
 		OPS: 0.903,
 		BARISP: 0.385,
 		LOB: 24,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 237,
@@ -6870,7 +6870,7 @@ const stats = [
 		OPS: 0.9,
 		BARISP: 0.5,
 		LOB: 3,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 238,
@@ -6899,7 +6899,7 @@ const stats = [
 		OPS: 0.876,
 		BARISP: 0.467,
 		LOB: 20,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 239,
@@ -6928,7 +6928,7 @@ const stats = [
 		OPS: 0.769,
 		BARISP: 0.333,
 		LOB: 9,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 240,
@@ -6957,7 +6957,7 @@ const stats = [
 		OPS: 0.75,
 		BARISP: 0.385,
 		LOB: 13,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 241,
@@ -6986,7 +6986,7 @@ const stats = [
 		OPS: 0.807,
 		BARISP: 0.5,
 		LOB: 15,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 242,
@@ -7015,7 +7015,7 @@ const stats = [
 		OPS: 0.525,
 		BARISP: 0.182,
 		LOB: 22,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 243,
@@ -7044,7 +7044,7 @@ const stats = [
 		OPS: 1.679,
 		BARISP: 0.8,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 244,
@@ -7073,7 +7073,7 @@ const stats = [
 		OPS: 2.667,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 245,
@@ -7102,7 +7102,7 @@ const stats = [
 		OPS: 2.219,
 		BARISP: 0.667,
 		LOB: 15,
-		TWOOUTRBI: 13
+		TWOOUTRBI: 13,
 	},
 	{
 		id: 246,
@@ -7131,7 +7131,7 @@ const stats = [
 		OPS: 1.714,
 		BARISP: 0.5,
 		LOB: 4,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 247,
@@ -7160,7 +7160,7 @@ const stats = [
 		OPS: 1.592,
 		BARISP: 0.625,
 		LOB: 10,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 248,
@@ -7189,7 +7189,7 @@ const stats = [
 		OPS: 1.474,
 		BARISP: 0.588,
 		LOB: 16,
-		TWOOUTRBI: 7
+		TWOOUTRBI: 7,
 	},
 	{
 		id: 249,
@@ -7218,7 +7218,7 @@ const stats = [
 		OPS: 1.628,
 		BARISP: 0.579,
 		LOB: 22,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 250,
@@ -7247,7 +7247,7 @@ const stats = [
 		OPS: 1.737,
 		BARISP: 0.625,
 		LOB: 18,
-		TWOOUTRBI: 14
+		TWOOUTRBI: 14,
 	},
 	{
 		id: 251,
@@ -7276,7 +7276,7 @@ const stats = [
 		OPS: 1.256,
 		BARISP: 0.571,
 		LOB: 22,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 252,
@@ -7305,7 +7305,7 @@ const stats = [
 		OPS: 1.118,
 		BARISP: 0.643,
 		LOB: 15,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 253,
@@ -7334,7 +7334,7 @@ const stats = [
 		OPS: 1,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 254,
@@ -7363,7 +7363,7 @@ const stats = [
 		OPS: 1.159,
 		BARISP: 0.579,
 		LOB: 18,
-		TWOOUTRBI: 6
+		TWOOUTRBI: 6,
 	},
 	{
 		id: 255,
@@ -7392,7 +7392,7 @@ const stats = [
 		OPS: 0.974,
 		BARISP: 0.429,
 		LOB: 19,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 256,
@@ -7421,7 +7421,7 @@ const stats = [
 		OPS: 0.647,
 		BARISP: 0.333,
 		LOB: 29,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 257,
@@ -7450,7 +7450,7 @@ const stats = [
 		OPS: 0,
 		BARISP: 0,
 		LOB: 1,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 258,
@@ -7479,7 +7479,7 @@ const stats = [
 		OPS: 0,
 		BARISP: 0,
 		LOB: 1,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 259,
@@ -7508,7 +7508,7 @@ const stats = [
 		OPS: 0,
 		BARISP: 0,
 		LOB: 0,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 260,
@@ -7537,7 +7537,7 @@ const stats = [
 		OPS: 2.333,
 		BARISP: 0,
 		LOB: 0,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 261,
@@ -7566,7 +7566,7 @@ const stats = [
 		OPS: 2.214,
 		BARISP: 0.5,
 		LOB: 3,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 262,
@@ -7595,7 +7595,7 @@ const stats = [
 		OPS: 1.333,
 		BARISP: 1,
 		LOB: 1,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 263,
@@ -7624,7 +7624,7 @@ const stats = [
 		OPS: 1.221,
 		BARISP: 0.667,
 		LOB: 10,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 264,
@@ -7653,7 +7653,7 @@ const stats = [
 		OPS: 1.352,
 		BARISP: 0.818,
 		LOB: 7,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 265,
@@ -7682,7 +7682,7 @@ const stats = [
 		OPS: 1.393,
 		BARISP: 0.579,
 		LOB: 12,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 266,
@@ -7711,7 +7711,7 @@ const stats = [
 		OPS: 1.286,
 		BARISP: 0.333,
 		LOB: 7,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 267,
@@ -7740,7 +7740,7 @@ const stats = [
 		OPS: 1.407,
 		BARISP: 0.583,
 		LOB: 15,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 268,
@@ -7769,7 +7769,7 @@ const stats = [
 		OPS: 1.039,
 		BARISP: 0.545,
 		LOB: 13,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 269,
@@ -7798,7 +7798,7 @@ const stats = [
 		OPS: 1.264,
 		BARISP: 0.579,
 		LOB: 20,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 270,
@@ -7827,7 +7827,7 @@ const stats = [
 		OPS: 1.135,
 		BARISP: 0.5,
 		LOB: 12,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 271,
@@ -7856,7 +7856,7 @@ const stats = [
 		OPS: 0.762,
 		BARISP: 0.5,
 		LOB: 4,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 272,
@@ -7885,7 +7885,7 @@ const stats = [
 		OPS: 0.817,
 		BARISP: 0.154,
 		LOB: 27,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 273,
@@ -7914,7 +7914,7 @@ const stats = [
 		OPS: 0.977,
 		BARISP: 0.4,
 		LOB: 17,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 274,
@@ -7943,7 +7943,7 @@ const stats = [
 		OPS: 0.8,
 		BARISP: 0,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 275,
@@ -7972,7 +7972,7 @@ const stats = [
 		OPS: 0.668,
 		BARISP: 0.308,
 		LOB: 20,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 276,
@@ -8001,7 +8001,7 @@ const stats = [
 		OPS: 0.286,
 		BARISP: 0,
 		LOB: 5,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 277,
@@ -8030,7 +8030,7 @@ const stats = [
 		OPS: 1.75,
 		BARISP: 1,
 		LOB: 2,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 278,
@@ -8059,7 +8059,7 @@ const stats = [
 		OPS: 1.625,
 		BARISP: 0.6,
 		LOB: 5,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 279,
@@ -8088,7 +8088,7 @@ const stats = [
 		OPS: 1.668,
 		BARISP: 0.636,
 		LOB: 18,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 280,
@@ -8117,7 +8117,7 @@ const stats = [
 		OPS: 1.336,
 		BARISP: 0.4,
 		LOB: 6,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 281,
@@ -8146,7 +8146,7 @@ const stats = [
 		OPS: 1.6,
 		BARISP: 0,
 		LOB: 2,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 282,
@@ -8175,7 +8175,7 @@ const stats = [
 		OPS: 1.287,
 		BARISP: 0.5,
 		LOB: 8,
-		TWOOUTRBI: 1
+		TWOOUTRBI: 1,
 	},
 	{
 		id: 283,
@@ -8204,7 +8204,7 @@ const stats = [
 		OPS: 1.255,
 		BARISP: 0.533,
 		LOB: 15,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 284,
@@ -8233,7 +8233,7 @@ const stats = [
 		OPS: 1.11,
 		BARISP: 0.667,
 		LOB: 20,
-		TWOOUTRBI: 5
+		TWOOUTRBI: 5,
 	},
 	{
 		id: 285,
@@ -8262,7 +8262,7 @@ const stats = [
 		OPS: 0.909,
 		BARISP: 0.5,
 		LOB: 8,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 286,
@@ -8291,7 +8291,7 @@ const stats = [
 		OPS: 1.198,
 		BARISP: 0.333,
 		LOB: 17,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 287,
@@ -8320,7 +8320,7 @@ const stats = [
 		OPS: 1.014,
 		BARISP: 0.368,
 		LOB: 21,
-		TWOOUTRBI: 4
+		TWOOUTRBI: 4,
 	},
 	{
 		id: 288,
@@ -8349,7 +8349,7 @@ const stats = [
 		OPS: 0.829,
 		BARISP: 0,
 		LOB: 6,
-		TWOOUTRBI: 0
+		TWOOUTRBI: 0,
 	},
 	{
 		id: 289,
@@ -8378,7 +8378,7 @@ const stats = [
 		OPS: 0.649,
 		BARISP: 0.294,
 		LOB: 31,
-		TWOOUTRBI: 2
+		TWOOUTRBI: 2,
 	},
 	{
 		id: 290,
@@ -8407,7 +8407,7 @@ const stats = [
 		OPS: 0.676,
 		BARISP: 0.3,
 		LOB: 30,
-		TWOOUTRBI: 3
+		TWOOUTRBI: 3,
 	},
 	{
 		id: 291,
@@ -8436,8 +8436,791 @@ const stats = [
 		OPS: 0.716,
 		BARISP: 0.214,
 		LOB: 31,
-		TWOOUTRBI: 1
-	}
+		TWOOUTRBI: 1,
+	},
+	{
+		id: 292,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 28,
+		First: 'Caleb',
+		Last: 'Moen',
+		PA: 11,
+		AB: 11,
+		Hits: 8,
+		S: 7,
+		D: 1,
+		T: 0,
+		HR: 0,
+		BB: 0,
+		SF: 0,
+		FC: 1,
+		K: 0,
+		RBI: 2,
+		R: 4,
+		AVG: 0.727,
+		OBP: 0.727,
+		SLG: 0.818,
+		OPS: 1.545,
+		BARISP: 0.667,
+		LOB: 4,
+		TWOOUTRBI: 1,
+	},
+	{
+		id: 293,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 26,
+		First: 'Dave',
+		Last: 'Maledy',
+		PA: 12,
+		AB: 12,
+		Hits: 8,
+		S: 5,
+		D: 1,
+		T: 0,
+		HR: 2,
+		BB: 0,
+		SF: 0,
+		FC: 0,
+		K: 1,
+		RBI: 6,
+		R: 5,
+		AVG: 0.667,
+		OBP: 0.667,
+		SLG: 1.25,
+		OPS: 1.917,
+		BARISP: 0.667,
+		LOB: 4,
+		TWOOUTRBI: 2,
+	},
+	{
+		id: 294,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 4,
+		First: 'Jake',
+		Last: 'Brinkley',
+		PA: 11,
+		AB: 11,
+		Hits: 7,
+		S: 6,
+		D: 1,
+		T: 0,
+		HR: 0,
+		BB: 0,
+		SF: 0,
+		FC: 2,
+		K: 0,
+		RBI: 2,
+		R: 0,
+		AVG: 0.636,
+		OBP: 0.636,
+		SLG: 0.727,
+		OPS: 1.364,
+		BARISP: 0.667,
+		LOB: 4,
+		TWOOUTRBI: 0,
+	},
+	{
+		id: 295,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 64,
+		First: 'Trevor',
+		Last: 'Turner',
+		PA: 12,
+		AB: 12,
+		Hits: 7,
+		S: 5,
+		D: 1,
+		T: 1,
+		HR: 0,
+		BB: 0,
+		SF: 0,
+		FC: 0,
+		K: 0,
+		RBI: 1,
+		R: 6,
+		AVG: 0.583,
+		OBP: 0.583,
+		SLG: 0.833,
+		OPS: 1.417,
+		BARISP: 0.667,
+		LOB: 3,
+		TWOOUTRBI: 1,
+	},
+	{
+		id: 296,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 7,
+		First: 'Jared',
+		Last: 'Caplinger',
+		PA: 7,
+		AB: 7,
+		Hits: 4,
+		S: 3,
+		D: 0,
+		T: 0,
+		HR: 1,
+		BB: 0,
+		SF: 0,
+		FC: 1,
+		K: 0,
+		RBI: 8,
+		R: 3,
+		AVG: 0.571,
+		OBP: 0.571,
+		SLG: 1,
+		OPS: 1.571,
+		BARISP: 0.6,
+		LOB: 2,
+		TWOOUTRBI: 0,
+	},
+	{
+		id: 297,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 5,
+		First: 'Ron',
+		Last: 'Brinkley',
+		PA: 11,
+		AB: 11,
+		Hits: 5,
+		S: 3,
+		D: 2,
+		T: 0,
+		HR: 0,
+		BB: 0,
+		SF: 0,
+		FC: 1,
+		K: 0,
+		RBI: 6,
+		R: 2,
+		AVG: 0.455,
+		OBP: 0.455,
+		SLG: 0.636,
+		OPS: 1.091,
+		BARISP: 0.5,
+		LOB: 9,
+		TWOOUTRBI: 3,
+	},
+	{
+		id: 298,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 6,
+		First: 'Zack',
+		Last: 'Brinkley',
+		PA: 11,
+		AB: 9,
+		Hits: 4,
+		S: 4,
+		D: 0,
+		T: 0,
+		HR: 0,
+		BB: 1,
+		SF: 1,
+		FC: 0,
+		K: 2,
+		RBI: 2,
+		R: 4,
+		AVG: 0.444,
+		OBP: 0.455,
+		SLG: 0.444,
+		OPS: 0.899,
+		BARISP: 0.25,
+		LOB: 6,
+		TWOOUTRBI: 1,
+	},
+	{
+		id: 299,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 38,
+		First: 'Jeremy',
+		Last: 'Underhill',
+		PA: 7,
+		AB: 7,
+		Hits: 3,
+		S: 3,
+		D: 0,
+		T: 0,
+		HR: 0,
+		BB: 0,
+		SF: 0,
+		FC: 2,
+		K: 0,
+		RBI: 0,
+		R: 3,
+		AVG: 0.429,
+		OBP: 0.429,
+		SLG: 0.429,
+		OPS: 0.857,
+		BARISP: 0.5,
+		LOB: 4,
+		TWOOUTRBI: 0,
+	},
+	{
+		id: 300,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 10,
+		First: 'Dan',
+		Last: 'Glass',
+		PA: 12,
+		AB: 12,
+		Hits: 5,
+		S: 5,
+		D: 0,
+		T: 0,
+		HR: 0,
+		BB: 0,
+		SF: 0,
+		FC: 2,
+		K: 0,
+		RBI: 2,
+		R: 2,
+		AVG: 0.417,
+		OBP: 0.417,
+		SLG: 0.417,
+		OPS: 0.833,
+		BARISP: 0.5,
+		LOB: 5,
+		TWOOUTRBI: 1,
+	},
+	{
+		id: 301,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 16,
+		First: 'Josh',
+		Last: 'Hunt',
+		PA: 11,
+		AB: 11,
+		Hits: 4,
+		S: 4,
+		D: 0,
+		T: 0,
+		HR: 0,
+		BB: 0,
+		SF: 0,
+		FC: 2,
+		K: 0,
+		RBI: 2,
+		R: 2,
+		AVG: 0.364,
+		OBP: 0.364,
+		SLG: 0.364,
+		OPS: 0.727,
+		BARISP: 0.286,
+		LOB: 9,
+		TWOOUTRBI: 0,
+	},
+	{
+		id: 302,
+		Year: '2020',
+		Session: 'Scared Hitless - 1',
+		teamId: 819,
+		PlayerId: 18,
+		First: 'Brad',
+		Last: 'Johnson',
+		PA: 12,
+		AB: 12,
+		Hits: 4,
+		S: 3,
+		D: 1,
+		T: 0,
+		HR: 0,
+		BB: 0,
+		SF: 0,
+		FC: 2,
+		K: 0,
+		RBI: 3,
+		R: 3,
+		AVG: 0.333,
+		OBP: 0.333,
+		SLG: 0.417,
+		OPS: 0.75,
+		BARISP: 0.429,
+		LOB: 7,
+		TWOOUTRBI: 1,
+	},
+	{
+		id: 303,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 35,
+		First: 'Jake',
+		Last: 'Schuchardt',
+		PA: 33,
+		AB: 31,
+		Hits: 23,
+		S: 12,
+		D: 4,
+		T: 2,
+		HR: 5,
+		BB: 1,
+		SF: 1,
+		FC: 0,
+		K: 3,
+		RBI: 19,
+		R: 18,
+		AVG: 0.742,
+		OBP: 0.727,
+		SLG: 1.484,
+		OPS: 2.211,
+		BARISP: 0.667,
+		LOB: 8,
+		TWOOUTRBI: 7,
+	},
+	{
+		id: 304,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 65,
+		First: 'Blake',
+		Last: '',
+		PA: 7,
+		AB: 7,
+		Hits: 5,
+		S: 3,
+		D: 2,
+		T: 0,
+		HR: 0,
+		BB: 0,
+		SF: 0,
+		FC: 0,
+		K: 0,
+		RBI: 1,
+		R: 3,
+		AVG: 0.714,
+		OBP: 0.714,
+		SLG: 1,
+		OPS: 1.714,
+		BARISP: 0.677,
+		LOB: 2,
+		TWOOUTRBI: 1,
+	},
+	{
+		id: 305,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 1,
+		First: 'Matt',
+		Last: 'Borzillo',
+		PA: 7,
+		AB: 7,
+		Hits: 5,
+		S: 3,
+		D: 1,
+		T: 0,
+		HR: 1,
+		BB: 0,
+		SF: 0,
+		FC: 0,
+		K: 0,
+		RBI: 6,
+		R: 4,
+		AVG: 0.714,
+		OBP: 0.714,
+		SLG: 1.286,
+		OPS: 2,
+		BARISP: 0.833,
+		LOB: 3,
+		TWOOUTRBI: 2,
+	},
+	{
+		id: 306,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 38,
+		First: 'Jeremy',
+		Last: 'Underhill',
+		PA: 34,
+		AB: 32,
+		Hits: 22,
+		S: 8,
+		D: 11,
+		T: 1,
+		HR: 2,
+		BB: 1,
+		SF: 1,
+		FC: 0,
+		K: 3,
+		RBI: 15,
+		R: 13,
+		AVG: 0.688,
+		OBP: 0.676,
+		SLG: 1.281,
+		OPS: 1.958,
+		BARISP: 0.727,
+		LOB: 8,
+		TWOOUTRBI: 6,
+	},
+	{
+		id: 307,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 64,
+		First: 'Trevor',
+		Last: 'Turner',
+		PA: 46,
+		AB: 45,
+		Hits: 28,
+		S: 17,
+		D: 9,
+		T: 2,
+		HR: 0,
+		BB: 1,
+		SF: 0,
+		FC: 2,
+		K: 0,
+		RBI: 13,
+		R: 21,
+		AVG: 0.622,
+		OBP: 0.63,
+		SLG: 0.911,
+		OPS: 1.542,
+		BARISP: 0.688,
+		LOB: 12,
+		TWOOUTRBI: 7,
+	},
+	{
+		id: 308,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 26,
+		First: 'Dave',
+		Last: 'Maledy',
+		PA: 48,
+		AB: 46,
+		Hits: 28,
+		S: 15,
+		D: 6,
+		T: 1,
+		HR: 6,
+		BB: 0,
+		SF: 2,
+		FC: 1,
+		K: 0,
+		RBI: 28,
+		R: 19,
+		AVG: 0.609,
+		OBP: 0.583,
+		SLG: 1.174,
+		OPS: 1.757,
+		BARISP: 0.5,
+		LOB: 23,
+		TWOOUTRBI: 8,
+	},
+	{
+		id: 309,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 18,
+		First: 'Brad',
+		Last: 'Johnson',
+		PA: 49,
+		AB: 47,
+		Hits: 27,
+		S: 24,
+		D: 2,
+		T: 1,
+		HR: 0,
+		BB: 2,
+		SF: 0,
+		FC: 1,
+		K: 0,
+		RBI: 10,
+		R: 19,
+		AVG: 0.574,
+		OBP: 0.592,
+		SLG: 0.66,
+		OPS: 1.251,
+		BARISP: 0.667,
+		LOB: 7,
+		TWOOUTRBI: 3,
+	},
+	{
+		id: 310,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 7,
+		First: 'Jared',
+		Last: 'Caplinger',
+		PA: 36,
+		AB: 34,
+		Hits: 19,
+		S: 10,
+		D: 5,
+		T: 2,
+		HR: 2,
+		BB: 2,
+		SF: 0,
+		FC: 1,
+		K: 1,
+		RBI: 19,
+		R: 17,
+		AVG: 0.559,
+		OBP: 0.583,
+		SLG: 1,
+		OPS: 1.583,
+		BARISP: 0.667,
+		LOB: 14,
+		TWOOUTRBI: 9,
+	},
+	{
+		id: 311,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 28,
+		First: 'Caleb',
+		Last: 'Moen',
+		PA: 31,
+		AB: 26,
+		Hits: 14,
+		S: 12,
+		D: 1,
+		T: 0,
+		HR: 1,
+		BB: 5,
+		SF: 0,
+		FC: 3,
+		K: 2,
+		RBI: 8,
+		R: 11,
+		AVG: 0.538,
+		OBP: 0.613,
+		SLG: 0.692,
+		OPS: 1.305,
+		BARISP: 0.727,
+		LOB: 11,
+		TWOOUTRBI: 5,
+	},
+	{
+		id: 312,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 66,
+		First: 'Jeremy',
+		Last: 'Nagle',
+		PA: 33,
+		AB: 33,
+		Hits: 17,
+		S: 12,
+		D: 3,
+		T: 0,
+		HR: 2,
+		BB: 0,
+		SF: 0,
+		FC: 1,
+		K: 2,
+		RBI: 14,
+		R: 8,
+		AVG: 0.515,
+		OBP: 0.515,
+		SLG: 0.788,
+		OPS: 1.303,
+		BARISP: 0.533,
+		LOB: 15,
+		TWOOUTRBI: 5,
+	},
+	{
+		id: 313,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 67,
+		First: 'Ross',
+		Last: 'Politte',
+		PA: 38,
+		AB: 36,
+		Hits: 18,
+		S: 12,
+		D: 3,
+		T: 2,
+		HR: 1,
+		BB: 0,
+		SF: 2,
+		FC: 0,
+		K: 0,
+		RBI: 15,
+		R: 14,
+		AVG: 0.5,
+		OBP: 0.474,
+		SLG: 0.778,
+		OPS: 1.251,
+		BARISP: 0.538,
+		LOB: 15,
+		TWOOUTRBI: 1,
+	},
+	{
+		id: 314,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 53,
+		First: 'Jimmy',
+		Last: '',
+		PA: 28,
+		AB: 27,
+		Hits: 13,
+		S: 7,
+		D: 2,
+		T: 2,
+		HR: 2,
+		BB: 1,
+		SF: 0,
+		FC: 2,
+		K: 0,
+		RBI: 14,
+		R: 10,
+		AVG: 0.481,
+		OBP: 0.5,
+		SLG: 0.926,
+		OPS: 1.426,
+		BARISP: 0.636,
+		LOB: 10,
+		TWOOUTRBI: 6,
+	},
+	{
+		id: 315,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 68,
+		First: 'Matt',
+		Last: '',
+		PA: 7,
+		AB: 7,
+		Hits: 3,
+		S: 0,
+		D: 1,
+		T: 0,
+		HR: 2,
+		BB: 0,
+		SF: 0,
+		FC: 1,
+		K: 0,
+		RBI: 8,
+		R: 3,
+		AVG: 0.429,
+		OBP: 0.429,
+		SLG: 1.429,
+		OPS: 1.857,
+		BARISP: 0.6,
+		LOB: 5,
+		TWOOUTRBI: 2,
+	},
+	{
+		id: 316,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 19,
+		First: 'Wes',
+		Last: 'Kimberlin',
+		PA: 47,
+		AB: 43,
+		Hits: 18,
+		S: 13,
+		D: 3,
+		T: 0,
+		HR: 2,
+		BB: 3,
+		SF: 1,
+		FC: 4,
+		K: 2,
+		RBI: 7,
+		R: 11,
+		AVG: 0.419,
+		OBP: 0.447,
+		SLG: 0.628,
+		OPS: 1.075,
+		BARISP: 0.429,
+		LOB: 22,
+		TWOOUTRBI: 3,
+	},
+	{
+		id: 317,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 16,
+		First: 'Josh',
+		Last: 'Hunt',
+		PA: 46,
+		AB: 39,
+		Hits: 16,
+		S: 15,
+		D: 1,
+		T: 0,
+		HR: 0,
+		BB: 6,
+		SF: 1,
+		FC: 3,
+		K: 1,
+		RBI: 7,
+		R: 13,
+		AVG: 0.41,
+		OBP: 0.478,
+		SLG: 0.436,
+		OPS: 0.914,
+		BARISP: 0.5,
+		LOB: 17,
+		TWOOUTRBI: 4,
+	},
+	{
+		id: 318,
+		Year: '2021',
+		Session: 'Scared Hitless - 1',
+		teamId: 820,
+		PlayerId: 32,
+		First: 'Brady',
+		Last: 'Politte',
+		PA: 7,
+		AB: 7,
+		Hits: 0,
+		S: 0,
+		D: 0,
+		T: 0,
+		HR: 0,
+		BB: 0,
+		SF: 0,
+		FC: 1,
+		K: 0,
+		RBI: 0,
+		R: 0,
+		AVG: 0,
+		OBP: 0,
+		SLG: 0,
+		OPS: 0,
+		BARISP: 0,
+		LOB: 8,
+		TWOOUTRBI: 0,
+	},
 ];
 
 export default stats;
