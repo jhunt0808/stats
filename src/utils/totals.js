@@ -71,6 +71,7 @@ const calcTotals = (playersStats) => {
 
 	let totalsData = {
 		id: totals[0].PlayerId,
+		PlayerId: totals[0].PlayerId,
 		Year: '',
 		Session: '',
 		First: totals[0].First,
