@@ -271,6 +271,34 @@ const playersDropdown = [
 		value: 68,
 		label: 'Matt ',
 	},
+	{
+		value: 69,
+		label: 'Jeff Schuchardt',
+	},
+	{
+		value: 70,
+		label: 'Matt Hasenbeck',
+	},
+	{
+		value: 71,
+		label: 'Mike ',
+	},
+	{
+		value: 72,
+		label: 'Rob Hogenkamp',
+	},
+	{
+		value: 73,
+		label: 'Clayton Pennock',
+	},
+	{
+		value: 74,
+		label: 'Kevin ',
+	},
+	{
+		value: 75,
+		label: 'Michael Wardlaw',
+	},
 ];
 
 export default playersDropdown;
