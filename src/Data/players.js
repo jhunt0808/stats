@@ -299,6 +299,10 @@ const playersDropdown = [
 		value: 75,
 		label: 'Michael Wardlaw',
 	},
+	{
+		value: 76,
+		label: 'Tyler ',
+	},
 ];
 
 export default playersDropdown;
