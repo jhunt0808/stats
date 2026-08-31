@@ -62,7 +62,7 @@ const Team = (props) => {
 		filteredTeams = teamStats.filter((team) => team.id === props.teamId);
 	}
 
-	let sessionYear = ' - ' + filteredPlayers[0].Year + ' - ';
+	let sessionYear = ' - ' + filteredPlayers[0]?.Year + ' - ';
 	let name = props.teamName;
 
 	const resetSessionSelect = () => {
