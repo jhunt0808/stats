@@ -6,7 +6,7 @@ import columns from '../Columns';
 const customStyles = {
 	headCells: {
 		style: {
-			'align-items': 'center',
+			alignItems: 'center',
 			paddingLeft: '10px',
 			paddingRight: '10px',
 		},

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './header.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
-import SlidingPanel from 'react-sliding-side-panel';
+import SlidingPanel from './SlidingPanel';
 
 const Header = () => {
 	const [openPanel, setOpenPanel] = useState(false);
@@ -30,7 +30,6 @@ const Header = () => {
 				</div>
 			</div>
 			<SlidingPanel
-				type={'right'}
 				isOpen={openPanel}
 				size={size}
 				backdropClicked={() => setOpenPanel(false)}

@@ -3,7 +3,8 @@ import React from 'react';
 const columns = [
 	{
 		name: 'Team / Session',
-		selector: 'Session',
+		id: 'Session',
+		selector: (row) => row.Session,
 		cell: (row) =>
 			row.Session === 'Totals' ? (
 				<div>{row.Session}</div>
@@ -19,97 +20,111 @@ const columns = [
 	},
 	{
 		name: 'Year',
-		selector: 'Year',
+		id: 'Year',
+		selector: (row) => row.Year,
 		sortable: true,
 		width: '70px'
 	},
 	{
 		name: 'AB',
-		selector: 'AB',
+		id: 'AB',
+		selector: (row) => row.AB,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: 'H',
-		selector: 'Hits',
+		id: 'Hits',
+		selector: (row) => row.Hits,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: '1B',
-		selector: 'S',
+		id: 'S',
+		selector: (row) => row.S,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: '2B',
-		selector: 'D',
+		id: 'D',
+		selector: (row) => row.D,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: '3B',
-		selector: 'T',
+		id: 'T',
+		selector: (row) => row.T,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: 'HR',
-		selector: 'HR',
+		id: 'HR',
+		selector: (row) => row.HR,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: 'R',
-		selector: 'R',
+		id: 'R',
+		selector: (row) => row.R,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: 'RBI',
-		selector: 'RBI',
+		id: 'RBI',
+		selector: (row) => row.RBI,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: 'BB',
-		selector: 'BB',
+		id: 'BB',
+		selector: (row) => row.BB,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: 'SO',
-		selector: 'K',
+		id: 'K',
+		selector: (row) => row.K,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: 'SF',
-		selector: 'SF',
+		id: 'SF',
+		selector: (row) => row.SF,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: 'FC',
-		selector: 'FC',
+		id: 'FC',
+		selector: (row) => row.FC,
 		sortable: true,
 		center: true,
 		width: '65px'
 	},
 	{
 		name: 'AVG',
-		selector: 'AVG',
+		id: 'AVG',
+		selector: (row) => row.AVG,
 		sortable: true,
 		center: true,
 		width: '70px',
@@ -117,7 +132,8 @@ const columns = [
 	},
 	{
 		name: 'OBP',
-		selector: 'OBP',
+		id: 'OBP',
+		selector: (row) => row.OBP,
 		sortable: true,
 		center: true,
 		width: '70px',
@@ -125,7 +141,8 @@ const columns = [
 	},
 	{
 		name: 'SLG',
-		selector: 'SLG',
+		id: 'SLG',
+		selector: (row) => row.SLG,
 		sortable: true,
 		center: true,
 		width: '70px',
@@ -133,7 +150,8 @@ const columns = [
 	},
 	{
 		name: 'OPS',
-		selector: 'OPS',
+		id: 'OPS',
+		selector: (row) => row.OPS,
 		sortable: true,
 		center: true,
 		width: '70px',
