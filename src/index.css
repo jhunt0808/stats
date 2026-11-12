@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* react-data-table-component v8 doesn't apply the headCells/cells padding
+   from customStyles, so every table's 10px cell padding is set here. */
+.rdt_cellBase.rdt_cellBase {
+	padding-left: 10px;
+	padding-right: 10px;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import yearSelectOptions from "../Data/YearOptions";
 import Select from "react-select";
+import selectStyles from '../shared/selectStyles';
 
 class YearSelect extends React.Component {
 	state = {
@@ -29,6 +30,7 @@ class YearSelect extends React.Component {
 		return (
 			<React.Fragment>
 				<Select
+					styles={selectStyles}
 					isMulti
 					value={yearOption}
 					onChange={this.onYearInputChange}

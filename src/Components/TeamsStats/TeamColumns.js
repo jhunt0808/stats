@@ -31,14 +31,14 @@ const teamColumns = [
 		id: 'WINS',
 		selector: (row) => row.WINS,
 		sortable: true,
-		width: '60px'
+		width: '75px'
 	},
 	{
 		name: 'Loses',
 		id: 'LOSES',
 		selector: (row) => row.LOSES,
 		sortable: true,
-		width: '60px'
+		width: '75px'
 	},
 	{
 		name: 'AB',

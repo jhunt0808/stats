@@ -1,6 +1,7 @@
 import React from 'react';
 import sessionOptions from '../Data/SessionOptions';
 import Select from 'react-select';
+import selectStyles from '../shared/selectStyles';
 
 class SessionSelect extends React.Component {
 	state = {
@@ -39,6 +40,7 @@ class SessionSelect extends React.Component {
 		return (
 			<React.Fragment>
 				<Select
+					styles={selectStyles}
 					isMulti
 					value={selectedOption}
 					onChange={this.onInputChange}
