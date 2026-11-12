@@ -16,7 +16,7 @@ import TopPerformers from '../TopPerformers/TopPerformers';
 const customStyles = {
 	headCells: {
 		style: {
-			'align-items': 'center',
+			alignItems: 'center',
 			paddingLeft: '10px',
 			paddingRight: '10px',
 		},
@@ -179,14 +179,13 @@ const StatsTable = () => {
 								data={filteredPlayers}
 								fixedHeader={true}
 								responsive
-								subHeader
-								subHeaderComponent={subHeaderComponentMemo}
+								subHeader={subHeaderComponentMemo}
 								dense={true}
 								persistTableHead
 								striped={true}
 								highlightOnHover={true}
 								customStyles={customStyles}
-								defaultSortField='AB'
+								defaultSortFieldId='AB'
 								defaultSortAsc={false}
 								noHeader={true}
 							/>

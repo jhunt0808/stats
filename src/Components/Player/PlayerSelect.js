@@ -1,6 +1,7 @@
 import React from 'react';
 import playersDropdown from '../../Data/players';
 import Select from 'react-select';
+import selectStyles from '../../shared/selectStyles';
 
 class PlayerSelect extends React.Component {
 	state = {
@@ -29,6 +30,7 @@ class PlayerSelect extends React.Component {
 		return (
 			<React.Fragment>
 				<Select
+					styles={selectStyles}
 					isMulti={true}
 					value={selectedPlayer}
 					onChange={this.onInputChange}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { leagueOptions } from '../Data/league';
 import Select from 'react-select';
+import selectStyles from '../shared/selectStyles';
 
 class LeagueSelect extends React.Component {
 	state = {
@@ -28,6 +29,7 @@ class LeagueSelect extends React.Component {
 		return (
 			<React.Fragment>
 				<Select
+					styles={selectStyles}
 					isMulti
 					value={selectedOption}
 					onChange={this.onInputChange}

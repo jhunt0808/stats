@@ -15,7 +15,7 @@ import styles from './player.module.scss';
 const customStyles = {
 	headCells: {
 		style: {
-			'align-items': 'center',
+			alignItems: 'center',
 			paddingLeft: '10px',
 			paddingRight: '10px',
 		},
@@ -137,12 +137,11 @@ const Player = (playerId) => {
 							data={filteredPlayers}
 							fixedHeader={true}
 							responsive
-							subHeader
-							subHeaderComponent={subHeaderComponentMemo}
+							subHeader={subHeaderComponentMemo}
 							dense={true}
 							striped={true}
 							highlightOnHover={true}
-							defaultSortField='AB'
+							defaultSortFieldId='AB'
 							defaultSortAsc={false}
 							customStyles={customStyles}
 						/>

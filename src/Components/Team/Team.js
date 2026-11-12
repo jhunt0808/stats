@@ -17,7 +17,7 @@ import Totals from '../Totals';
 const customStyles = {
 	headCells: {
 		style: {
-			'align-items': 'center',
+			alignItems: 'center',
 			paddingLeft: '10px',
 			paddingRight: '10px',
 		},
@@ -204,10 +204,9 @@ const Team = (props) => {
 							fixedHeader={true}
 							dense={true}
 							striped={true}
-							subHeader
-							subHeaderComponent={subHeaderComponentMemo}
+							subHeader={subHeaderComponentMemo}
 							highlightOnHover={true}
-							defaultSortField='AB'
+							defaultSortFieldId='AB'
 							defaultSortAsc={false}
 							customStyles={customStyles}
 						/>
