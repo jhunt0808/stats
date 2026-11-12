@@ -1,0 +1,4 @@
+# Overrides any NODE_VERSION set in the Netlify UI (the site was still building
+# with Node 10.24.1). Keep in sync with .nvmrc.
+[build.environment]
+  NODE_VERSION = "22"
